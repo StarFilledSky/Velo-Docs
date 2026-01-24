@@ -1,0 +1,26 @@
+site_name: My Docs
+site_url: https://mydomain.org/mysite
+
+plugins:
+  - search
+
+theme:
+  name: material
+  features:
+    - search.highlight
+    - search.suggest
+    - search.share
+  
+  palette:
+    - scheme: slate
+      toggle:
+          icon: material/brightness-4
+          name: Switch to light mode
+      primary: deep purple
+      accent: blue
+
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
