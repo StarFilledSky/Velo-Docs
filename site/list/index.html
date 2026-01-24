@@ -1,0 +1,2511 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://mydomain.org/mysite/list/">
+      
+      
+        <link rel="prev" href="..">
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Velo Variables - My Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#velo-variables" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="My Docs" class="md-header__button md-logo" aria-label="My Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            My Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Velo Variables
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="blue"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="My Docs" class="md-nav__button md-logo" aria-label="My Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    My Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Velo Variables
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Velo Variables
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#aivolume-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AIVolume | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bookcase-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bookcase | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bouncepad-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BouncePad | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ccamera-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CCamera | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deco-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Deco | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#decoglow-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DecoGlow | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#decolight-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DecoLight | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#decotext-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DecoText | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#droppedbomb-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DroppedBomb | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#droppedobstacle-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DroppedObstacle | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fireball-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fireball | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#freezeray-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FreezeRay | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#goldenhook-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GoldenHook | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#grapple-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Grapple | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#laser-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Laser | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#leaves-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Leaves | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lever-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lever | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#obstacle-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Obstacle | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pickup-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pickup | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#player-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Player | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rocket-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rocket | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rocketlauncher-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        RocketLauncher | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rope-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rope | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#shockwave-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Shockwave | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#solocameramodifier-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SoloCameraModifier | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#straightrocket-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        StraightRocket | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#superboostvolume-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SuperBoostVolume | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#switchblock-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SwitchBlock | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#timer-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Timer | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#trigger-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trigger | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#triggersaw-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TriggerSaw | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tunnel-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tunnel | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#velo-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Velo | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cactor-subtarget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CActor | subtarget
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#caabb-subtarget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CAABB | subtarget
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#editablebool-subtarget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EditableBool | subtarget
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cimagedrawcomponent-subtarget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CImageDrawComponent | subtarget
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#editablestring-subtarget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EditableString | subtarget
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#editableenum-subtarget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EditableEnum | subtarget
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#editableint-subtarget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EditableInt | subtarget
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#editablefloat-subtarget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EditableFloat | subtarget
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cconvexpolygon-subtarget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CConvexPolygon | subtarget
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#canimatedspritedrawcomponent-subtarget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CAnimatedSpriteDrawComponent | subtarget
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#clampcameramodifier-subtarget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ClampCameraModifier | subtarget
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vector2-subtarget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vector2 | subtarget
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#matrix-subtarget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Matrix | subtarget
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#shakecameramodifier-subtarget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ShakeCameraModifier | subtarget
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#viewport-subtarget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Viewport | subtarget
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ctextdrawcomponent-subtarget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CTextDrawComponent | subtarget
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cspritedrawcomponent-subtarget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CSpriteDrawComponent | subtarget
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#random-subtarget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Random | subtarget
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#double-subtarget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        double | subtarget
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#aivolume-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AIVolume | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bookcase-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bookcase | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bouncepad-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BouncePad | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ccamera-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CCamera | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deco-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Deco | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#decoglow-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DecoGlow | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#decolight-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DecoLight | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#decotext-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DecoText | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#droppedbomb-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DroppedBomb | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#droppedobstacle-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DroppedObstacle | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fireball-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fireball | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#freezeray-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FreezeRay | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#goldenhook-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GoldenHook | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#grapple-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Grapple | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#laser-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Laser | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#leaves-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Leaves | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lever-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lever | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#obstacle-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Obstacle | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pickup-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pickup | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#player-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Player | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rocket-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rocket | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rocketlauncher-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        RocketLauncher | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rope-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rope | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#shockwave-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Shockwave | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#solocameramodifier-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SoloCameraModifier | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#straightrocket-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        StraightRocket | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#superboostvolume-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SuperBoostVolume | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#switchblock-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SwitchBlock | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#timer-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Timer | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#trigger-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trigger | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#triggersaw-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TriggerSaw | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tunnel-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tunnel | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#velo-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Velo | target
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cactor-subtarget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CActor | subtarget
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#caabb-subtarget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CAABB | subtarget
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#editablebool-subtarget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EditableBool | subtarget
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cimagedrawcomponent-subtarget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CImageDrawComponent | subtarget
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#editablestring-subtarget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EditableString | subtarget
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#editableenum-subtarget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EditableEnum | subtarget
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#editableint-subtarget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EditableInt | subtarget
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#editablefloat-subtarget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EditableFloat | subtarget
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cconvexpolygon-subtarget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CConvexPolygon | subtarget
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#canimatedspritedrawcomponent-subtarget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CAnimatedSpriteDrawComponent | subtarget
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#clampcameramodifier-subtarget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ClampCameraModifier | subtarget
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vector2-subtarget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vector2 | subtarget
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#matrix-subtarget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Matrix | subtarget
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#shakecameramodifier-subtarget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ShakeCameraModifier | subtarget
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#viewport-subtarget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Viewport | subtarget
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ctextdrawcomponent-subtarget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CTextDrawComponent | subtarget
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cspritedrawcomponent-subtarget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CSpriteDrawComponent | subtarget
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#random-subtarget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Random | subtarget
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#double-subtarget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        double | subtarget
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="velo-variables">Velo Variables</h1>
+<p>a documented list of all targets available with velo</p>
+<h2 id="aivolume-target">AIVolume | target</h2>
+<ul>
+<li>actor | CActor</li>
+<li>bounds | CAABB</li>
+<li>collisionFilter | CCollisionFilter</li>
+<li>defaultActive | EditableBool</li>
+<li>easy | EditableBool</li>
+<li>hard | EditableBool</li>
+<li>isEditor | bool</li>
+<li>isHovered | bool</li>
+<li>isResizing | bool</li>
+<li>medium | EditableBool</li>
+<li>selectionRectangle | CImageDrawComponent</li>
+<li>triggerId | EditableString</li>
+<li>type | EditableEnum</li>
+<li>unfair | EditableBool</li>
+</ul>
+<h2 id="bookcase-target">Bookcase | target</h2>
+<ul>
+<li>actor | CActor</li>
+<li>bounds | CAABB</li>
+<li>collisionFilter | CCollisionFilter</li>
+<li>iamge2 | CImageDrawComponent</li>
+<li>image1 | CImageDrawComponent</li>
+<li>image3 | CImageDrawComponent</li>
+<li>index | EditableInt</li>
+<li>isEditor | bool</li>
+<li>isHovered | bool</li>
+<li>isResizing | bool</li>
+<li>scale | EditableFloat</li>
+<li>selectionRectangle | CImageDrawComponent</li>
+</ul>
+<h2 id="bouncepad-target">BouncePad | target</h2>
+<ul>
+<li>actor | CActor</li>
+<li>bounds | CAABB</li>
+<li>collisionFilter | CCollisionFilter</li>
+<li>hitbox | CConvexPolygon</li>
+<li>isEditor | bool</li>
+<li>isHovered | bool</li>
+<li>isResizing | bool</li>
+<li>rotation | EditableEnum</li>
+<li>selectionRectangle | CImageDrawComponent</li>
+<li>sprite | CAnimatedSpriteDrawComponent</li>
+</ul>
+<h2 id="ccamera-target">CCamera | target</h2>
+<ul>
+<li>clampCameraModifier | ClampCameraModifier</li>
+<li>id | string</li>
+<li>isActive | bool</li>
+<li>position | Vector2</li>
+<li>projection | Matrix</li>
+<li>shakeCameraModifier | ShakeCameraModifier</li>
+<li>view | Matrix</li>
+<li>viewport | Viewport</li>
+<li>zoom | float</li>
+</ul>
+<h2 id="deco-target">Deco | target</h2>
+<ul>
+<li>actor | CActor</li>
+<li>animateDistanceSquared | float</li>
+<li>animateFrom | EditableFloat</li>
+<li>animateMaxAngle | float</li>
+<li>animateMinAngle | float</li>
+<li>animateTo | EditableFloat</li>
+<li>animationType | EditableEnum</li>
+<li>bounds | CAABB</li>
+<li>bundleId | EditableString</li>
+<li>collisionFilter | CCollisionFilter</li>
+<li>colorB | EditableInt</li>
+<li>colorG | EditableInt</li>
+<li>colorR | EditableInt</li>
+<li>distanceSquaredForNextToSpawn | float</li>
+<li>frame | EditableInt</li>
+<li>frameKey | EditableString</li>
+<li>hasNoTrigger | bool</li>
+<li>imageId | EditableInt</li>
+<li>imageName | EditableString</li>
+<li>isEditor | bool</li>
+<li>isFlipped | EditableBool</li>
+<li>isHovered | bool</li>
+<li>isResizing | bool</li>
+<li>isVisible | EditableBool</li>
+<li>lastSpawnedIndex | int</li>
+<li>layer | EditableEnum</li>
+<li>lifetime | EditableFloat</li>
+<li>reverseAnimation | EditableBool</li>
+<li>rotation | EditableFloat</li>
+<li>scale | Vector2</li>
+<li>selectionRectangle | CImageDrawComponent</li>
+<li>spawnInterval | EditableFloat</li>
+<li>triggerId | EditableString</li>
+</ul>
+<h2 id="decoglow-target">DecoGlow | target</h2>
+<ul>
+<li>actor | CActor</li>
+<li>bounds | CAABB</li>
+<li>collisionFilter | CCollisionFilter</li>
+<li>colorIndex | int</li>
+<li>colorTransitionRatio | float</li>
+<li>direction | int</li>
+<li>image | CImageDrawComponent</li>
+<li>isEditor | bool</li>
+<li>isHovered | bool</li>
+<li>isResizing | bool</li>
+<li>selectionRectangle | CImageDrawComponent</li>
+</ul>
+<h2 id="decolight-target">DecoLight | target</h2>
+<ul>
+<li>actor | CActor</li>
+<li>bounds | CAABB</li>
+<li>collisionFilter | CCollisionFilter</li>
+<li>color | EditableEnum</li>
+<li>direction | int</li>
+<li>image | CImageDrawComponent</li>
+<li>isEditor | bool</li>
+<li>isHovered | bool</li>
+<li>isResizing | bool</li>
+<li>lowerBound | EditableFloat</li>
+<li>selectionRectangle | CImageDrawComponent</li>
+<li>type | EditableEnum</li>
+<li>upperBound | EditableFloat</li>
+</ul>
+<h2 id="decotext-target">DecoText | target</h2>
+<ul>
+<li>actor | CActor</li>
+<li>bounds | CAABB</li>
+<li>collisionFilter | CCollisionFilter</li>
+<li>isEditor | bool</li>
+<li>isHovered | bool</li>
+<li>isResizing | bool</li>
+<li>placeholderIndex | int</li>
+<li>selectionRectangle | CImageDrawComponent</li>
+<li>text | EditableString</li>
+<li>textDraw | CTextDrawComponent</li>
+<li>textId | EditableInt</li>
+</ul>
+<h2 id="droppedbomb-target">DroppedBomb | target</h2>
+<ul>
+<li>actor | CActor</li>
+<li>blinkingSprite | CAnimatedSpriteDrawComponent</li>
+<li>bounds | CAABB</li>
+<li>collisionFilter | CCollisionFilter</li>
+<li>color | Color</li>
+<li>isStationary | bool</li>
+<li>owner | Player</li>
+<li>sprite | CAnimatedSpriteDrawComponent</li>
+</ul>
+<h2 id="droppedobstacle-target">DroppedObstacle | target</h2>
+<ul>
+<li>actor | CActor</li>
+<li>aiVolume | AIVolume</li>
+<li>bounds | CAABB</li>
+<li>breakTime | TimeSpan</li>
+<li>collisionFilter | CCollisionFilter</li>
+<li>immunityTimer | float</li>
+<li>index | byte</li>
+<li>isBroken | bool</li>
+<li>isEditor | bool</li>
+<li>isSliding | bool</li>
+<li>isStationary | bool</li>
+<li>onGround | bool</li>
+<li>owner | Player</li>
+<li>rotationDirection | float</li>
+<li>sprite | CSpriteDrawComponent</li>
+</ul>
+<h2 id="fireball-target">Fireball | target</h2>
+<ul>
+<li>actor | CActor</li>
+<li>baseSpeed | float</li>
+<li>bouncePad | BouncePad</li>
+<li>bounceTimer | float</li>
+<li>bounds | CAABB</li>
+<li>collisionFilter | CCollisionFilter</li>
+<li>direction | Vector2</li>
+<li>hitPlayers | Player[]</li>
+<li>immunityDuration | float</li>
+<li>lifeTimer | float</li>
+<li>limetime | float</li>
+<li>maxPingCorrectedSpeed | float</li>
+<li>maxScale | float</li>
+<li>onGround | bool</li>
+<li>owner | Player</li>
+<li>pingDisplacement | float</li>
+<li>scale | float</li>
+<li>shockwave | Shockwave</li>
+<li>speed | float</li>
+<li>sprite | CAnimatedSpriteDrawComponent</li>
+<li>wasOnGround | bool</li>
+</ul>
+<h2 id="freezeray-target">FreezeRay | target</h2>
+<ul>
+<li>actor | CActor</li>
+<li>bounds | CAABB</li>
+<li>chargeTimer | float</li>
+<li>lifeTimer | float</li>
+<li>owner | Player</li>
+<li>sprites | CAnimatedSpriteDrawComponent[]</li>
+</ul>
+<h2 id="goldenhook-target">GoldenHook | target</h2>
+<ul>
+<li>actor | CActor</li>
+<li>bounds | CAABB</li>
+<li>breakSprite | CAnimatedSpriteDrawComponent</li>
+<li>dodged | bool</li>
+<li>grabbed | Player</li>
+<li>owner | Player</li>
+<li>playerGrabbed | bool</li>
+<li>ropeLength | float</li>
+<li>sprite | CSpriteDrawComponent</li>
+<li>target | Player</li>
+</ul>
+<h2 id="grapple-target">Grapple | target</h2>
+<ul>
+<li>actor | CActor</li>
+<li>bounds | CAABB</li>
+<li>breakSprite | CAnimatedSpriteDrawComponent</li>
+<li>direction | Vector2</li>
+<li>isConnected | bool</li>
+<li>owner | Player</li>
+<li>sprite | CSpriteDrawComponent</li>
+</ul>
+<h2 id="laser-target">Laser | target</h2>
+<ul>
+<li>actor | CActor</li>
+<li>aiVolume | AIVolume</li>
+<li>bounds | CAABB</li>
+<li>collisionFilter | CCollisionFilter</li>
+<li>collisionFilter | CCollisionFilter</li>
+<li>defaultRotation | EditableFloat</li>
+<li>direction | Vector2</li>
+<li>endPoint | Vector2</li>
+<li>growingLength | float</li>
+<li>isEditor | bool</li>
+<li>isFlipped | EditableBool</li>
+<li>isHovered | bool</li>
+<li>isResizing | bool</li>
+<li>lineDrawEndPoint | Vector2</li>
+<li>rotate | EditableBool</li>
+<li>rotation | float</li>
+<li>rotationDirection | int</li>
+<li>selectionRectangle | CImageDrawComponent</li>
+<li>shrinkingLength | float</li>
+<li>sprite | CAnimatedSpriteDrawComponent</li>
+</ul>
+<h2 id="leaves-target">Leaves | target</h2>
+<ul>
+<li>actor | CActor</li>
+<li>bounds | CAABB</li>
+<li>collisionFilter | CCollisionFilter</li>
+<li>isEditor | bool</li>
+<li>isHovered | bool</li>
+<li>isResizing | bool</li>
+<li>selectionRectangle | CImageDrawComponent</li>
+</ul>
+<h2 id="lever-target">Lever | target</h2>
+<ul>
+<li>actor | CActor</li>
+<li>bounds | CAABB</li>
+<li>collisionFilter | CCollisionFilter</li>
+<li>isActivated | bool</li>
+<li>isEditor | bool</li>
+<li>isHovered | bool</li>
+<li>isResizing | bool</li>
+<li>orientation | EditableEnum</li>
+<li>selectionRectangle | CImageDrawComponent</li>
+<li>sprite | CAnimatedSpriteDrawComponent</li>
+<li>triggerId | EditableString</li>
+<li>triggerSparkSprite | CAnimatedSpriteDrawComponent</li>
+</ul>
+<h2 id="obstacle-target">Obstacle | target</h2>
+<ul>
+<li>actor | CActor</li>
+<li>aiVolume1 | AIVolume</li>
+<li>aiVolume2 | AIVolume</li>
+<li>bounds | CAABB</li>
+<li>breakRotationDirection | float</li>
+<li>breakShade | float</li>
+<li>breakTime | TimeSpan</li>
+<li>breakTimer | float</li>
+<li>breakVelocity | Vector2</li>
+<li>collisionFilter | CCollisionFilter</li>
+<li>isBroken | bool</li>
+<li>isEditor | bool</li>
+<li>isHovered | bool</li>
+<li>isRemoteSimulated | bool</li>
+<li>isResizing | bool</li>
+<li>obstacleId | EditableInt</li>
+<li>selectionRectangle | CImageDrawComponent</li>
+<li>sprite | CSpriteDrawComponent</li>
+</ul>
+<h2 id="pickup-target">Pickup | target</h2>
+<ul>
+<li>actor | CActor</li>
+<li>backStarImage | CImageDrawComponent</li>
+<li>bounds | CAABB</li>
+<li>boxPopSprite | CAnimatedSpriteDrawComponent</li>
+<li>collisionFilter | CCollisionFilter</li>
+<li>frontStarImage | CImageDrawComponent</li>
+<li>isEditor | bool</li>
+<li>isHovered | bool</li>
+<li>isMultiplayer | bool</li>
+<li>isPopped | bool</li>
+<li>isResizing | bool</li>
+<li>remoteSimulated | bool</li>
+<li>respawnTimer | float</li>
+<li>selectionRectangle | CImageDrawComponent</li>
+<li>sprite | CAnimatedSpriteDrawComponent</li>
+<li>type | int</li>
+</ul>
+<h2 id="player-target">Player | target</h2>
+<ul>
+<li>activatedTrigger | Trigger</li>
+<li>actor | CActor</li>
+<li>airtime | float</li>
+<li>badConnectionImage | CImageDrawComponent</li>
+<li>baseAcceleration | float</li>
+<li>bombTriggerSprite | CAnimatedSpriteDrawComponent</li>
+<li>boost | float</li>
+<li>boostacoke | CEncryptedFloat</li>
+<li>boostCooldown | float</li>
+<li>boostHeld | bool</li>
+<li>bouncePad | BouncePad</li>
+<li>bouncePadTimer | float</li>
+<li>canBufferWallJump | bool</li>
+<li>canClimbUp | bool</li>
+<li>canGrapple | bool</li>
+<li>canRepressJump | bool</li>
+<li>canUntaunt | bool</li>
+<li>characterId | byte</li>
+<li>collectedSandals | int</li>
+<li>collisionFilter | CCollisionFilter</li>
+<li>collisionTangent | Vector2</li>
+<li>delta | float</li>
+<li>displacement | Vector2</li>
+<li>diveTimer | float</li>
+<li>dominatingDirection | int</li>
+<li>drillSprite | CAnimatedSpriteDrawComponent</li>
+<li>drillTime | TimeSpan</li>
+<li>droppedBomb | DroppedBomb</li>
+<li>droppedObstacles | List<DroppedObstacle></li>
+<li>enableClimbing | bool</li>
+<li>enableDoubleJump | bool</li>
+<li>enableGrapples | bool</li>
+<li>enableInputs | bool</li>
+<li>exclamationMarkImage | CImageDrawComponent</li>
+<li>explosionHitIsRocket | bool</li>
+<li>explosionKnockback | Vector2</li>
+<li>fireballs | List<Fireball></li>
+<li>freezeRay | FreezeRay</li>
+<li>frozenTimer | float</li>
+<li>goldenHook | GoldenHook</li>
+<li>grapple | Grapple</li>
+<li>grappleHeld | bool</li>
+<li>grappleTime | TimeSpan</li>
+<li>groundCollidableType | int</li>
+<li>groundNormal | Vector2</li>
+<li>hasTouchedOriginsFinishBomb | bool</li>
+<li>hitboxSliding | CAABB</li>
+<li>hitboxStanding | CAABB</li>
+<li>hitByExplosionId | int</li>
+<li>hookedBy | Player</li>
+<li>hookedTime | TimeSpan</li>
+<li>iceBlockSprite | CSpriteDrawComponent</li>
+<li>iceBlockSpriteShaded | CSpriteDrawComponent</li>
+<li>initialJumpVelocity | Vector2</li>
+<li>isCeilingHit | bool</li>
+<li>isClimbing | bool</li>
+<li>isClimbingUp | bool</li>
+<li>isCollidingWithSolid | bool</li>
+<li>isDestroyed | bool</li>
+<li>isDying | bool</li>
+<li>isDying2 | bool</li>
+<li>isEditing | bool</li>
+<li>isFlyMode | bool</li>
+<li>isFoleySlide | bool</li>
+<li>isFrozen | bool</li>
+<li>isGrappling | bool</li>
+<li>isHitByExplosion | bool</li>
+<li>isHooked | bool</li>
+<li>isHooked2 | bool</li>
+<li>isInAir | bool</li>
+<li>isInsideBoostSection | bool</li>
+<li>isInsideSuperBoost | bool</li>
+<li>isInsideSuperBoostWind | bool</li>
+<li>isOnFallTile | bool</li>
+<li>isOnGround | bool</li>
+<li>isOnWall | bool</li>
+<li>isShooting | bool</li>
+<li>isSliding | bool</li>
+<li>isStillAlive | bool</li>
+<li>isStumbling | bool</li>
+<li>isStunned | bool</li>
+<li>isStunnedByLaser | bool</li>
+<li>isSuddenDeath | bool</li>
+<li>isSwapItemCooldownActive | bool</li>
+<li>isSwinging | bool</li>
+<li>isTackled | bool</li>
+<li>isTaunting | bool</li>
+<li>isUsingBoost | bool</li>
+<li>isUsingDrill | bool</li>
+<li>isWinning | bool</li>
+<li>isWrongWay | bool</li>
+<li>itemBalloonSprite | CSpriteDrawComponent</li>
+<li>itemCooldown | float</li>
+<li>itemHasHit | bool</li>
+<li>itemHasHitTime | TimeSpan</li>
+<li>itemHeld | bool</li>
+<li>itemId | byte</li>
+<li>itemPressed | bool</li>
+<li>itemSprite | CSpriteDrawComponent</li>
+<li>jumpCount | int</li>
+<li>jumpDirection | Vector2</li>
+<li>jumpDuration | float</li>
+<li>jumpHeld | bool</li>
+<li>jumpState | int</li>
+<li>jumpStrength | float</li>
+<li>jumpTime | TimeSpan</li>
+<li>jumpVelocity | Vector2</li>
+<li>killedById | int</li>
+<li>leftHeld | bool</li>
+<li>moveDirection | int</li>
+<li>name | string</li>
+<li>networkTargetPosition | Vector2</li>
+<li>nextJumpState | int</li>
+<li>place | int</li>
+<li>playerArrowSprite | CSpriteDrawComponent</li>
+<li>playerCount | int</li>
+<li>playerGameMode | int</li>
+<li>popup | CTextDrawComponent</li>
+<li>previousPosition | Vector2</li>
+<li>prevJumpState | int</li>
+<li>progress | float</li>
+<li>puffSprite | CAnimatedSpriteDrawComponent</li>
+<li>pushWaveReactionSprite | CAnimatedSpriteDrawComponent</li>
+<li>random | Random</li>
+<li>repressJumpTime | TimeSpan</li>
+<li>rightHeld | bool</li>
+<li>rockets | List<Rocket></li>
+<li>rope | Rope</li>
+<li>roundStartTime | TimeSpan</li>
+<li>shockwave | Shockwave</li>
+<li>shockwaveCharge | float</li>
+<li>skinId | byte</li>
+<li>slideHeld | bool</li>
+<li>slideTime | TimeSpan</li>
+<li>slideTime2 | TimeSpan</li>
+<li>solidCollisionMtd | Vector2</li>
+<li>sprite | CAnimatedSpriteDrawComponent</li>
+<li>starsSprite | CAnimatedSpriteDrawComponent</li>
+<li>stillAliveTime | TimeSpan</li>
+<li>stumbleTime | TimeSpan</li>
+<li>stunnedById | int</li>
+<li>stunnedByLaserId | int</li>
+<li>stunnedTime | TimeSpan</li>
+<li>stunTimer | float</li>
+<li>superBoostDirection | Vector2</li>
+<li>superBoostForce | Vector2</li>
+<li>superSpeed | float</li>
+<li>superSpeedDuration | TimeSpan</li>
+<li>swapItemCooldown | float</li>
+<li>swapItemHeld | bool</li>
+<li>swingAngle | float</li>
+<li>swingRadius | float</li>
+<li>tauntHeld | bool</li>
+<li>tilesCollisionFilter | CCollisionFilter</li>
+<li>timer | float</li>
+<li>travelDistance | float</li>
+<li>travelDistanceOnBecomingAirborne | float</li>
+<li>triggerToReactivateOnRespawn | Trigger</li>
+<li>unused | float</li>
+<li>unused2 | bool</li>
+<li>unused3 | bool</li>
+<li>wallGetOffTime | TimeSpan</li>
+<li>wallJumpBonusTimer | float</li>
+<li>wasInsideBoostSection | bool</li>
+<li>wasItemHeld | bool</li>
+<li>wasNetworkPositionUpdated | bool</li>
+<li>wasSlideCancelled | bool</li>
+<li>wasSlideStopped | bool</li>
+<li>winStarExpanding | bool</li>
+<li>winStarImage | CImageDrawComponent</li>
+<li>winStarRotationSpeed | float</li>
+<li>wrongWayImage | CImageDrawComponent</li>
+<li>wrongWayTimer | float</li>
+<li>_grappleCooldown | float</li>
+<li>_slideCooldown | float</li>
+<li>_surfCooldown | float</li>
+</ul>
+<h2 id="rocket-target">Rocket | target</h2>
+<ul>
+<li>actor | CActor</li>
+<li>agility | float</li>
+<li>bounds | CAABB</li>
+<li>collisionFilter | CCollisionFilter</li>
+<li>direction | float</li>
+<li>immunityDuration | float</li>
+<li>initialVelocity | Vector2</li>
+<li>isExploded | bool</li>
+<li>owner | Player</li>
+<li>pickTargetCooldown | float</li>
+<li>shootTime | TimeSpan</li>
+<li>sprite | CSpriteDrawComponent</li>
+<li>target | Player</li>
+<li>unknown | Player</li>
+</ul>
+<h2 id="rocketlauncher-target">RocketLauncher | target</h2>
+<ul>
+<li>actor | CActor</li>
+<li>bounds | CAABB</li>
+<li>collisionFilter | CCollisionFilter</li>
+<li>gearSprite | CAnimatedSpriteDrawComponent</li>
+<li>isEditor | bool</li>
+<li>isHovered | bool</li>
+<li>isResizing | bool</li>
+<li>rockets | List<Rocket></li>
+<li>selectionRectangle | CImageDrawComponent</li>
+<li>shootCooldown | float</li>
+<li>sprite | CAnimatedSpriteDrawComponent</li>
+<li>target | Player</li>
+</ul>
+<h2 id="rope-target">Rope | target</h2>
+<ul>
+<li>actor | CActor</li>
+<li>breakEndPoint | Vector2</li>
+<li>breakLength | float</li>
+<li>breakStartPoint | Vector2</li>
+<li>collisionFilter | CCollisionFilter</li>
+<li>color | Color</li>
+<li>isActive | bool</li>
+<li>isBreaking | bool</li>
+<li>owner | Player</li>
+</ul>
+<h2 id="shockwave-target">Shockwave | target</h2>
+<ul>
+<li>actor | CActor</li>
+<li>anticipationDuration | float</li>
+<li>anticipationSprite | CAnimatedSpriteDrawComponent</li>
+<li>anticipationTimer | float</li>
+<li>initialPosition | Vector2</li>
+<li>isAnticipating | bool</li>
+<li>lifeTimer | float</li>
+<li>owner | Player</li>
+<li>sprit90 | CAnimatedSpriteDrawComponent</li>
+<li>sprite0 | CAnimatedSpriteDrawComponent</li>
+<li>spriteNeg180 | CAnimatedSpriteDrawComponent</li>
+<li>spriteNeg90 | CAnimatedSpriteDrawComponent</li>
+</ul>
+<h2 id="solocameramodifier-target">SoloCameraModifier | target</h2>
+<ul>
+<li>camera | CCamera</li>
+<li>heightRatioTo720 | float</li>
+<li>offset | Vector2</li>
+<li>player | Player</li>
+<li>viewportPoint | Vector2</li>
+<li>worldFocusPoint | Vector2</li>
+<li>zoom | float</li>
+</ul>
+<h2 id="straightrocket-target">StraightRocket | target</h2>
+<ul>
+<li>actor | CActor</li>
+<li>bounds | CAABB</li>
+<li>collisionFilter | CCollisionFilter</li>
+<li>isExploded | bool</li>
+<li>sprite | CSpriteDrawComponent</li>
+</ul>
+<h2 id="superboostvolume-target">SuperBoostVolume | target</h2>
+<ul>
+<li>actor | CActor</li>
+<li>bounds | CAABB</li>
+<li>collisionFilter | CCollisionFilter</li>
+<li>direction | EditableEnum</li>
+<li>isEditor | bool</li>
+<li>isHovered | bool</li>
+<li>isResizing | bool</li>
+<li>selectionRectangle | CImageDrawComponent</li>
+</ul>
+<h2 id="switchblock-target">SwitchBlock | target</h2>
+<ul>
+<li>actor | CActor</li>
+<li>bounds | CAABB</li>
+<li>closeDirection | int</li>
+<li>closedRotation | EditableFloat</li>
+<li>closedRotationRad | float</li>
+<li>collisionFilter | CCollisionFilter</li>
+<li>direction | int</li>
+<li>isEditor | bool</li>
+<li>isHovered | bool</li>
+<li>isResizing | bool</li>
+<li>isRotating | bool</li>
+<li>maxRotation | float</li>
+<li>minRotation | float</li>
+<li>openDirection | int</li>
+<li>openRotation | EditableFloat</li>
+<li>resetDirection | int</li>
+<li>rotation | float</li>
+<li>rotationSpeed | EditableFloat</li>
+<li>rotationSpeedRad | float</li>
+<li>selectionRectangle | CImageDrawComponent</li>
+<li>sprite | CAnimatedSpriteDrawComponent</li>
+<li>triggerId | EditableString</li>
+<li>triggerSparkSprite | CAnimatedSpriteDrawComponent</li>
+</ul>
+<h2 id="timer-target">Timer | target</h2>
+<ul>
+<li>actor | CActor</li>
+<li>best | float</li>
+<li>bounds | CAABB</li>
+<li>collisionFilter | CCollisionFilter</li>
+<li>current | float</li>
+<li>flagLetDownTime | float</li>
+<li>isEditor | bool</li>
+<li>isHovered | bool</li>
+<li>isInPracticeMode | bool</li>
+<li>isRemoteSimulated | bool</li>
+<li>isResizing | bool</li>
+<li>last | float</li>
+<li>poleSprite | CAnimatedSpriteDrawComponent</li>
+<li>selectionRectangle | CImageDrawComponent</li>
+<li>unknown | EditableEnum</li>
+</ul>
+<h2 id="trigger-target">Trigger | target</h2>
+<ul>
+<li>actor | CActor</li>
+<li>bounds | CAABB</li>
+<li>collisionFilter | CCollisionFilter</li>
+<li>isEditor | bool</li>
+<li>isHovered | bool</li>
+<li>isOpen | bool</li>
+<li>isRemoteSimulated | bool</li>
+<li>isResizing | bool</li>
+<li>isRetriggerOnRespawn | EditableBool</li>
+<li>mode | EditableEnum</li>
+<li>selectionRectangle | CImageDrawComponent</li>
+<li>timer | float</li>
+<li>triggerId | EditableString</li>
+</ul>
+<h2 id="triggersaw-target">TriggerSaw | target</h2>
+<ul>
+<li>actor | CActor</li>
+<li>bounds | CAABB</li>
+<li>collisionFilter | CCollisionFilter</li>
+<li>defaultPosition | Vector2</li>
+<li>hasReachedOffsetX | bool</li>
+<li>hasReachedOffsetY | bool</li>
+<li>hitbox | CConvexPolygon</li>
+<li>image | CImageDrawComponent</li>
+<li>isEditor | bool</li>
+<li>isHovered | bool</li>
+<li>isMoving | bool</li>
+<li>isMovingToOffset | bool</li>
+<li>isResizing | bool</li>
+<li>moveDirection | Vector2</li>
+<li>offsetPosition | Vector2</li>
+<li>retreatTimer | float</li>
+<li>selectionRectangle | CImageDrawComponent</li>
+<li>targetPosition | Vector2</li>
+<li>triggerId | EditableString</li>
+<li>triggerOffsetX | EditableFloat</li>
+<li>triggerOffsetY | EditableFloat</li>
+</ul>
+<h2 id="tunnel-target">Tunnel | target</h2>
+<ul>
+<li>actor | CActor</li>
+<li>bounds | CAABB</li>
+<li>collisionFilter | CCollisionFilter</li>
+<li>isEditor | bool</li>
+<li>isHovered | bool</li>
+<li>isResizing | bool</li>
+<li>selectionRectangle | CImageDrawComponent</li>
+<li>tunnelEntranceSprite | CSpriteDrawComponent</li>
+<li>tunnelLeftWallSprite | CSpriteDrawComponent</li>
+<li>tunnelRightWallSprite | CSpriteDrawComponent</li>
+</ul>
+<h2 id="velo-target">Velo | target</h2>
+<ul>
+<li>frame | int</li>
+<li>frameStart | int</li>
+<li>frameEnd | int</li>
+<li>seek | float</li>
+<li>seekStart | float</li>
+<li>seekEnd | float</li>
+<li>delta | TimeSpan</li>
+<li>deltaSec | double</li>
+<li>totalTime | TimeSpan</li>
+<li>realTime | TimeSpan</li>
+<li>realDelta | TimeSpan</li>
+<li>realDeltaSec | double</li>
+<li>isIngame | bool</li>
+<li>isSolo | bool</li>
+<li>isOnline | bool</li>
+<li>isPaused | bool</li>
+<li>isPlaybackRunning | bool</li>
+<li>playbackType | int</li>
+<li>mapId | ulong</li>
+<li>mySteamId | ulong</li>
+<li>tileWidth | uint</li>
+<li>tileHeight | uint</li>
+<li>screenWidth | int</li>
+<li>screenHeight | int</li>
+<li>mouse | Vector2</li>
+<li>leftStick | Vector2</li>
+<li>rightStick | Vector2</li>
+<li>leftTrigger | float</li>
+<li>rightTrigger | float</li>
+<li>consoleText | string</li>
+<li>angleDisplay | float</li>
+<li>jumpHoldingDisplay | float</li>
+</ul>
+<h2 id="cactor-subtarget">CActor | subtarget</h2>
+<ul>
+<li>automaticCollisionDetection | bool</li>
+<li>bounds | CAABB</li>
+<li>collisionSweepMinimalDensity | float</li>
+<li>id | int</li>
+<li>isCollidable | bool</li>
+<li>isCollisionActive | bool</li>
+<li>iterationTimeStep | float</li>
+<li>position | Vector2</li>
+<li>rotation | float</li>
+<li>shouldPredictCollision | bool</li>
+<li>size | Vector2</li>
+<li>totalIterations | int</li>
+<li>velocity | Vector2</li>
+<li>_measuredVelocity | Vector2</li>
+<li>_acceleration | Vector2</li>
+</ul>
+<h2 id="caabb-subtarget">CAABB | subtarget</h2>
+<ul>
+<li>height | float</li>
+<li>maxX | float</li>
+<li>maxY | float</li>
+<li>minX | float</li>
+<li>minY | float</li>
+<li>width | float</li>
+</ul>
+<h2 id="editablebool-subtarget">EditableBool | subtarget</h2>
+<ul>
+<li>key | string</li>
+<li>name | string</li>
+<li>showToUser | bool</li>
+<li>toolTip | string</li>
+<li>value | int</li>
+</ul>
+<h2 id="cimagedrawcomponent-subtarget">CImageDrawComponent | subtarget</h2>
+<ul>
+<li>bounds | CAABB</li>
+<li>color | Color</li>
+<li>destinationRectangle | Rectangle</li>
+<li>drawSource | Rectangle</li>
+<li>flipped | bool</li>
+<li>isVisible | bool</li>
+<li>layerId | string</li>
+<li>offset | Vector2</li>
+<li>opacity | float</li>
+<li>origin | Vector2</li>
+<li>position | Vector2</li>
+<li>rotation | float</li>
+<li>scale | Vector2</li>
+<li>size | Vector2</li>
+</ul>
+<h2 id="editablestring-subtarget">EditableString | subtarget</h2>
+<ul>
+<li>key | string</li>
+<li>name | string</li>
+<li>showToUser | bool</li>
+<li>toolTip | string</li>
+<li>value | string</li>
+</ul>
+<h2 id="editableenum-subtarget">EditableEnum | subtarget</h2>
+<ul>
+<li>key | string</li>
+<li>name | string</li>
+<li>showToUser | bool</li>
+<li>toolTip | string</li>
+<li>value | int</li>
+</ul>
+<h2 id="editableint-subtarget">EditableInt | subtarget</h2>
+<ul>
+<li>deletable | bool</li>
+<li>key | string</li>
+<li>maxValue | int</li>
+<li>minValue | int</li>
+<li>name | string</li>
+<li>showToUser | bool</li>
+<li>toolTip | string</li>
+<li>value | int</li>
+</ul>
+<h2 id="editablefloat-subtarget">EditableFloat | subtarget</h2>
+<ul>
+<li>key | string</li>
+<li>maxValue | float</li>
+<li>minValue | float</li>
+<li>name | string</li>
+<li>showToUser | bool</li>
+<li>toolTip | string</li>
+<li>value | float</li>
+</ul>
+<h2 id="cconvexpolygon-subtarget">CConvexPolygon | subtarget</h2>
+<ul>
+<li>center | Vector2</li>
+<li>localVertices | Vector2[]</li>
+<li>pivot | Vector2</li>
+<li>position | Vector2</li>
+<li>rotation | float</li>
+<li>vertices | Vector2[]</li>
+</ul>
+<h2 id="canimatedspritedrawcomponent-subtarget">CAnimatedSpriteDrawComponent | subtarget</h2>
+<ul>
+<li>bounds | CAABB</li>
+<li>color | Color</li>
+<li>currentFrameInAnimation | int</li>
+<li>destinationRectangle | Rectangle</li>
+<li>flipped | bool</li>
+<li>isPlaying | bool</li>
+<li>isVisible | bool</li>
+<li>layerId | string</li>
+<li>millisPerFrame | int</li>
+<li>nextAnimation | string</li>
+<li>offset | Vector2</li>
+<li>opacity | float</li>
+<li>origin | Vector2</li>
+<li>pingPongState | bool</li>
+<li>position | Vector2</li>
+<li>rotation | float</li>
+<li>scale | Vector2</li>
+<li>size | Vector2</li>
+<li>sourceOrigin | Vector2</li>
+<li>sourceOriginalSize | Vector2</li>
+<li>sourceRectangle | Rectangle</li>
+<li>time | TimeSpan</li>
+<li>totalMillis | int</li>
+</ul>
+<h2 id="clampcameramodifier-subtarget">ClampCameraModifier | subtarget</h2>
+<ul>
+<li>bounds | Rectangle</li>
+<li>camera | CCamera</li>
+<li>viewportBounds | Rectangle</li>
+<li>viewportPoint | Vector2</li>
+<li>worldFocusPoint | Vector2</li>
+</ul>
+<h2 id="vector2-subtarget">Vector2 | subtarget</h2>
+<ul>
+<li>x | float</li>
+<li>y | float</li>
+<li>_length | float</li>
+<li>_a | float</li>
+</ul>
+<h2 id="matrix-subtarget">Matrix | subtarget</h2>
+<ul>
+<li>M11 | float</li>
+<li>M12 | float</li>
+<li>M13 | float</li>
+<li>M14 | float</li>
+<li>M21 | float</li>
+<li>M22 | float</li>
+<li>M23 | float</li>
+<li>M24 | float</li>
+<li>M31 | float</li>
+<li>M32 | float</li>
+<li>M33 | float</li>
+<li>M34 | float</li>
+<li>M41 | float</li>
+<li>M42 | float</li>
+<li>M43 | float</li>
+<li>M44 | float</li>
+</ul>
+<h2 id="shakecameramodifier-subtarget">ShakeCameraModifier | subtarget</h2>
+<ul>
+<li>camera | CCamera</li>
+<li>duration | TimeSpan</li>
+<li>fadeOut | bool</li>
+<li>initialIntensity | float</li>
+<li>intensity | float</li>
+<li>isActive | bool</li>
+<li>offset | Vector2</li>
+<li>random | Random</li>
+<li>startTime | TimeSpan</li>
+<li>viewportBounds | Rectangle</li>
+</ul>
+<h2 id="viewport-subtarget">Viewport | subtarget</h2>
+<ul>
+<li>viewport | FNA3D_Viewport</li>
+</ul>
+<h2 id="ctextdrawcomponent-subtarget">CTextDrawComponent | subtarget</h2>
+<ul>
+<li>align | Vector2</li>
+<li>bounds | CAABB</li>
+<li>color | Color</li>
+<li>dropShadowColor | Color</li>
+<li>dropShadowOffset | Vector2</li>
+<li>flipped | bool</li>
+<li>hasDropShadow | bool</li>
+<li>isVisible | bool</li>
+<li>layerId | string</li>
+<li>offset | Vector2</li>
+<li>opacity | float</li>
+<li>position | Vector2</li>
+<li>rotation | float</li>
+<li>scale | Vector2</li>
+<li>size | Vector2</li>
+<li>stringSize | Vector2</li>
+</ul>
+<h2 id="cspritedrawcomponent-subtarget">CSpriteDrawComponent | subtarget</h2>
+<ul>
+<li>bounds | CAABB</li>
+<li>color | Color</li>
+<li>destinationRectangle | Rectangle</li>
+<li>drawSource | Rectangle</li>
+<li>flipped | bool</li>
+<li>isVisible | bool</li>
+<li>layerId | string</li>
+<li>offset | Vector2</li>
+<li>opacity | float</li>
+<li>origin | Vector2</li>
+<li>position | Vector2</li>
+<li>rotation | float</li>
+<li>scale | Vector2</li>
+<li>size | Vector2</li>
+<li>sourceOrigin | Vector2</li>
+<li>sourceOriginalSize | Vector2</li>
+<li>spriteIndex | int</li>
+</ul>
+<h2 id="random-subtarget">Random | subtarget</h2>
+<ul>
+<li>inext | int</li>
+<li>inextp | int</li>
+<li>SeedArray | int[]</li>
+</ul>
+<h2 id="double-subtarget">double | subtarget</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["search.highlight", "search.suggest", "search.share"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
