@@ -4,8 +4,11 @@ docs_dir: src/
 site_dir: docs/
 repo_url: https://github.com/StarFilledSky/Velo-Docs
 
+watch: [mkdocs.yml, src/Targets.md]
+
 plugins:
   - search
+  # - autorefs
 
 theme:
   name: material
@@ -13,6 +16,9 @@ theme:
     - search.highlight
     - search.suggest
     - search.share
+    - toc.follow
+    - toc(permalink=true):
+      permalink: "¤"
   
   palette:
     - scheme: slate
