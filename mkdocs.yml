@@ -4,11 +4,13 @@ docs_dir: src/
 site_dir: docs/
 repo_url: https://github.com/StarFilledSky/Velo-Docs
 
-watch: [mkdocs.yml, src/Targets.md]
 
 
 plugins:
   - search
+  - document-dates:
+      position: bottom 
+
   # - autorefs #todo look into
 extra_css:
   - assets/stylesheets/extra.css
