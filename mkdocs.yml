@@ -6,6 +6,10 @@ repo_url: https://github.com/StarFilledSky/Velo-Docs
 
 
 
+markdown_extensions:
+  - toc:
+      permalink: "✿"
+
 plugins:
   - search
   - document-dates:

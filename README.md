@@ -1,7 +1,8 @@
 This is an export of most of the variables accessible by velo made more searchable by mkdocs.
 
 TODO:
-    - Find better formatting for all of the data and add it to the script.
+    - Finalize formatting so it can be automated.
+    - link between different relevant sections of the docs like being able to click CActor and see the variables.
     - Add a way to attach documentation to a variable.
     - Add a way to merge new scans with the previous scans and documentation.
 

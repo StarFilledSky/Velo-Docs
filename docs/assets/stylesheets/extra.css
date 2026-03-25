@@ -1,6 +1,27 @@
 
 
-.md-nav {
-    /* one what? idk */
-    line-height: 1;
+.md-typeset code {
+    background-color: hsla(227, 48.1%, 54.7%, 0.26);
+    color: #c3a0ff;
+    padding: 0 .2em;
+    margin: .1em;
+}
+
+.md-typeset p {
+    color:#ffffff;
+}
+
+.md-typeset h2 {
+    color:hsl(196.6, 100%, 83.7%);
+    font-weight: bold;
+}
+
+.md-typeset h3 {
+    color: hsl(262.2, 47%, 54.9%);
+}
+.md-typeset a {
+    color: hsl(224.6, 100%, 72.5%);
+}
+.md-typeset a:hover {
+    color: hsl(45, 100%, 66%);
 }
