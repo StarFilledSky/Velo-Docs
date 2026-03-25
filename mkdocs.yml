@@ -13,7 +13,8 @@ plugins:
 extra_css:
   - assets/stylesheets/extra.css
 
-
+nav:
+ - Targets.md
 
 
 theme:
@@ -24,8 +25,8 @@ theme:
     - search.suggest
     - search.share
     - toc.follow
-    - toc(permalink=true):
-      permalink: "¤"
+    # - toc(permalink=true): #haven't gotten this working yet
+    #   permalink: "✿"
   
 
   palette:

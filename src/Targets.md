@@ -2,830 +2,830 @@
 A list of all the possible game values that can be queried/changed with Velo.
 
 ##  `target`: AIVolume
-> ### `CActor`: actor  
-> ### `CAABB`: bounds  
-> ### `CCollisionFilter`: collisionFilter  
-> ### `EditableBool`: defaultActive  
-> ### `EditableBool`: easy  
-> ### `EditableBool`: hard  
-> ### `bool`: isEditor  
-> ### `bool`: isHovered  
-> ### `bool`: isResizing  
-> ### `EditableBool`: medium  
-> ### `CImageDrawComponent`: selectionRectangle  
-> ### `EditableString`: triggerId  
-> ### `EditableEnum`: type  
-> ### `EditableBool`: unfair  
+> <!-- replacement --> `CActor`: actor  
+> <!-- replacement --> `CAABB`: bounds  
+> <!-- replacement --> `CCollisionFilter`: collisionFilter  
+> <!-- replacement --> `EditableBool`: defaultActive  
+> <!-- replacement --> `EditableBool`: easy  
+> <!-- replacement --> `EditableBool`: hard  
+> <!-- replacement --> `bool`: isEditor  
+> <!-- replacement --> `bool`: isHovered  
+> <!-- replacement --> `bool`: isResizing  
+> <!-- replacement --> `EditableBool`: medium  
+> <!-- replacement --> `CImageDrawComponent`: selectionRectangle  
+> <!-- replacement --> `EditableString`: triggerId  
+> <!-- replacement --> `EditableEnum`: type  
+> <!-- replacement --> `EditableBool`: unfair  
 ##  `target`: Bookcase
-> ### `CActor`: actor  
-> ### `CAABB`: bounds  
-> ### `CCollisionFilter`: collisionFilter  
-> ### `CImageDrawComponent`: iamge2  
-> ### `CImageDrawComponent`: image1  
-> ### `CImageDrawComponent`: image3  
-> ### `EditableInt`: index  
-> ### `bool`: isEditor  
-> ### `bool`: isHovered  
-> ### `bool`: isResizing  
-> ### `EditableFloat`: scale  
-> ### `CImageDrawComponent`: selectionRectangle  
+> <!-- replacement --> `CActor`: actor  
+> <!-- replacement --> `CAABB`: bounds  
+> <!-- replacement --> `CCollisionFilter`: collisionFilter  
+> <!-- replacement --> `CImageDrawComponent`: iamge2  
+> <!-- replacement --> `CImageDrawComponent`: image1  
+> <!-- replacement --> `CImageDrawComponent`: image3  
+> <!-- replacement --> `EditableInt`: index  
+> <!-- replacement --> `bool`: isEditor  
+> <!-- replacement --> `bool`: isHovered  
+> <!-- replacement --> `bool`: isResizing  
+> <!-- replacement --> `EditableFloat`: scale  
+> <!-- replacement --> `CImageDrawComponent`: selectionRectangle  
 ##  `target`: BouncePad
-> ### `CActor`: actor  
-> ### `CAABB`: bounds  
-> ### `CCollisionFilter`: collisionFilter  
-> ### `CConvexPolygon`: hitbox  
-> ### `bool`: isEditor  
-> ### `bool`: isHovered  
-> ### `bool`: isResizing  
-> ### `EditableEnum`: rotation  
-> ### `CImageDrawComponent`: selectionRectangle  
-> ### `CAnimatedSpriteDrawComponent`: sprite  
+> <!-- replacement --> `CActor`: actor  
+> <!-- replacement --> `CAABB`: bounds  
+> <!-- replacement --> `CCollisionFilter`: collisionFilter  
+> <!-- replacement --> `CConvexPolygon`: hitbox  
+> <!-- replacement --> `bool`: isEditor  
+> <!-- replacement --> `bool`: isHovered  
+> <!-- replacement --> `bool`: isResizing  
+> <!-- replacement --> `EditableEnum`: rotation  
+> <!-- replacement --> `CImageDrawComponent`: selectionRectangle  
+> <!-- replacement --> `CAnimatedSpriteDrawComponent`: sprite  
 ##  `target`: CCamera
-> ### `ClampCameraModifier`: clampCameraModifier  
-> ### `string`: id  
-> ### `bool`: isActive  
-> ### `Vector2`: position  
-> ### `Matrix`: projection  
-> ### `ShakeCameraModifier`: shakeCameraModifier  
-> ### `Matrix`: view  
-> ### `Viewport`: viewport  
-> ### `float`: zoom  
+> <!-- replacement --> `ClampCameraModifier`: clampCameraModifier  
+> <!-- replacement --> `string`: id  
+> <!-- replacement --> `bool`: isActive  
+> <!-- replacement --> `Vector2`: position  
+> <!-- replacement --> `Matrix`: projection  
+> <!-- replacement --> `ShakeCameraModifier`: shakeCameraModifier  
+> <!-- replacement --> `Matrix`: view  
+> <!-- replacement --> `Viewport`: viewport  
+> <!-- replacement --> `float`: zoom  
 ##  `target`: Deco
-> ### `CActor`: actor  
-> ### `float`: animateDistanceSquared  
-> ### `EditableFloat`: animateFrom  
-> ### `float`: animateMaxAngle  
-> ### `float`: animateMinAngle  
-> ### `EditableFloat`: animateTo  
-> ### `EditableEnum`: animationType  
-> ### `CAABB`: bounds  
-> ### `EditableString`: bundleId  
-> ### `CCollisionFilter`: collisionFilter  
-> ### `EditableInt`: colorB  
-> ### `EditableInt`: colorG  
-> ### `EditableInt`: colorR  
-> ### `float`: distanceSquaredForNextToSpawn  
-> ### `EditableInt`: frame  
-> ### `EditableString`: frameKey  
-> ### `bool`: hasNoTrigger  
-> ### `EditableInt`: imageId  
-> ### `EditableString`: imageName  
-> ### `bool`: isEditor  
-> ### `EditableBool`: isFlipped  
-> ### `bool`: isHovered  
-> ### `bool`: isResizing  
-> ### `EditableBool`: isVisible  
-> ### `int`: lastSpawnedIndex  
-> ### `EditableEnum`: layer  
-> ### `EditableFloat`: lifetime  
-> ### `EditableBool`: reverseAnimation  
-> ### `EditableFloat`: rotation  
-> ### `Vector2`: scale  
-> ### `CImageDrawComponent`: selectionRectangle  
-> ### `EditableFloat`: spawnInterval  
-> ### `EditableString`: triggerId  
+> <!-- replacement --> `CActor`: actor  
+> <!-- replacement --> `float`: animateDistanceSquared  
+> <!-- replacement --> `EditableFloat`: animateFrom  
+> <!-- replacement --> `float`: animateMaxAngle  
+> <!-- replacement --> `float`: animateMinAngle  
+> <!-- replacement --> `EditableFloat`: animateTo  
+> <!-- replacement --> `EditableEnum`: animationType  
+> <!-- replacement --> `CAABB`: bounds  
+> <!-- replacement --> `EditableString`: bundleId  
+> <!-- replacement --> `CCollisionFilter`: collisionFilter  
+> <!-- replacement --> `EditableInt`: colorB  
+> <!-- replacement --> `EditableInt`: colorG  
+> <!-- replacement --> `EditableInt`: colorR  
+> <!-- replacement --> `float`: distanceSquaredForNextToSpawn  
+> <!-- replacement --> `EditableInt`: frame  
+> <!-- replacement --> `EditableString`: frameKey  
+> <!-- replacement --> `bool`: hasNoTrigger  
+> <!-- replacement --> `EditableInt`: imageId  
+> <!-- replacement --> `EditableString`: imageName  
+> <!-- replacement --> `bool`: isEditor  
+> <!-- replacement --> `EditableBool`: isFlipped  
+> <!-- replacement --> `bool`: isHovered  
+> <!-- replacement --> `bool`: isResizing  
+> <!-- replacement --> `EditableBool`: isVisible  
+> <!-- replacement --> `int`: lastSpawnedIndex  
+> <!-- replacement --> `EditableEnum`: layer  
+> <!-- replacement --> `EditableFloat`: lifetime  
+> <!-- replacement --> `EditableBool`: reverseAnimation  
+> <!-- replacement --> `EditableFloat`: rotation  
+> <!-- replacement --> `Vector2`: scale  
+> <!-- replacement --> `CImageDrawComponent`: selectionRectangle  
+> <!-- replacement --> `EditableFloat`: spawnInterval  
+> <!-- replacement --> `EditableString`: triggerId  
 ##  `target`: DecoGlow
-> ### `CActor`: actor  
-> ### `CAABB`: bounds  
-> ### `CCollisionFilter`: collisionFilter  
-> ### `int`: colorIndex  
-> ### `float`: colorTransitionRatio  
-> ### `int`: direction  
-> ### `CImageDrawComponent`: image  
-> ### `bool`: isEditor  
-> ### `bool`: isHovered  
-> ### `bool`: isResizing  
-> ### `CImageDrawComponent`: selectionRectangle  
+> <!-- replacement --> `CActor`: actor  
+> <!-- replacement --> `CAABB`: bounds  
+> <!-- replacement --> `CCollisionFilter`: collisionFilter  
+> <!-- replacement --> `int`: colorIndex  
+> <!-- replacement --> `float`: colorTransitionRatio  
+> <!-- replacement --> `int`: direction  
+> <!-- replacement --> `CImageDrawComponent`: image  
+> <!-- replacement --> `bool`: isEditor  
+> <!-- replacement --> `bool`: isHovered  
+> <!-- replacement --> `bool`: isResizing  
+> <!-- replacement --> `CImageDrawComponent`: selectionRectangle  
 ##  `target`: DecoLight
-> ### `CActor`: actor  
-> ### `CAABB`: bounds  
-> ### `CCollisionFilter`: collisionFilter  
-> ### `EditableEnum`: color  
-> ### `int`: direction  
-> ### `CImageDrawComponent`: image  
-> ### `bool`: isEditor  
-> ### `bool`: isHovered  
-> ### `bool`: isResizing  
-> ### `EditableFloat`: lowerBound  
-> ### `CImageDrawComponent`: selectionRectangle  
-> ### `EditableEnum`: type  
-> ### `EditableFloat`: upperBound  
+> <!-- replacement --> `CActor`: actor  
+> <!-- replacement --> `CAABB`: bounds  
+> <!-- replacement --> `CCollisionFilter`: collisionFilter  
+> <!-- replacement --> `EditableEnum`: color  
+> <!-- replacement --> `int`: direction  
+> <!-- replacement --> `CImageDrawComponent`: image  
+> <!-- replacement --> `bool`: isEditor  
+> <!-- replacement --> `bool`: isHovered  
+> <!-- replacement --> `bool`: isResizing  
+> <!-- replacement --> `EditableFloat`: lowerBound  
+> <!-- replacement --> `CImageDrawComponent`: selectionRectangle  
+> <!-- replacement --> `EditableEnum`: type  
+> <!-- replacement --> `EditableFloat`: upperBound  
 ##  `target`: DecoText
-> ### `CActor`: actor  
-> ### `CAABB`: bounds  
-> ### `CCollisionFilter`: collisionFilter  
-> ### `bool`: isEditor  
-> ### `bool`: isHovered  
-> ### `bool`: isResizing  
-> ### `int`: placeholderIndex  
-> ### `CImageDrawComponent`: selectionRectangle  
-> ### `EditableString`: text  
-> ### `CTextDrawComponent`: textDraw  
-> ### `EditableInt`: textId  
+> <!-- replacement --> `CActor`: actor  
+> <!-- replacement --> `CAABB`: bounds  
+> <!-- replacement --> `CCollisionFilter`: collisionFilter  
+> <!-- replacement --> `bool`: isEditor  
+> <!-- replacement --> `bool`: isHovered  
+> <!-- replacement --> `bool`: isResizing  
+> <!-- replacement --> `int`: placeholderIndex  
+> <!-- replacement --> `CImageDrawComponent`: selectionRectangle  
+> <!-- replacement --> `EditableString`: text  
+> <!-- replacement --> `CTextDrawComponent`: textDraw  
+> <!-- replacement --> `EditableInt`: textId  
 ##  `target`: DroppedBomb
-> ### `CActor`: actor  
-> ### `CAnimatedSpriteDrawComponent`: blinkingSprite  
-> ### `CAABB`: bounds  
-> ### `CCollisionFilter`: collisionFilter  
-> ### `Color`: color  
-> ### `bool`: isStationary  
-> ### `Player`: owner  
-> ### `CAnimatedSpriteDrawComponent`: sprite  
+> <!-- replacement --> `CActor`: actor  
+> <!-- replacement --> `CAnimatedSpriteDrawComponent`: blinkingSprite  
+> <!-- replacement --> `CAABB`: bounds  
+> <!-- replacement --> `CCollisionFilter`: collisionFilter  
+> <!-- replacement --> `Color`: color  
+> <!-- replacement --> `bool`: isStationary  
+> <!-- replacement --> `Player`: owner  
+> <!-- replacement --> `CAnimatedSpriteDrawComponent`: sprite  
 ##  `target`: DroppedObstacle
-> ### `CActor`: actor  
-> ### `AIVolume`: aiVolume  
-> ### `CAABB`: bounds  
-> ### `TimeSpan`: breakTime  
-> ### `CCollisionFilter`: collisionFilter  
-> ### `float`: immunityTimer  
-> ### `byte`: index  
-> ### `bool`: isBroken  
-> ### `bool`: isEditor  
-> ### `bool`: isSliding  
-> ### `bool`: isStationary  
-> ### `bool`: onGround  
-> ### `Player`: owner  
-> ### `float`: rotationDirection  
-> ### `CSpriteDrawComponent`: sprite  
+> <!-- replacement --> `CActor`: actor  
+> <!-- replacement --> `AIVolume`: aiVolume  
+> <!-- replacement --> `CAABB`: bounds  
+> <!-- replacement --> `TimeSpan`: breakTime  
+> <!-- replacement --> `CCollisionFilter`: collisionFilter  
+> <!-- replacement --> `float`: immunityTimer  
+> <!-- replacement --> `byte`: index  
+> <!-- replacement --> `bool`: isBroken  
+> <!-- replacement --> `bool`: isEditor  
+> <!-- replacement --> `bool`: isSliding  
+> <!-- replacement --> `bool`: isStationary  
+> <!-- replacement --> `bool`: onGround  
+> <!-- replacement --> `Player`: owner  
+> <!-- replacement --> `float`: rotationDirection  
+> <!-- replacement --> `CSpriteDrawComponent`: sprite  
 ##  `target`: Fireball
-> ### `CActor`: actor  
-> ### `float`: baseSpeed  
-> ### `BouncePad`: bouncePad  
-> ### `float`: bounceTimer  
-> ### `CAABB`: bounds  
-> ### `CCollisionFilter`: collisionFilter  
-> ### `Vector2`: direction  
-> ### `Player[]`: hitPlayers  
-> ### `float`: immunityDuration  
-> ### `float`: lifeTimer  
-> ### `float`: limetime  
-> ### `float`: maxPingCorrectedSpeed  
-> ### `float`: maxScale  
-> ### `bool`: onGround  
-> ### `Player`: owner  
-> ### `float`: pingDisplacement  
-> ### `float`: scale  
-> ### `Shockwave`: shockwave  
-> ### `float`: speed  
-> ### `CAnimatedSpriteDrawComponent`: sprite  
-> ### `bool`: wasOnGround  
+> <!-- replacement --> `CActor`: actor  
+> <!-- replacement --> `float`: baseSpeed  
+> <!-- replacement --> `BouncePad`: bouncePad  
+> <!-- replacement --> `float`: bounceTimer  
+> <!-- replacement --> `CAABB`: bounds  
+> <!-- replacement --> `CCollisionFilter`: collisionFilter  
+> <!-- replacement --> `Vector2`: direction  
+> <!-- replacement --> `Player[]`: hitPlayers  
+> <!-- replacement --> `float`: immunityDuration  
+> <!-- replacement --> `float`: lifeTimer  
+> <!-- replacement --> `float`: limetime  
+> <!-- replacement --> `float`: maxPingCorrectedSpeed  
+> <!-- replacement --> `float`: maxScale  
+> <!-- replacement --> `bool`: onGround  
+> <!-- replacement --> `Player`: owner  
+> <!-- replacement --> `float`: pingDisplacement  
+> <!-- replacement --> `float`: scale  
+> <!-- replacement --> `Shockwave`: shockwave  
+> <!-- replacement --> `float`: speed  
+> <!-- replacement --> `CAnimatedSpriteDrawComponent`: sprite  
+> <!-- replacement --> `bool`: wasOnGround  
 ##  `target`: FreezeRay
-> ### `CActor`: actor  
-> ### `CAABB`: bounds  
-> ### `float`: chargeTimer  
-> ### `float`: lifeTimer  
-> ### `Player`: owner  
-> ### `CAnimatedSpriteDrawComponent[]`: sprites  
+> <!-- replacement --> `CActor`: actor  
+> <!-- replacement --> `CAABB`: bounds  
+> <!-- replacement --> `float`: chargeTimer  
+> <!-- replacement --> `float`: lifeTimer  
+> <!-- replacement --> `Player`: owner  
+> <!-- replacement --> `CAnimatedSpriteDrawComponent[]`: sprites  
 ##  `target`: GoldenHook
-> ### `CActor`: actor  
-> ### `CAABB`: bounds  
-> ### `CAnimatedSpriteDrawComponent`: breakSprite  
-> ### `bool`: dodged  
-> ### `Player`: grabbed  
-> ### `Player`: owner  
-> ### `bool`: playerGrabbed  
-> ### `float`: ropeLength  
-> ### `CSpriteDrawComponent`: sprite  
-> ### `Player`: target  
+> <!-- replacement --> `CActor`: actor  
+> <!-- replacement --> `CAABB`: bounds  
+> <!-- replacement --> `CAnimatedSpriteDrawComponent`: breakSprite  
+> <!-- replacement --> `bool`: dodged  
+> <!-- replacement --> `Player`: grabbed  
+> <!-- replacement --> `Player`: owner  
+> <!-- replacement --> `bool`: playerGrabbed  
+> <!-- replacement --> `float`: ropeLength  
+> <!-- replacement --> `CSpriteDrawComponent`: sprite  
+> <!-- replacement --> `Player`: target  
 ##  `target`: Grapple
-> ### `CActor`: actor  
-> ### `CAABB`: bounds  
-> ### `CAnimatedSpriteDrawComponent`: breakSprite  
-> ### `Vector2`: direction  
-> ### `bool`: isConnected  
-> ### `Player`: owner  
-> ### `CSpriteDrawComponent`: sprite  
+> <!-- replacement --> `CActor`: actor  
+> <!-- replacement --> `CAABB`: bounds  
+> <!-- replacement --> `CAnimatedSpriteDrawComponent`: breakSprite  
+> <!-- replacement --> `Vector2`: direction  
+> <!-- replacement --> `bool`: isConnected  
+> <!-- replacement --> `Player`: owner  
+> <!-- replacement --> `CSpriteDrawComponent`: sprite  
 ##  `target`: Laser
-> ### `CActor`: actor  
-> ### `AIVolume`: aiVolume  
-> ### `CAABB`: bounds  
-> ### `CCollisionFilter`: collisionFilter  
-> ### `CCollisionFilter`: collisionFilter  
-> ### `EditableFloat`: defaultRotation  
-> ### `Vector2`: direction  
-> ### `Vector2`: endPoint  
-> ### `float`: growingLength  
-> ### `bool`: isEditor  
-> ### `EditableBool`: isFlipped  
-> ### `bool`: isHovered  
-> ### `bool`: isResizing  
-> ### `Vector2`: lineDrawEndPoint  
-> ### `EditableBool`: rotate  
-> ### `float`: rotation  
-> ### `int`: rotationDirection  
-> ### `CImageDrawComponent`: selectionRectangle  
-> ### `float`: shrinkingLength  
-> ### `CAnimatedSpriteDrawComponent`: sprite  
+> <!-- replacement --> `CActor`: actor  
+> <!-- replacement --> `AIVolume`: aiVolume  
+> <!-- replacement --> `CAABB`: bounds  
+> <!-- replacement --> `CCollisionFilter`: collisionFilter  
+> <!-- replacement --> `CCollisionFilter`: collisionFilter  
+> <!-- replacement --> `EditableFloat`: defaultRotation  
+> <!-- replacement --> `Vector2`: direction  
+> <!-- replacement --> `Vector2`: endPoint  
+> <!-- replacement --> `float`: growingLength  
+> <!-- replacement --> `bool`: isEditor  
+> <!-- replacement --> `EditableBool`: isFlipped  
+> <!-- replacement --> `bool`: isHovered  
+> <!-- replacement --> `bool`: isResizing  
+> <!-- replacement --> `Vector2`: lineDrawEndPoint  
+> <!-- replacement --> `EditableBool`: rotate  
+> <!-- replacement --> `float`: rotation  
+> <!-- replacement --> `int`: rotationDirection  
+> <!-- replacement --> `CImageDrawComponent`: selectionRectangle  
+> <!-- replacement --> `float`: shrinkingLength  
+> <!-- replacement --> `CAnimatedSpriteDrawComponent`: sprite  
 ##  `target`: Leaves
-> ### `CActor`: actor  
-> ### `CAABB`: bounds  
-> ### `CCollisionFilter`: collisionFilter  
-> ### `bool`: isEditor  
-> ### `bool`: isHovered  
-> ### `bool`: isResizing  
-> ### `CImageDrawComponent`: selectionRectangle  
+> <!-- replacement --> `CActor`: actor  
+> <!-- replacement --> `CAABB`: bounds  
+> <!-- replacement --> `CCollisionFilter`: collisionFilter  
+> <!-- replacement --> `bool`: isEditor  
+> <!-- replacement --> `bool`: isHovered  
+> <!-- replacement --> `bool`: isResizing  
+> <!-- replacement --> `CImageDrawComponent`: selectionRectangle  
 ##  `target`: Lever
-> ### `CActor`: actor  
-> ### `CAABB`: bounds  
-> ### `CCollisionFilter`: collisionFilter  
-> ### `bool`: isActivated  
-> ### `bool`: isEditor  
-> ### `bool`: isHovered  
-> ### `bool`: isResizing  
-> ### `EditableEnum`: orientation  
-> ### `CImageDrawComponent`: selectionRectangle  
-> ### `CAnimatedSpriteDrawComponent`: sprite  
-> ### `EditableString`: triggerId  
-> ### `CAnimatedSpriteDrawComponent`: triggerSparkSprite  
+> <!-- replacement --> `CActor`: actor  
+> <!-- replacement --> `CAABB`: bounds  
+> <!-- replacement --> `CCollisionFilter`: collisionFilter  
+> <!-- replacement --> `bool`: isActivated  
+> <!-- replacement --> `bool`: isEditor  
+> <!-- replacement --> `bool`: isHovered  
+> <!-- replacement --> `bool`: isResizing  
+> <!-- replacement --> `EditableEnum`: orientation  
+> <!-- replacement --> `CImageDrawComponent`: selectionRectangle  
+> <!-- replacement --> `CAnimatedSpriteDrawComponent`: sprite  
+> <!-- replacement --> `EditableString`: triggerId  
+> <!-- replacement --> `CAnimatedSpriteDrawComponent`: triggerSparkSprite  
 ##  `target`: Obstacle
-> ### `CActor`: actor  
-> ### `AIVolume`: aiVolume1  
-> ### `AIVolume`: aiVolume2  
-> ### `CAABB`: bounds  
-> ### `float`: breakRotationDirection  
-> ### `float`: breakShade  
-> ### `TimeSpan`: breakTime  
-> ### `float`: breakTimer  
-> ### `Vector2`: breakVelocity  
-> ### `CCollisionFilter`: collisionFilter  
-> ### `bool`: isBroken  
-> ### `bool`: isEditor  
-> ### `bool`: isHovered  
-> ### `bool`: isRemoteSimulated  
-> ### `bool`: isResizing  
-> ### `EditableInt`: obstacleId  
-> ### `CImageDrawComponent`: selectionRectangle  
-> ### `CSpriteDrawComponent`: sprite  
+> <!-- replacement --> `CActor`: actor  
+> <!-- replacement --> `AIVolume`: aiVolume1  
+> <!-- replacement --> `AIVolume`: aiVolume2  
+> <!-- replacement --> `CAABB`: bounds  
+> <!-- replacement --> `float`: breakRotationDirection  
+> <!-- replacement --> `float`: breakShade  
+> <!-- replacement --> `TimeSpan`: breakTime  
+> <!-- replacement --> `float`: breakTimer  
+> <!-- replacement --> `Vector2`: breakVelocity  
+> <!-- replacement --> `CCollisionFilter`: collisionFilter  
+> <!-- replacement --> `bool`: isBroken  
+> <!-- replacement --> `bool`: isEditor  
+> <!-- replacement --> `bool`: isHovered  
+> <!-- replacement --> `bool`: isRemoteSimulated  
+> <!-- replacement --> `bool`: isResizing  
+> <!-- replacement --> `EditableInt`: obstacleId  
+> <!-- replacement --> `CImageDrawComponent`: selectionRectangle  
+> <!-- replacement --> `CSpriteDrawComponent`: sprite  
 ##  `target`: Pickup
-> ### `CActor`: actor  
-> ### `CImageDrawComponent`: backStarImage  
-> ### `CAABB`: bounds  
-> ### `CAnimatedSpriteDrawComponent`: boxPopSprite  
-> ### `CCollisionFilter`: collisionFilter  
-> ### `CImageDrawComponent`: frontStarImage  
-> ### `bool`: isEditor  
-> ### `bool`: isHovered  
-> ### `bool`: isMultiplayer  
-> ### `bool`: isPopped  
-> ### `bool`: isResizing  
-> ### `bool`: remoteSimulated  
-> ### `float`: respawnTimer  
-> ### `CImageDrawComponent`: selectionRectangle  
-> ### `CAnimatedSpriteDrawComponent`: sprite  
-> ### `int`: type  
+> <!-- replacement --> `CActor`: actor  
+> <!-- replacement --> `CImageDrawComponent`: backStarImage  
+> <!-- replacement --> `CAABB`: bounds  
+> <!-- replacement --> `CAnimatedSpriteDrawComponent`: boxPopSprite  
+> <!-- replacement --> `CCollisionFilter`: collisionFilter  
+> <!-- replacement --> `CImageDrawComponent`: frontStarImage  
+> <!-- replacement --> `bool`: isEditor  
+> <!-- replacement --> `bool`: isHovered  
+> <!-- replacement --> `bool`: isMultiplayer  
+> <!-- replacement --> `bool`: isPopped  
+> <!-- replacement --> `bool`: isResizing  
+> <!-- replacement --> `bool`: remoteSimulated  
+> <!-- replacement --> `float`: respawnTimer  
+> <!-- replacement --> `CImageDrawComponent`: selectionRectangle  
+> <!-- replacement --> `CAnimatedSpriteDrawComponent`: sprite  
+> <!-- replacement --> `int`: type  
 ##  `target`: Player
-> ### `Trigger`: activatedTrigger  
-> ### `CActor`: actor  
-> ### `float`: airtime  
-> ### `CImageDrawComponent`: badConnectionImage  
-> ### `float`: baseAcceleration  
-> ### `CAnimatedSpriteDrawComponent`: bombTriggerSprite  
-> ### `float`: boost  
-> ### `CEncryptedFloat`: boostacoke  
-> ### `float`: boostCooldown  
-> ### `bool`: boostHeld  
-> ### `BouncePad`: bouncePad  
-> ### `float`: bouncePadTimer  
-> ### `bool`: canBufferWallJump  
-> ### `bool`: canClimbUp  
-> ### `bool`: canGrapple  
-> ### `bool`: canRepressJump  
-> ### `bool`: canUntaunt  
-> ### `byte`: characterId  
-> ### `int`: collectedSandals  
-> ### `CCollisionFilter`: collisionFilter  
-> ### `Vector2`: collisionTangent  
-> ### `float`: delta  
-> ### `Vector2`: displacement  
-> ### `float`: diveTimer  
-> ### `int`: dominatingDirection  
-> ### `CAnimatedSpriteDrawComponent`: drillSprite  
-> ### `TimeSpan`: drillTime  
-> ### `DroppedBomb`: droppedBomb  
-> ### `List<DroppedObstacle>`: droppedObstacles  
-> ### `bool`: enableClimbing  
-> ### `bool`: enableDoubleJump  
-> ### `bool`: enableGrapples  
-> ### `bool`: enableInputs  
-> ### `CImageDrawComponent`: exclamationMarkImage  
-> ### `bool`: explosionHitIsRocket  
-> ### `Vector2`: explosionKnockback  
-> ### `List<Fireball>`: fireballs  
-> ### `FreezeRay`: freezeRay  
-> ### `float`: frozenTimer  
-> ### `GoldenHook`: goldenHook  
-> ### `Grapple`: grapple  
-> ### `bool`: grappleHeld  
-> ### `TimeSpan`: grappleTime  
-> ### `int`: groundCollidableType  
-> ### `Vector2`: groundNormal  
-> ### `bool`: hasTouchedOriginsFinishBomb  
-> ### `CAABB`: hitboxSliding  
-> ### `CAABB`: hitboxStanding  
-> ### `int`: hitByExplosionId  
-> ### `Player`: hookedBy  
-> ### `TimeSpan`: hookedTime  
-> ### `CSpriteDrawComponent`: iceBlockSprite  
-> ### `CSpriteDrawComponent`: iceBlockSpriteShaded  
-> ### `Vector2`: initialJumpVelocity  
-> ### `bool`: isCeilingHit  
-> ### `bool`: isClimbing  
-> ### `bool`: isClimbingUp  
-> ### `bool`: isCollidingWithSolid  
-> ### `bool`: isDestroyed  
-> ### `bool`: isDying  
-> ### `bool`: isDying2  
-> ### `bool`: isEditing  
-> ### `bool`: isFlyMode  
-> ### `bool`: isFoleySlide  
-> ### `bool`: isFrozen  
-> ### `bool`: isGrappling  
-> ### `bool`: isHitByExplosion  
-> ### `bool`: isHooked  
-> ### `bool`: isHooked2  
-> ### `bool`: isInAir  
-> ### `bool`: isInsideBoostSection  
-> ### `bool`: isInsideSuperBoost  
-> ### `bool`: isInsideSuperBoostWind  
-> ### `bool`: isOnFallTile  
-> ### `bool`: isOnGround  
-> ### `bool`: isOnWall  
-> ### `bool`: isShooting  
-> ### `bool`: isSliding  
-> ### `bool`: isStillAlive  
-> ### `bool`: isStumbling  
-> ### `bool`: isStunned  
-> ### `bool`: isStunnedByLaser  
-> ### `bool`: isSuddenDeath  
-> ### `bool`: isSwapItemCooldownActive  
-> ### `bool`: isSwinging  
-> ### `bool`: isTackled  
-> ### `bool`: isTaunting  
-> ### `bool`: isUsingBoost  
-> ### `bool`: isUsingDrill  
-> ### `bool`: isWinning  
-> ### `bool`: isWrongWay  
-> ### `CSpriteDrawComponent`: itemBalloonSprite  
-> ### `float`: itemCooldown  
-> ### `bool`: itemHasHit  
-> ### `TimeSpan`: itemHasHitTime  
-> ### `bool`: itemHeld  
-> ### `byte`: itemId  
-> ### `bool`: itemPressed  
-> ### `CSpriteDrawComponent`: itemSprite  
-> ### `int`: jumpCount  
-> ### `Vector2`: jumpDirection  
-> ### `float`: jumpDuration  
-> ### `bool`: jumpHeld  
-> ### `int`: jumpState  
-> ### `float`: jumpStrength  
-> ### `TimeSpan`: jumpTime  
-> ### `Vector2`: jumpVelocity  
-> ### `int`: killedById  
-> ### `bool`: leftHeld  
-> ### `int`: moveDirection  
-> ### `string`: name  
-> ### `Vector2`: networkTargetPosition  
-> ### `int`: nextJumpState  
-> ### `int`: place  
-> ### `CSpriteDrawComponent`: playerArrowSprite  
-> ### `int`: playerCount  
-> ### `int`: playerGameMode  
-> ### `CTextDrawComponent`: popup  
-> ### `Vector2`: previousPosition  
-> ### `int`: prevJumpState  
-> ### `float`: progress  
-> ### `CAnimatedSpriteDrawComponent`: puffSprite  
-> ### `CAnimatedSpriteDrawComponent`: pushWaveReactionSprite  
-> ### `Random`: random  
-> ### `TimeSpan`: repressJumpTime  
-> ### `bool`: rightHeld  
-> ### `List<Rocket>`: rockets  
-> ### `Rope`: rope  
-> ### `TimeSpan`: roundStartTime  
-> ### `Shockwave`: shockwave  
-> ### `float`: shockwaveCharge  
-> ### `byte`: skinId  
-> ### `bool`: slideHeld  
-> ### `TimeSpan`: slideTime  
-> ### `TimeSpan`: slideTime2  
-> ### `Vector2`: solidCollisionMtd  
-> ### `CAnimatedSpriteDrawComponent`: sprite  
-> ### `CAnimatedSpriteDrawComponent`: starsSprite  
-> ### `TimeSpan`: stillAliveTime  
-> ### `TimeSpan`: stumbleTime  
-> ### `int`: stunnedById  
-> ### `int`: stunnedByLaserId  
-> ### `TimeSpan`: stunnedTime  
-> ### `float`: stunTimer  
-> ### `Vector2`: superBoostDirection  
-> ### `Vector2`: superBoostForce  
-> ### `float`: superSpeed  
-> ### `TimeSpan`: superSpeedDuration  
-> ### `float`: swapItemCooldown  
-> ### `bool`: swapItemHeld  
-> ### `float`: swingAngle  
-> ### `float`: swingRadius  
-> ### `bool`: tauntHeld  
-> ### `CCollisionFilter`: tilesCollisionFilter  
-> ### `float`: timer  
-> ### `float`: travelDistance  
-> ### `float`: travelDistanceOnBecomingAirborne  
-> ### `Trigger`: triggerToReactivateOnRespawn  
-> ### `float`: unused  
-> ### `bool`: unused2  
-> ### `bool`: unused3  
-> ### `TimeSpan`: wallGetOffTime  
-> ### `float`: wallJumpBonusTimer  
-> ### `bool`: wasInsideBoostSection  
-> ### `bool`: wasItemHeld  
-> ### `bool`: wasNetworkPositionUpdated  
-> ### `bool`: wasSlideCancelled  
-> ### `bool`: wasSlideStopped  
-> ### `bool`: winStarExpanding  
-> ### `CImageDrawComponent`: winStarImage  
-> ### `float`: winStarRotationSpeed  
-> ### `CImageDrawComponent`: wrongWayImage  
-> ### `float`: wrongWayTimer  
-> ### `float`: _grappleCooldown  
-> ### `float`: _slideCooldown  
-> ### `float`: _surfCooldown  
+> <!-- replacement --> `Trigger`: activatedTrigger  
+> <!-- replacement --> `CActor`: actor  
+> <!-- replacement --> `float`: airtime  
+> <!-- replacement --> `CImageDrawComponent`: badConnectionImage  
+> <!-- replacement --> `float`: baseAcceleration  
+> <!-- replacement --> `CAnimatedSpriteDrawComponent`: bombTriggerSprite  
+> <!-- replacement --> `float`: boost  
+> <!-- replacement --> `CEncryptedFloat`: boostacoke  
+> <!-- replacement --> `float`: boostCooldown  
+> <!-- replacement --> `bool`: boostHeld  
+> <!-- replacement --> `BouncePad`: bouncePad  
+> <!-- replacement --> `float`: bouncePadTimer  
+> <!-- replacement --> `bool`: canBufferWallJump  
+> <!-- replacement --> `bool`: canClimbUp  
+> <!-- replacement --> `bool`: canGrapple  
+> <!-- replacement --> `bool`: canRepressJump  
+> <!-- replacement --> `bool`: canUntaunt  
+> <!-- replacement --> `byte`: characterId  
+> <!-- replacement --> `int`: collectedSandals  
+> <!-- replacement --> `CCollisionFilter`: collisionFilter  
+> <!-- replacement --> `Vector2`: collisionTangent  
+> <!-- replacement --> `float`: delta  
+> <!-- replacement --> `Vector2`: displacement  
+> <!-- replacement --> `float`: diveTimer  
+> <!-- replacement --> `int`: dominatingDirection  
+> <!-- replacement --> `CAnimatedSpriteDrawComponent`: drillSprite  
+> <!-- replacement --> `TimeSpan`: drillTime  
+> <!-- replacement --> `DroppedBomb`: droppedBomb  
+> <!-- replacement --> `List<DroppedObstacle>`: droppedObstacles  
+> <!-- replacement --> `bool`: enableClimbing  
+> <!-- replacement --> `bool`: enableDoubleJump  
+> <!-- replacement --> `bool`: enableGrapples  
+> <!-- replacement --> `bool`: enableInputs  
+> <!-- replacement --> `CImageDrawComponent`: exclamationMarkImage  
+> <!-- replacement --> `bool`: explosionHitIsRocket  
+> <!-- replacement --> `Vector2`: explosionKnockback  
+> <!-- replacement --> `List<Fireball>`: fireballs  
+> <!-- replacement --> `FreezeRay`: freezeRay  
+> <!-- replacement --> `float`: frozenTimer  
+> <!-- replacement --> `GoldenHook`: goldenHook  
+> <!-- replacement --> `Grapple`: grapple  
+> <!-- replacement --> `bool`: grappleHeld  
+> <!-- replacement --> `TimeSpan`: grappleTime  
+> <!-- replacement --> `int`: groundCollidableType  
+> <!-- replacement --> `Vector2`: groundNormal  
+> <!-- replacement --> `bool`: hasTouchedOriginsFinishBomb  
+> <!-- replacement --> `CAABB`: hitboxSliding  
+> <!-- replacement --> `CAABB`: hitboxStanding  
+> <!-- replacement --> `int`: hitByExplosionId  
+> <!-- replacement --> `Player`: hookedBy  
+> <!-- replacement --> `TimeSpan`: hookedTime  
+> <!-- replacement --> `CSpriteDrawComponent`: iceBlockSprite  
+> <!-- replacement --> `CSpriteDrawComponent`: iceBlockSpriteShaded  
+> <!-- replacement --> `Vector2`: initialJumpVelocity  
+> <!-- replacement --> `bool`: isCeilingHit  
+> <!-- replacement --> `bool`: isClimbing  
+> <!-- replacement --> `bool`: isClimbingUp  
+> <!-- replacement --> `bool`: isCollidingWithSolid  
+> <!-- replacement --> `bool`: isDestroyed  
+> <!-- replacement --> `bool`: isDying  
+> <!-- replacement --> `bool`: isDying2  
+> <!-- replacement --> `bool`: isEditing  
+> <!-- replacement --> `bool`: isFlyMode  
+> <!-- replacement --> `bool`: isFoleySlide  
+> <!-- replacement --> `bool`: isFrozen  
+> <!-- replacement --> `bool`: isGrappling  
+> <!-- replacement --> `bool`: isHitByExplosion  
+> <!-- replacement --> `bool`: isHooked  
+> <!-- replacement --> `bool`: isHooked2  
+> <!-- replacement --> `bool`: isInAir  
+> <!-- replacement --> `bool`: isInsideBoostSection  
+> <!-- replacement --> `bool`: isInsideSuperBoost  
+> <!-- replacement --> `bool`: isInsideSuperBoostWind  
+> <!-- replacement --> `bool`: isOnFallTile  
+> <!-- replacement --> `bool`: isOnGround  
+> <!-- replacement --> `bool`: isOnWall  
+> <!-- replacement --> `bool`: isShooting  
+> <!-- replacement --> `bool`: isSliding  
+> <!-- replacement --> `bool`: isStillAlive  
+> <!-- replacement --> `bool`: isStumbling  
+> <!-- replacement --> `bool`: isStunned  
+> <!-- replacement --> `bool`: isStunnedByLaser  
+> <!-- replacement --> `bool`: isSuddenDeath  
+> <!-- replacement --> `bool`: isSwapItemCooldownActive  
+> <!-- replacement --> `bool`: isSwinging  
+> <!-- replacement --> `bool`: isTackled  
+> <!-- replacement --> `bool`: isTaunting  
+> <!-- replacement --> `bool`: isUsingBoost  
+> <!-- replacement --> `bool`: isUsingDrill  
+> <!-- replacement --> `bool`: isWinning  
+> <!-- replacement --> `bool`: isWrongWay  
+> <!-- replacement --> `CSpriteDrawComponent`: itemBalloonSprite  
+> <!-- replacement --> `float`: itemCooldown  
+> <!-- replacement --> `bool`: itemHasHit  
+> <!-- replacement --> `TimeSpan`: itemHasHitTime  
+> <!-- replacement --> `bool`: itemHeld  
+> <!-- replacement --> `byte`: itemId  
+> <!-- replacement --> `bool`: itemPressed  
+> <!-- replacement --> `CSpriteDrawComponent`: itemSprite  
+> <!-- replacement --> `int`: jumpCount  
+> <!-- replacement --> `Vector2`: jumpDirection  
+> <!-- replacement --> `float`: jumpDuration  
+> <!-- replacement --> `bool`: jumpHeld  
+> <!-- replacement --> `int`: jumpState  
+> <!-- replacement --> `float`: jumpStrength  
+> <!-- replacement --> `TimeSpan`: jumpTime  
+> <!-- replacement --> `Vector2`: jumpVelocity  
+> <!-- replacement --> `int`: killedById  
+> <!-- replacement --> `bool`: leftHeld  
+> <!-- replacement --> `int`: moveDirection  
+> <!-- replacement --> `string`: name  
+> <!-- replacement --> `Vector2`: networkTargetPosition  
+> <!-- replacement --> `int`: nextJumpState  
+> <!-- replacement --> `int`: place  
+> <!-- replacement --> `CSpriteDrawComponent`: playerArrowSprite  
+> <!-- replacement --> `int`: playerCount  
+> <!-- replacement --> `int`: playerGameMode  
+> <!-- replacement --> `CTextDrawComponent`: popup  
+> <!-- replacement --> `Vector2`: previousPosition  
+> <!-- replacement --> `int`: prevJumpState  
+> <!-- replacement --> `float`: progress  
+> <!-- replacement --> `CAnimatedSpriteDrawComponent`: puffSprite  
+> <!-- replacement --> `CAnimatedSpriteDrawComponent`: pushWaveReactionSprite  
+> <!-- replacement --> `Random`: random  
+> <!-- replacement --> `TimeSpan`: repressJumpTime  
+> <!-- replacement --> `bool`: rightHeld  
+> <!-- replacement --> `List<Rocket>`: rockets  
+> <!-- replacement --> `Rope`: rope  
+> <!-- replacement --> `TimeSpan`: roundStartTime  
+> <!-- replacement --> `Shockwave`: shockwave  
+> <!-- replacement --> `float`: shockwaveCharge  
+> <!-- replacement --> `byte`: skinId  
+> <!-- replacement --> `bool`: slideHeld  
+> <!-- replacement --> `TimeSpan`: slideTime  
+> <!-- replacement --> `TimeSpan`: slideTime2  
+> <!-- replacement --> `Vector2`: solidCollisionMtd  
+> <!-- replacement --> `CAnimatedSpriteDrawComponent`: sprite  
+> <!-- replacement --> `CAnimatedSpriteDrawComponent`: starsSprite  
+> <!-- replacement --> `TimeSpan`: stillAliveTime  
+> <!-- replacement --> `TimeSpan`: stumbleTime  
+> <!-- replacement --> `int`: stunnedById  
+> <!-- replacement --> `int`: stunnedByLaserId  
+> <!-- replacement --> `TimeSpan`: stunnedTime  
+> <!-- replacement --> `float`: stunTimer  
+> <!-- replacement --> `Vector2`: superBoostDirection  
+> <!-- replacement --> `Vector2`: superBoostForce  
+> <!-- replacement --> `float`: superSpeed  
+> <!-- replacement --> `TimeSpan`: superSpeedDuration  
+> <!-- replacement --> `float`: swapItemCooldown  
+> <!-- replacement --> `bool`: swapItemHeld  
+> <!-- replacement --> `float`: swingAngle  
+> <!-- replacement --> `float`: swingRadius  
+> <!-- replacement --> `bool`: tauntHeld  
+> <!-- replacement --> `CCollisionFilter`: tilesCollisionFilter  
+> <!-- replacement --> `float`: timer  
+> <!-- replacement --> `float`: travelDistance  
+> <!-- replacement --> `float`: travelDistanceOnBecomingAirborne  
+> <!-- replacement --> `Trigger`: triggerToReactivateOnRespawn  
+> <!-- replacement --> `float`: unused  
+> <!-- replacement --> `bool`: unused2  
+> <!-- replacement --> `bool`: unused3  
+> <!-- replacement --> `TimeSpan`: wallGetOffTime  
+> <!-- replacement --> `float`: wallJumpBonusTimer  
+> <!-- replacement --> `bool`: wasInsideBoostSection  
+> <!-- replacement --> `bool`: wasItemHeld  
+> <!-- replacement --> `bool`: wasNetworkPositionUpdated  
+> <!-- replacement --> `bool`: wasSlideCancelled  
+> <!-- replacement --> `bool`: wasSlideStopped  
+> <!-- replacement --> `bool`: winStarExpanding  
+> <!-- replacement --> `CImageDrawComponent`: winStarImage  
+> <!-- replacement --> `float`: winStarRotationSpeed  
+> <!-- replacement --> `CImageDrawComponent`: wrongWayImage  
+> <!-- replacement --> `float`: wrongWayTimer  
+> <!-- replacement --> `float`: _grappleCooldown  
+> <!-- replacement --> `float`: _slideCooldown  
+> <!-- replacement --> `float`: _surfCooldown  
 ##  `target`: Rocket
-> ### `CActor`: actor  
-> ### `float`: agility  
-> ### `CAABB`: bounds  
-> ### `CCollisionFilter`: collisionFilter  
-> ### `float`: direction  
-> ### `float`: immunityDuration  
-> ### `Vector2`: initialVelocity  
-> ### `bool`: isExploded  
-> ### `Player`: owner  
-> ### `float`: pickTargetCooldown  
-> ### `TimeSpan`: shootTime  
-> ### `CSpriteDrawComponent`: sprite  
-> ### `Player`: target  
-> ### `Player`: unknown  
+> <!-- replacement --> `CActor`: actor  
+> <!-- replacement --> `float`: agility  
+> <!-- replacement --> `CAABB`: bounds  
+> <!-- replacement --> `CCollisionFilter`: collisionFilter  
+> <!-- replacement --> `float`: direction  
+> <!-- replacement --> `float`: immunityDuration  
+> <!-- replacement --> `Vector2`: initialVelocity  
+> <!-- replacement --> `bool`: isExploded  
+> <!-- replacement --> `Player`: owner  
+> <!-- replacement --> `float`: pickTargetCooldown  
+> <!-- replacement --> `TimeSpan`: shootTime  
+> <!-- replacement --> `CSpriteDrawComponent`: sprite  
+> <!-- replacement --> `Player`: target  
+> <!-- replacement --> `Player`: unknown  
 ##  `target`: RocketLauncher
-> ### `CActor`: actor  
-> ### `CAABB`: bounds  
-> ### `CCollisionFilter`: collisionFilter  
-> ### `CAnimatedSpriteDrawComponent`: gearSprite  
-> ### `bool`: isEditor  
-> ### `bool`: isHovered  
-> ### `bool`: isResizing  
-> ### `List<Rocket>`: rockets  
-> ### `CImageDrawComponent`: selectionRectangle  
-> ### `float`: shootCooldown  
-> ### `CAnimatedSpriteDrawComponent`: sprite  
-> ### `Player`: target  
+> <!-- replacement --> `CActor`: actor  
+> <!-- replacement --> `CAABB`: bounds  
+> <!-- replacement --> `CCollisionFilter`: collisionFilter  
+> <!-- replacement --> `CAnimatedSpriteDrawComponent`: gearSprite  
+> <!-- replacement --> `bool`: isEditor  
+> <!-- replacement --> `bool`: isHovered  
+> <!-- replacement --> `bool`: isResizing  
+> <!-- replacement --> `List<Rocket>`: rockets  
+> <!-- replacement --> `CImageDrawComponent`: selectionRectangle  
+> <!-- replacement --> `float`: shootCooldown  
+> <!-- replacement --> `CAnimatedSpriteDrawComponent`: sprite  
+> <!-- replacement --> `Player`: target  
 ##  `target`: Rope
-> ### `CActor`: actor  
-> ### `Vector2`: breakEndPoint  
-> ### `float`: breakLength  
-> ### `Vector2`: breakStartPoint  
-> ### `CCollisionFilter`: collisionFilter  
-> ### `Color`: color  
-> ### `bool`: isActive  
-> ### `bool`: isBreaking  
-> ### `Player`: owner  
+> <!-- replacement --> `CActor`: actor  
+> <!-- replacement --> `Vector2`: breakEndPoint  
+> <!-- replacement --> `float`: breakLength  
+> <!-- replacement --> `Vector2`: breakStartPoint  
+> <!-- replacement --> `CCollisionFilter`: collisionFilter  
+> <!-- replacement --> `Color`: color  
+> <!-- replacement --> `bool`: isActive  
+> <!-- replacement --> `bool`: isBreaking  
+> <!-- replacement --> `Player`: owner  
 ##  `target`: Shockwave
-> ### `CActor`: actor  
-> ### `float`: anticipationDuration  
-> ### `CAnimatedSpriteDrawComponent`: anticipationSprite  
-> ### `float`: anticipationTimer  
-> ### `Vector2`: initialPosition  
-> ### `bool`: isAnticipating  
-> ### `float`: lifeTimer  
-> ### `Player`: owner  
-> ### `CAnimatedSpriteDrawComponent`: sprit90  
-> ### `CAnimatedSpriteDrawComponent`: sprite0  
-> ### `CAnimatedSpriteDrawComponent`: spriteNeg180  
-> ### `CAnimatedSpriteDrawComponent`: spriteNeg90  
+> <!-- replacement --> `CActor`: actor  
+> <!-- replacement --> `float`: anticipationDuration  
+> <!-- replacement --> `CAnimatedSpriteDrawComponent`: anticipationSprite  
+> <!-- replacement --> `float`: anticipationTimer  
+> <!-- replacement --> `Vector2`: initialPosition  
+> <!-- replacement --> `bool`: isAnticipating  
+> <!-- replacement --> `float`: lifeTimer  
+> <!-- replacement --> `Player`: owner  
+> <!-- replacement --> `CAnimatedSpriteDrawComponent`: sprit90  
+> <!-- replacement --> `CAnimatedSpriteDrawComponent`: sprite0  
+> <!-- replacement --> `CAnimatedSpriteDrawComponent`: spriteNeg180  
+> <!-- replacement --> `CAnimatedSpriteDrawComponent`: spriteNeg90  
 ##  `target`: SoloCameraModifier
-> ### `CCamera`: camera  
-> ### `float`: heightRatioTo720  
-> ### `Vector2`: offset  
-> ### `Player`: player  
-> ### `Vector2`: viewportPoint  
-> ### `Vector2`: worldFocusPoint  
-> ### `float`: zoom  
+> <!-- replacement --> `CCamera`: camera  
+> <!-- replacement --> `float`: heightRatioTo720  
+> <!-- replacement --> `Vector2`: offset  
+> <!-- replacement --> `Player`: player  
+> <!-- replacement --> `Vector2`: viewportPoint  
+> <!-- replacement --> `Vector2`: worldFocusPoint  
+> <!-- replacement --> `float`: zoom  
 ##  `target`: StraightRocket
-> ### `CActor`: actor  
-> ### `CAABB`: bounds  
-> ### `CCollisionFilter`: collisionFilter  
-> ### `bool`: isExploded  
-> ### `CSpriteDrawComponent`: sprite  
+> <!-- replacement --> `CActor`: actor  
+> <!-- replacement --> `CAABB`: bounds  
+> <!-- replacement --> `CCollisionFilter`: collisionFilter  
+> <!-- replacement --> `bool`: isExploded  
+> <!-- replacement --> `CSpriteDrawComponent`: sprite  
 ##  `target`: SuperBoostVolume
-> ### `CActor`: actor  
-> ### `CAABB`: bounds  
-> ### `CCollisionFilter`: collisionFilter  
-> ### `EditableEnum`: direction  
-> ### `bool`: isEditor  
-> ### `bool`: isHovered  
-> ### `bool`: isResizing  
-> ### `CImageDrawComponent`: selectionRectangle  
+> <!-- replacement --> `CActor`: actor  
+> <!-- replacement --> `CAABB`: bounds  
+> <!-- replacement --> `CCollisionFilter`: collisionFilter  
+> <!-- replacement --> `EditableEnum`: direction  
+> <!-- replacement --> `bool`: isEditor  
+> <!-- replacement --> `bool`: isHovered  
+> <!-- replacement --> `bool`: isResizing  
+> <!-- replacement --> `CImageDrawComponent`: selectionRectangle  
 ##  `target`: SwitchBlock
-> ### `CActor`: actor  
-> ### `CAABB`: bounds  
-> ### `int`: closeDirection  
-> ### `EditableFloat`: closedRotation  
-> ### `float`: closedRotationRad  
-> ### `CCollisionFilter`: collisionFilter  
-> ### `int`: direction  
-> ### `bool`: isEditor  
-> ### `bool`: isHovered  
-> ### `bool`: isResizing  
-> ### `bool`: isRotating  
-> ### `float`: maxRotation  
-> ### `float`: minRotation  
-> ### `int`: openDirection  
-> ### `EditableFloat`: openRotation  
-> ### `int`: resetDirection  
-> ### `float`: rotation  
-> ### `EditableFloat`: rotationSpeed  
-> ### `float`: rotationSpeedRad  
-> ### `CImageDrawComponent`: selectionRectangle  
-> ### `CAnimatedSpriteDrawComponent`: sprite  
-> ### `EditableString`: triggerId  
-> ### `CAnimatedSpriteDrawComponent`: triggerSparkSprite  
+> <!-- replacement --> `CActor`: actor  
+> <!-- replacement --> `CAABB`: bounds  
+> <!-- replacement --> `int`: closeDirection  
+> <!-- replacement --> `EditableFloat`: closedRotation  
+> <!-- replacement --> `float`: closedRotationRad  
+> <!-- replacement --> `CCollisionFilter`: collisionFilter  
+> <!-- replacement --> `int`: direction  
+> <!-- replacement --> `bool`: isEditor  
+> <!-- replacement --> `bool`: isHovered  
+> <!-- replacement --> `bool`: isResizing  
+> <!-- replacement --> `bool`: isRotating  
+> <!-- replacement --> `float`: maxRotation  
+> <!-- replacement --> `float`: minRotation  
+> <!-- replacement --> `int`: openDirection  
+> <!-- replacement --> `EditableFloat`: openRotation  
+> <!-- replacement --> `int`: resetDirection  
+> <!-- replacement --> `float`: rotation  
+> <!-- replacement --> `EditableFloat`: rotationSpeed  
+> <!-- replacement --> `float`: rotationSpeedRad  
+> <!-- replacement --> `CImageDrawComponent`: selectionRectangle  
+> <!-- replacement --> `CAnimatedSpriteDrawComponent`: sprite  
+> <!-- replacement --> `EditableString`: triggerId  
+> <!-- replacement --> `CAnimatedSpriteDrawComponent`: triggerSparkSprite  
 ##  `target`: Timer
-> ### `CActor`: actor  
-> ### `float`: best  
-> ### `CAABB`: bounds  
-> ### `CCollisionFilter`: collisionFilter  
-> ### `float`: current  
-> ### `float`: flagLetDownTime  
-> ### `bool`: isEditor  
-> ### `bool`: isHovered  
-> ### `bool`: isInPracticeMode  
-> ### `bool`: isRemoteSimulated  
-> ### `bool`: isResizing  
-> ### `float`: last  
-> ### `CAnimatedSpriteDrawComponent`: poleSprite  
-> ### `CImageDrawComponent`: selectionRectangle  
-> ### `EditableEnum`: unknown  
+> <!-- replacement --> `CActor`: actor  
+> <!-- replacement --> `float`: best  
+> <!-- replacement --> `CAABB`: bounds  
+> <!-- replacement --> `CCollisionFilter`: collisionFilter  
+> <!-- replacement --> `float`: current  
+> <!-- replacement --> `float`: flagLetDownTime  
+> <!-- replacement --> `bool`: isEditor  
+> <!-- replacement --> `bool`: isHovered  
+> <!-- replacement --> `bool`: isInPracticeMode  
+> <!-- replacement --> `bool`: isRemoteSimulated  
+> <!-- replacement --> `bool`: isResizing  
+> <!-- replacement --> `float`: last  
+> <!-- replacement --> `CAnimatedSpriteDrawComponent`: poleSprite  
+> <!-- replacement --> `CImageDrawComponent`: selectionRectangle  
+> <!-- replacement --> `EditableEnum`: unknown  
 ##  `target`: Trigger
-> ### `CActor`: actor  
-> ### `CAABB`: bounds  
-> ### `CCollisionFilter`: collisionFilter  
-> ### `bool`: isEditor  
-> ### `bool`: isHovered  
-> ### `bool`: isOpen  
-> ### `bool`: isRemoteSimulated  
-> ### `bool`: isResizing  
-> ### `EditableBool`: isRetriggerOnRespawn  
-> ### `EditableEnum`: mode  
-> ### `CImageDrawComponent`: selectionRectangle  
-> ### `float`: timer  
-> ### `EditableString`: triggerId  
+> <!-- replacement --> `CActor`: actor  
+> <!-- replacement --> `CAABB`: bounds  
+> <!-- replacement --> `CCollisionFilter`: collisionFilter  
+> <!-- replacement --> `bool`: isEditor  
+> <!-- replacement --> `bool`: isHovered  
+> <!-- replacement --> `bool`: isOpen  
+> <!-- replacement --> `bool`: isRemoteSimulated  
+> <!-- replacement --> `bool`: isResizing  
+> <!-- replacement --> `EditableBool`: isRetriggerOnRespawn  
+> <!-- replacement --> `EditableEnum`: mode  
+> <!-- replacement --> `CImageDrawComponent`: selectionRectangle  
+> <!-- replacement --> `float`: timer  
+> <!-- replacement --> `EditableString`: triggerId  
 ##  `target`: TriggerSaw
-> ### `CActor`: actor  
-> ### `CAABB`: bounds  
-> ### `CCollisionFilter`: collisionFilter  
-> ### `Vector2`: defaultPosition  
-> ### `bool`: hasReachedOffsetX  
-> ### `bool`: hasReachedOffsetY  
-> ### `CConvexPolygon`: hitbox  
-> ### `CImageDrawComponent`: image  
-> ### `bool`: isEditor  
-> ### `bool`: isHovered  
-> ### `bool`: isMoving  
-> ### `bool`: isMovingToOffset  
-> ### `bool`: isResizing  
-> ### `Vector2`: moveDirection  
-> ### `Vector2`: offsetPosition  
-> ### `float`: retreatTimer  
-> ### `CImageDrawComponent`: selectionRectangle  
-> ### `Vector2`: targetPosition  
-> ### `EditableString`: triggerId  
-> ### `EditableFloat`: triggerOffsetX  
-> ### `EditableFloat`: triggerOffsetY  
+> <!-- replacement --> `CActor`: actor  
+> <!-- replacement --> `CAABB`: bounds  
+> <!-- replacement --> `CCollisionFilter`: collisionFilter  
+> <!-- replacement --> `Vector2`: defaultPosition  
+> <!-- replacement --> `bool`: hasReachedOffsetX  
+> <!-- replacement --> `bool`: hasReachedOffsetY  
+> <!-- replacement --> `CConvexPolygon`: hitbox  
+> <!-- replacement --> `CImageDrawComponent`: image  
+> <!-- replacement --> `bool`: isEditor  
+> <!-- replacement --> `bool`: isHovered  
+> <!-- replacement --> `bool`: isMoving  
+> <!-- replacement --> `bool`: isMovingToOffset  
+> <!-- replacement --> `bool`: isResizing  
+> <!-- replacement --> `Vector2`: moveDirection  
+> <!-- replacement --> `Vector2`: offsetPosition  
+> <!-- replacement --> `float`: retreatTimer  
+> <!-- replacement --> `CImageDrawComponent`: selectionRectangle  
+> <!-- replacement --> `Vector2`: targetPosition  
+> <!-- replacement --> `EditableString`: triggerId  
+> <!-- replacement --> `EditableFloat`: triggerOffsetX  
+> <!-- replacement --> `EditableFloat`: triggerOffsetY  
 ##  `target`: Tunnel
-> ### `CActor`: actor  
-> ### `CAABB`: bounds  
-> ### `CCollisionFilter`: collisionFilter  
-> ### `bool`: isEditor  
-> ### `bool`: isHovered  
-> ### `bool`: isResizing  
-> ### `CImageDrawComponent`: selectionRectangle  
-> ### `CSpriteDrawComponent`: tunnelEntranceSprite  
-> ### `CSpriteDrawComponent`: tunnelLeftWallSprite  
-> ### `CSpriteDrawComponent`: tunnelRightWallSprite  
+> <!-- replacement --> `CActor`: actor  
+> <!-- replacement --> `CAABB`: bounds  
+> <!-- replacement --> `CCollisionFilter`: collisionFilter  
+> <!-- replacement --> `bool`: isEditor  
+> <!-- replacement --> `bool`: isHovered  
+> <!-- replacement --> `bool`: isResizing  
+> <!-- replacement --> `CImageDrawComponent`: selectionRectangle  
+> <!-- replacement --> `CSpriteDrawComponent`: tunnelEntranceSprite  
+> <!-- replacement --> `CSpriteDrawComponent`: tunnelLeftWallSprite  
+> <!-- replacement --> `CSpriteDrawComponent`: tunnelRightWallSprite  
 ##  `target`: Velo
-> ### `int`: frame  
-> ### `int`: frameStart  
-> ### `int`: frameEnd  
-> ### `float`: seek  
-> ### `float`: seekStart  
-> ### `float`: seekEnd  
-> ### `TimeSpan`: delta  
-> ### `double`: deltaSec  
-> ### `TimeSpan`: totalTime  
-> ### `TimeSpan`: realTime  
-> ### `TimeSpan`: realDelta  
-> ### `double`: realDeltaSec  
-> ### `bool`: isIngame  
-> ### `bool`: isSolo  
-> ### `bool`: isOnline  
-> ### `bool`: isPaused  
-> ### `bool`: isPlaybackRunning  
-> ### `int`: playbackType  
-> ### `ulong`: mapId  
-> ### `ulong`: mySteamId  
-> ### `uint`: tileWidth  
-> ### `uint`: tileHeight  
-> ### `int`: screenWidth  
-> ### `int`: screenHeight  
-> ### `Vector2`: mouse  
-> ### `Vector2`: leftStick  
-> ### `Vector2`: rightStick  
-> ### `float`: leftTrigger  
-> ### `float`: rightTrigger  
-> ### `string`: consoleText  
-> ### `float`: angleDisplay  
-> ### `float`: jumpHoldingDisplay  
+> <!-- replacement --> `int`: frame  
+> <!-- replacement --> `int`: frameStart  
+> <!-- replacement --> `int`: frameEnd  
+> <!-- replacement --> `float`: seek  
+> <!-- replacement --> `float`: seekStart  
+> <!-- replacement --> `float`: seekEnd  
+> <!-- replacement --> `TimeSpan`: delta  
+> <!-- replacement --> `double`: deltaSec  
+> <!-- replacement --> `TimeSpan`: totalTime  
+> <!-- replacement --> `TimeSpan`: realTime  
+> <!-- replacement --> `TimeSpan`: realDelta  
+> <!-- replacement --> `double`: realDeltaSec  
+> <!-- replacement --> `bool`: isIngame  
+> <!-- replacement --> `bool`: isSolo  
+> <!-- replacement --> `bool`: isOnline  
+> <!-- replacement --> `bool`: isPaused  
+> <!-- replacement --> `bool`: isPlaybackRunning  
+> <!-- replacement --> `int`: playbackType  
+> <!-- replacement --> `ulong`: mapId  
+> <!-- replacement --> `ulong`: mySteamId  
+> <!-- replacement --> `uint`: tileWidth  
+> <!-- replacement --> `uint`: tileHeight  
+> <!-- replacement --> `int`: screenWidth  
+> <!-- replacement --> `int`: screenHeight  
+> <!-- replacement --> `Vector2`: mouse  
+> <!-- replacement --> `Vector2`: leftStick  
+> <!-- replacement --> `Vector2`: rightStick  
+> <!-- replacement --> `float`: leftTrigger  
+> <!-- replacement --> `float`: rightTrigger  
+> <!-- replacement --> `string`: consoleText  
+> <!-- replacement --> `float`: angleDisplay  
+> <!-- replacement --> `float`: jumpHoldingDisplay  
 ##  `Class`: CActor
-> ### `bool`: automaticCollisionDetection  
-> ### `CAABB`: bounds  
-> ### `float`: collisionSweepMinimalDensity  
-> ### `int`: id  
-> ### `bool`: isCollidable  
-> ### `bool`: isCollisionActive  
-> ### `float`: iterationTimeStep  
-> ### `Vector2`: position  
-> ### `float`: rotation  
-> ### `bool`: shouldPredictCollision  
-> ### `Vector2`: size  
-> ### `int`: totalIterations  
-> ### `Vector2`: velocity  
-> ### `Vector2`: _measuredVelocity  
-> ### `Vector2`: _acceleration  
+> <!-- replacement --> `bool`: automaticCollisionDetection  
+> <!-- replacement --> `CAABB`: bounds  
+> <!-- replacement --> `float`: collisionSweepMinimalDensity  
+> <!-- replacement --> `int`: id  
+> <!-- replacement --> `bool`: isCollidable  
+> <!-- replacement --> `bool`: isCollisionActive  
+> <!-- replacement --> `float`: iterationTimeStep  
+> <!-- replacement --> `Vector2`: position  
+> <!-- replacement --> `float`: rotation  
+> <!-- replacement --> `bool`: shouldPredictCollision  
+> <!-- replacement --> `Vector2`: size  
+> <!-- replacement --> `int`: totalIterations  
+> <!-- replacement --> `Vector2`: velocity  
+> <!-- replacement --> `Vector2`: _measuredVelocity  
+> <!-- replacement --> `Vector2`: _acceleration  
 ##  `Class`: CAABB
-> ### `float`: height  
-> ### `float`: maxX  
-> ### `float`: maxY  
-> ### `float`: minX  
-> ### `float`: minY  
-> ### `float`: width  
+> <!-- replacement --> `float`: height  
+> <!-- replacement --> `float`: maxX  
+> <!-- replacement --> `float`: maxY  
+> <!-- replacement --> `float`: minX  
+> <!-- replacement --> `float`: minY  
+> <!-- replacement --> `float`: width  
 ##  `Class`: EditableBool
-> ### `string`: key  
-> ### `string`: name  
-> ### `bool`: showToUser  
-> ### `string`: toolTip  
-> ### `int`: value  
+> <!-- replacement --> `string`: key  
+> <!-- replacement --> `string`: name  
+> <!-- replacement --> `bool`: showToUser  
+> <!-- replacement --> `string`: toolTip  
+> <!-- replacement --> `int`: value  
 ##  `Class`: CImageDrawComponent
-> ### `CAABB`: bounds  
-> ### `Color`: color  
-> ### `Rectangle`: destinationRectangle  
-> ### `Rectangle`: drawSource  
-> ### `bool`: flipped  
-> ### `bool`: isVisible  
-> ### `string`: layerId  
-> ### `Vector2`: offset  
-> ### `float`: opacity  
-> ### `Vector2`: origin  
-> ### `Vector2`: position  
-> ### `float`: rotation  
-> ### `Vector2`: scale  
-> ### `Vector2`: size  
+> <!-- replacement --> `CAABB`: bounds  
+> <!-- replacement --> `Color`: color  
+> <!-- replacement --> `Rectangle`: destinationRectangle  
+> <!-- replacement --> `Rectangle`: drawSource  
+> <!-- replacement --> `bool`: flipped  
+> <!-- replacement --> `bool`: isVisible  
+> <!-- replacement --> `string`: layerId  
+> <!-- replacement --> `Vector2`: offset  
+> <!-- replacement --> `float`: opacity  
+> <!-- replacement --> `Vector2`: origin  
+> <!-- replacement --> `Vector2`: position  
+> <!-- replacement --> `float`: rotation  
+> <!-- replacement --> `Vector2`: scale  
+> <!-- replacement --> `Vector2`: size  
 ##  `Class`: EditableString
-> ### `string`: key  
-> ### `string`: name  
-> ### `bool`: showToUser  
-> ### `string`: toolTip  
-> ### `string`: value  
+> <!-- replacement --> `string`: key  
+> <!-- replacement --> `string`: name  
+> <!-- replacement --> `bool`: showToUser  
+> <!-- replacement --> `string`: toolTip  
+> <!-- replacement --> `string`: value  
 ##  `Class`: EditableEnum
-> ### `string`: key  
-> ### `string`: name  
-> ### `bool`: showToUser  
-> ### `string`: toolTip  
-> ### `int`: value  
+> <!-- replacement --> `string`: key  
+> <!-- replacement --> `string`: name  
+> <!-- replacement --> `bool`: showToUser  
+> <!-- replacement --> `string`: toolTip  
+> <!-- replacement --> `int`: value  
 ##  `Class`: EditableInt
-> ### `bool`: deletable  
-> ### `string`: key  
-> ### `int`: maxValue  
-> ### `int`: minValue  
-> ### `string`: name  
-> ### `bool`: showToUser  
-> ### `string`: toolTip  
-> ### `int`: value  
+> <!-- replacement --> `bool`: deletable  
+> <!-- replacement --> `string`: key  
+> <!-- replacement --> `int`: maxValue  
+> <!-- replacement --> `int`: minValue  
+> <!-- replacement --> `string`: name  
+> <!-- replacement --> `bool`: showToUser  
+> <!-- replacement --> `string`: toolTip  
+> <!-- replacement --> `int`: value  
 ##  `Class`: EditableFloat
-> ### `string`: key  
-> ### `float`: maxValue  
-> ### `float`: minValue  
-> ### `string`: name  
-> ### `bool`: showToUser  
-> ### `string`: toolTip  
-> ### `float`: value  
+> <!-- replacement --> `string`: key  
+> <!-- replacement --> `float`: maxValue  
+> <!-- replacement --> `float`: minValue  
+> <!-- replacement --> `string`: name  
+> <!-- replacement --> `bool`: showToUser  
+> <!-- replacement --> `string`: toolTip  
+> <!-- replacement --> `float`: value  
 ##  `Class`: CConvexPolygon
-> ### `Vector2`: center  
-> ### `Vector2[]`: localVertices  
-> ### `Vector2`: pivot  
-> ### `Vector2`: position  
-> ### `float`: rotation  
-> ### `Vector2[]`: vertices  
+> <!-- replacement --> `Vector2`: center  
+> <!-- replacement --> `Vector2[]`: localVertices  
+> <!-- replacement --> `Vector2`: pivot  
+> <!-- replacement --> `Vector2`: position  
+> <!-- replacement --> `float`: rotation  
+> <!-- replacement --> `Vector2[]`: vertices  
 ##  `Class`: CAnimatedSpriteDrawComponent
-> ### `CAABB`: bounds  
-> ### `Color`: color  
-> ### `int`: currentFrameInAnimation  
-> ### `Rectangle`: destinationRectangle  
-> ### `bool`: flipped  
-> ### `bool`: isPlaying  
-> ### `bool`: isVisible  
-> ### `string`: layerId  
-> ### `int`: millisPerFrame  
-> ### `string`: nextAnimation  
-> ### `Vector2`: offset  
-> ### `float`: opacity  
-> ### `Vector2`: origin  
-> ### `bool`: pingPongState  
-> ### `Vector2`: position  
-> ### `float`: rotation  
-> ### `Vector2`: scale  
-> ### `Vector2`: size  
-> ### `Vector2`: sourceOrigin  
-> ### `Vector2`: sourceOriginalSize  
-> ### `Rectangle`: sourceRectangle  
-> ### `TimeSpan`: time  
-> ### `int`: totalMillis  
+> <!-- replacement --> `CAABB`: bounds  
+> <!-- replacement --> `Color`: color  
+> <!-- replacement --> `int`: currentFrameInAnimation  
+> <!-- replacement --> `Rectangle`: destinationRectangle  
+> <!-- replacement --> `bool`: flipped  
+> <!-- replacement --> `bool`: isPlaying  
+> <!-- replacement --> `bool`: isVisible  
+> <!-- replacement --> `string`: layerId  
+> <!-- replacement --> `int`: millisPerFrame  
+> <!-- replacement --> `string`: nextAnimation  
+> <!-- replacement --> `Vector2`: offset  
+> <!-- replacement --> `float`: opacity  
+> <!-- replacement --> `Vector2`: origin  
+> <!-- replacement --> `bool`: pingPongState  
+> <!-- replacement --> `Vector2`: position  
+> <!-- replacement --> `float`: rotation  
+> <!-- replacement --> `Vector2`: scale  
+> <!-- replacement --> `Vector2`: size  
+> <!-- replacement --> `Vector2`: sourceOrigin  
+> <!-- replacement --> `Vector2`: sourceOriginalSize  
+> <!-- replacement --> `Rectangle`: sourceRectangle  
+> <!-- replacement --> `TimeSpan`: time  
+> <!-- replacement --> `int`: totalMillis  
 ##  `Class`: ClampCameraModifier
-> ### `Rectangle`: bounds  
-> ### `CCamera`: camera  
-> ### `Rectangle`: viewportBounds  
-> ### `Vector2`: viewportPoint  
-> ### `Vector2`: worldFocusPoint  
+> <!-- replacement --> `Rectangle`: bounds  
+> <!-- replacement --> `CCamera`: camera  
+> <!-- replacement --> `Rectangle`: viewportBounds  
+> <!-- replacement --> `Vector2`: viewportPoint  
+> <!-- replacement --> `Vector2`: worldFocusPoint  
 ##  `Class`: Vector2
-> ### `float`: x  
-> ### `float`: y  
-> ### `float`: _length  
-> ### `float`: _a  
+> <!-- replacement --> `float`: x  
+> <!-- replacement --> `float`: y  
+> <!-- replacement --> `float`: _length  
+> <!-- replacement --> `float`: _a  
 ##  `Class`: Matrix
-> ### `float`: M11  
-> ### `float`: M12  
-> ### `float`: M13  
-> ### `float`: M14  
-> ### `float`: M21  
-> ### `float`: M22  
-> ### `float`: M23  
-> ### `float`: M24  
-> ### `float`: M31  
-> ### `float`: M32  
-> ### `float`: M33  
-> ### `float`: M34  
-> ### `float`: M41  
-> ### `float`: M42  
-> ### `float`: M43  
-> ### `float`: M44  
+> <!-- replacement --> `float`: M11  
+> <!-- replacement --> `float`: M12  
+> <!-- replacement --> `float`: M13  
+> <!-- replacement --> `float`: M14  
+> <!-- replacement --> `float`: M21  
+> <!-- replacement --> `float`: M22  
+> <!-- replacement --> `float`: M23  
+> <!-- replacement --> `float`: M24  
+> <!-- replacement --> `float`: M31  
+> <!-- replacement --> `float`: M32  
+> <!-- replacement --> `float`: M33  
+> <!-- replacement --> `float`: M34  
+> <!-- replacement --> `float`: M41  
+> <!-- replacement --> `float`: M42  
+> <!-- replacement --> `float`: M43  
+> <!-- replacement --> `float`: M44  
 ##  `Class`: ShakeCameraModifier
-> ### `CCamera`: camera  
-> ### `TimeSpan`: duration  
-> ### `bool`: fadeOut  
-> ### `float`: initialIntensity  
-> ### `float`: intensity  
-> ### `bool`: isActive  
-> ### `Vector2`: offset  
-> ### `Random`: random  
-> ### `TimeSpan`: startTime  
-> ### `Rectangle`: viewportBounds  
+> <!-- replacement --> `CCamera`: camera  
+> <!-- replacement --> `TimeSpan`: duration  
+> <!-- replacement --> `bool`: fadeOut  
+> <!-- replacement --> `float`: initialIntensity  
+> <!-- replacement --> `float`: intensity  
+> <!-- replacement --> `bool`: isActive  
+> <!-- replacement --> `Vector2`: offset  
+> <!-- replacement --> `Random`: random  
+> <!-- replacement --> `TimeSpan`: startTime  
+> <!-- replacement --> `Rectangle`: viewportBounds  
 ##  `Class`: Viewport
-> ### `FNA3D_Viewport`: viewport  
+> <!-- replacement --> `FNA3D_Viewport`: viewport  
 ##  `Class`: CTextDrawComponent
-> ### `Vector2`: align  
-> ### `CAABB`: bounds  
-> ### `Color`: color  
-> ### `Color`: dropShadowColor  
-> ### `Vector2`: dropShadowOffset  
-> ### `bool`: flipped  
-> ### `bool`: hasDropShadow  
-> ### `bool`: isVisible  
-> ### `string`: layerId  
-> ### `Vector2`: offset  
-> ### `float`: opacity  
-> ### `Vector2`: position  
-> ### `float`: rotation  
-> ### `Vector2`: scale  
-> ### `Vector2`: size  
-> ### `Vector2`: stringSize  
+> <!-- replacement --> `Vector2`: align  
+> <!-- replacement --> `CAABB`: bounds  
+> <!-- replacement --> `Color`: color  
+> <!-- replacement --> `Color`: dropShadowColor  
+> <!-- replacement --> `Vector2`: dropShadowOffset  
+> <!-- replacement --> `bool`: flipped  
+> <!-- replacement --> `bool`: hasDropShadow  
+> <!-- replacement --> `bool`: isVisible  
+> <!-- replacement --> `string`: layerId  
+> <!-- replacement --> `Vector2`: offset  
+> <!-- replacement --> `float`: opacity  
+> <!-- replacement --> `Vector2`: position  
+> <!-- replacement --> `float`: rotation  
+> <!-- replacement --> `Vector2`: scale  
+> <!-- replacement --> `Vector2`: size  
+> <!-- replacement --> `Vector2`: stringSize  
 ##  `Class`: CSpriteDrawComponent
-> ### `CAABB`: bounds  
-> ### `Color`: color  
-> ### `Rectangle`: destinationRectangle  
-> ### `Rectangle`: drawSource  
-> ### `bool`: flipped  
-> ### `bool`: isVisible  
-> ### `string`: layerId  
-> ### `Vector2`: offset  
-> ### `float`: opacity  
-> ### `Vector2`: origin  
-> ### `Vector2`: position  
-> ### `float`: rotation  
-> ### `Vector2`: scale  
-> ### `Vector2`: size  
-> ### `Vector2`: sourceOrigin  
-> ### `Vector2`: sourceOriginalSize  
-> ### `int`: spriteIndex  
+> <!-- replacement --> `CAABB`: bounds  
+> <!-- replacement --> `Color`: color  
+> <!-- replacement --> `Rectangle`: destinationRectangle  
+> <!-- replacement --> `Rectangle`: drawSource  
+> <!-- replacement --> `bool`: flipped  
+> <!-- replacement --> `bool`: isVisible  
+> <!-- replacement --> `string`: layerId  
+> <!-- replacement --> `Vector2`: offset  
+> <!-- replacement --> `float`: opacity  
+> <!-- replacement --> `Vector2`: origin  
+> <!-- replacement --> `Vector2`: position  
+> <!-- replacement --> `float`: rotation  
+> <!-- replacement --> `Vector2`: scale  
+> <!-- replacement --> `Vector2`: size  
+> <!-- replacement --> `Vector2`: sourceOrigin  
+> <!-- replacement --> `Vector2`: sourceOriginalSize  
+> <!-- replacement --> `int`: spriteIndex  
 ##  `Class`: Random
-> ### `int`: inext  
-> ### `int`: inextp  
-> ### `int[]`: SeedArray  
+> <!-- replacement --> `int`: inext  
+> <!-- replacement --> `int`: inextp  
+> <!-- replacement --> `int[]`: SeedArray  
 ##  `Class`: double
