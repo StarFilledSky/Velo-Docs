@@ -1,5 +1,9 @@
 
 
+.md-nav {
+    line-height: 1;
+}
+
 .md-typeset code {
     background-color: hsla(227, 48.1%, 54.7%, 0.26);
     color: #c3a0ff;
