@@ -1,5 +1,5 @@
 # Velo Variables
-A list of all the possible game values that can be queried/changed with Velo.
+A list of all the fields that are accessible in some way with Velo.
 
 ##  `target`: AIVolume
 > <!-- replacement --> `CActor`: actor  
