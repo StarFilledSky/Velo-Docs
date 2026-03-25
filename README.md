@@ -17,7 +17,7 @@ The wiki is created by making [markdown](https://www.markdownguide.org/getting-s
 > This assumes you already have python installed and have familiarity with the terminal.
 
 Clone the repository.  
-``git clone https://github.com/StarFilledSky/SR-Wiki``  
+``git clone https://github.com/StarFilledSky/Velo-Docs``  
 
 Create a python virtual environment in the directory.  
 ``python -m venv venv``  
