@@ -12,15 +12,15 @@ markdown_extensions:
 
 plugins:
   - search
+  - autorefs
   - document-dates:
       position: bottom 
-
-  # - autorefs #todo look into
 extra_css:
   - assets/stylesheets/extra.css
 
 nav:
- - Targets.md
+  - All.md
+  - Targets.md
 
 
 theme:
