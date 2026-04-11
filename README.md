@@ -27,7 +27,7 @@ Activating the virtual enviroment.
 Windows  
 ``./venv/Scripts/Activate.ps1``  
 Linux / MacOS  
-source myvenv/bin/activate``
+``source myvenv/bin/activate``  
 
 Install the requirements for building the project.  
 ``pip install -r requirements.txt``
