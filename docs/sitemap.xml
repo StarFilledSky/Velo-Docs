@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://starfilledsky.github.io/Velo-Docs/</loc>
-         <lastmod>2026-04-10</lastmod>
+         <lastmod>2026-05-14</lastmod>
     </url>
     <url>
-         <loc>https://starfilledsky.github.io/Velo-Docs/All/</loc>
-         <lastmod>2026-04-10</lastmod>
+         <loc>https://starfilledsky.github.io/Velo-Docs/Classes/</loc>
+         <lastmod>2026-05-14</lastmod>
     </url>
     <url>
-         <loc>https://starfilledsky.github.io/Velo-Docs/Targets/</loc>
-         <lastmod>2026-04-10</lastmod>
+         <loc>https://starfilledsky.github.io/Velo-Docs/Variables/</loc>
+         <lastmod>2026-05-14</lastmod>
     </url>
 </urlset>

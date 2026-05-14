@@ -5,9 +5,9 @@
 }
 
 .md-typeset code {
-    background-color: hsla(227, 48.1%, 54.7%, 0.26);
-    color: #c3a0ff;
-    padding: 0 .2em;
+    /* background-color: hsla(227, 48.1%, 54.7%, 0.26); */
+    /* color: #c3a0ff; */
+    /* padding: 0 .2em; */
     margin: .1em;
 }
 
@@ -28,4 +28,27 @@
 }
 .md-typeset a:hover {
     color: hsl(45, 100%, 66%);
+}
+
+
+
+
+
+.velo-category {
+    margin: 0px;
+}
+
+.velo-category code {
+    background-color: hsla(227, 48.1%, 54.7%, 0.26);
+    color: #c3a0ff;
+    padding: 0 .2em;
+}
+
+.velo-class code {
+    color: #c3a0ff;
+
+}
+
+.velo-target code {
+        color: #fff9a0 !important;
 }
