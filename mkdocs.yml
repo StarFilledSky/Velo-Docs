@@ -19,8 +19,10 @@ extra_css:
   - assets/stylesheets/extra.css
 
 nav:
-  - All.md
-  - Targets.md
+  # - All.md
+  # - Targets.md
+  - Classes.md
+  - Variables.md
 
 
 theme:
@@ -31,8 +33,7 @@ theme:
     - search.suggest
     - search.share
     - toc.follow
-    # - toc(permalink=true): #haven't gotten this working yet
-    #   permalink: "✿"
+
   
 
   palette:
