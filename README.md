@@ -1,4 +1,4 @@
-This is an export of most of the variables accessible by velo made more searchable by mkdocs.
+An unofficial export of most of the variables accessible by velo made more accessible with mkdocs.
 
 TODO:
     - Finalize formatting so it can be automated.
