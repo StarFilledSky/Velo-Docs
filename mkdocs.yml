@@ -47,7 +47,7 @@ theme:
       primary: deep purple
       accent: blue
 
-    - scheme: default
+    - scheme: light
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
