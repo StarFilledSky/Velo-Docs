@@ -18,6 +18,7 @@ plugins:
       position: bottom 
 extra_css:
   - assets/stylesheets/extra.css
+  # - assets/stylesheets/code-color.css # I think this is a bit much so i'm not including it
 
 nav:
   # - All.md

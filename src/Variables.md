@@ -1897,7 +1897,7 @@
 > `float` jumpHoldingDisplay  
 {: .velo-category .velo-float }
 
-## `Class` TriggerSaw  ## {: .velo-category .velo-class }
+## `Class` Leaves  ## {: .velo-category .velo-class }
 
 > `CActor` actor  
 {: .velo-category .velo-CActor }
@@ -1907,21 +1907,6 @@
 
 > `CCollisionFilter` collisionFilter  
 {: .velo-category .velo-CCollisionFilter }
-
-> `Vector2` defaultPosition  
-{: .velo-category .velo-Vector2 }
-
-> `bool` hasReachedOffsetX  
-{: .velo-category .velo-bool }
-
-> `bool` hasReachedOffsetY  
-{: .velo-category .velo-bool }
-
-> `CConvexPolygon` hitbox  
-{: .velo-category .velo-CConvexPolygon }
-
-> `CImageDrawComponent` image  
-{: .velo-category .velo-CImageDrawComponent }
 
 > `bool` isEditor  
 {: .velo-category .velo-bool }
@@ -1929,46 +1914,33 @@
 > `bool` isHovered  
 {: .velo-category .velo-bool }
 
-> `bool` isMoving  
-{: .velo-category .velo-bool }
-
-> `bool` isMovingToOffset  
-{: .velo-category .velo-bool }
-
 > `bool` isResizing  
 {: .velo-category .velo-bool }
-
-> `Vector2` moveDirection  
-{: .velo-category .velo-Vector2 }
-
-> `Vector2` offsetPosition  
-{: .velo-category .velo-Vector2 }
-
-> `float` retreatTimer  
-{: .velo-category .velo-float }
 
 > `CImageDrawComponent` selectionRectangle  
 {: .velo-category .velo-CImageDrawComponent }
 
-> `Vector2` targetPosition  
-{: .velo-category .velo-Vector2 }
+## `Class` EditableString  ## {: .velo-category .velo-class }
 
-> `EditableString` triggerId  
-{: .velo-category .velo-EditableString }
+> `string` key  
+{: .velo-category .velo-string }
 
-> `EditableFloat` triggerOffsetX  
-{: .velo-category .velo-EditableFloat }
+> `string` name  
+{: .velo-category .velo-string }
 
-> `EditableFloat` triggerOffsetY  
-{: .velo-category .velo-EditableFloat }
+> `bool` showToUser  
+{: .velo-category .velo-bool }
 
-## `Class` Rocket  ## {: .velo-category .velo-class }
+> `string` toolTip  
+{: .velo-category .velo-string }
+
+> `string` value  
+{: .velo-category .velo-string }
+
+## `Class` RocketLauncher  ## {: .velo-category .velo-class }
 
 > `CActor` actor  
 {: .velo-category .velo-CActor }
-
-> `float` agility  
-{: .velo-category .velo-float }
 
 > `CAABB` bounds  
 {: .velo-category .velo-CAABB }
@@ -1976,90 +1948,117 @@
 > `CCollisionFilter` collisionFilter  
 {: .velo-category .velo-CCollisionFilter }
 
-> `float` direction  
-{: .velo-category .velo-float }
+> `CAnimatedSpriteDrawComponent` gearSprite  
+{: .velo-category .velo-CAnimatedSpriteDrawComponent }
 
-> `float` immunityDuration  
-{: .velo-category .velo-float }
-
-> `Vector2` initialVelocity  
-{: .velo-category .velo-Vector2 }
-
-> `bool` isExploded  
+> `bool` isEditor  
 {: .velo-category .velo-bool }
 
-> `Player` owner  
-{: .velo-category .velo-Player }
+> `bool` isHovered  
+{: .velo-category .velo-bool }
 
-> `float` pickTargetCooldown  
+> `bool` isResizing  
+{: .velo-category .velo-bool }
+
+> `List<Rocket>` rockets  
+{: .velo-category .velo-List<Rocket> }
+
+> `CImageDrawComponent` selectionRectangle  
+{: .velo-category .velo-CImageDrawComponent }
+
+> `float` shootCooldown  
 {: .velo-category .velo-float }
 
-> `TimeSpan` shootTime  
-{: .velo-category .velo-TimeSpan }
-
-> `CSpriteDrawComponent` sprite  
-{: .velo-category .velo-CSpriteDrawComponent }
+> `CAnimatedSpriteDrawComponent` sprite  
+{: .velo-category .velo-CAnimatedSpriteDrawComponent }
 
 > `Player` target  
 {: .velo-category .velo-Player }
 
-> `Player` unknown  
-{: .velo-category .velo-Player }
+## `Class` Obstacle  ## {: .velo-category .velo-class }
 
-## `Class` SoloCameraModifier  ## {: .velo-category .velo-class }
+> `CActor` actor  
+{: .velo-category .velo-CActor }
 
-> `CCamera` camera  
-{: .velo-category .velo-CCamera }
+> `AIVolume` aiVolume1  
+{: .velo-category .velo-AIVolume }
 
-> `float` heightRatioTo720  
+> `AIVolume` aiVolume2  
+{: .velo-category .velo-AIVolume }
+
+> `CAABB` bounds  
+{: .velo-category .velo-CAABB }
+
+> `float` breakRotationDirection  
 {: .velo-category .velo-float }
 
-> `Vector2` offset  
-{: .velo-category .velo-Vector2 }
-
-> `Player` player  
-{: .velo-category .velo-Player }
-
-> `Vector2` viewportPoint  
-{: .velo-category .velo-Vector2 }
-
-> `Vector2` worldFocusPoint  
-{: .velo-category .velo-Vector2 }
-
-> `float` zoom  
+> `float` breakShade  
 {: .velo-category .velo-float }
 
-## `Class` ShakeCameraModifier  ## {: .velo-category .velo-class }
-
-> `CCamera` camera  
-{: .velo-category .velo-CCamera }
-
-> `TimeSpan` duration  
+> `TimeSpan` breakTime  
 {: .velo-category .velo-TimeSpan }
 
-> `bool` fadeOut  
+> `float` breakTimer  
+{: .velo-category .velo-float }
+
+> `Vector2` breakVelocity  
+{: .velo-category .velo-Vector2 }
+
+> `CCollisionFilter` collisionFilter  
+{: .velo-category .velo-CCollisionFilter }
+
+> `bool` isBroken  
 {: .velo-category .velo-bool }
 
-> `float` initialIntensity  
+> `bool` isEditor  
+{: .velo-category .velo-bool }
+
+> `bool` isHovered  
+{: .velo-category .velo-bool }
+
+> `bool` isRemoteSimulated  
+{: .velo-category .velo-bool }
+
+> `bool` isResizing  
+{: .velo-category .velo-bool }
+
+> `EditableInt` obstacleId  
+{: .velo-category .velo-EditableInt }
+
+> `CImageDrawComponent` selectionRectangle  
+{: .velo-category .velo-CImageDrawComponent }
+
+> `CSpriteDrawComponent` sprite  
+{: .velo-category .velo-CSpriteDrawComponent }
+
+## `Class` Rope  ## {: .velo-category .velo-class }
+
+> `CActor` actor  
+{: .velo-category .velo-CActor }
+
+> `Vector2` breakEndPoint  
+{: .velo-category .velo-Vector2 }
+
+> `float` breakLength  
 {: .velo-category .velo-float }
 
-> `float` intensity  
-{: .velo-category .velo-float }
+> `Vector2` breakStartPoint  
+{: .velo-category .velo-Vector2 }
+
+> `CCollisionFilter` collisionFilter  
+{: .velo-category .velo-CCollisionFilter }
+
+> `Color` color  
+{: .velo-category .velo-Color }
 
 > `bool` isActive  
 {: .velo-category .velo-bool }
 
-> `Vector2` offset  
-{: .velo-category .velo-Vector2 }
+> `bool` isBreaking  
+{: .velo-category .velo-bool }
 
-> `Random` random  
-{: .velo-category .velo-Random }
-
-> `TimeSpan` startTime  
-{: .velo-category .velo-TimeSpan }
-
-> `Rectangle` viewportBounds  
-{: .velo-category .velo-Rectangle }
+> `Player` owner  
+{: .velo-category .velo-Player }
 
 ## `Class` Random  ## {: .velo-category .velo-class }
 
@@ -2072,69 +2071,7 @@
 > `int[]` SeedArray  
 {: .velo-category .velo-int[] }
 
-## `Class` Laser  ## {: .velo-category .velo-class }
-
-> `CActor` actor  
-{: .velo-category .velo-CActor }
-
-> `AIVolume` aiVolume  
-{: .velo-category .velo-AIVolume }
-
-> `CAABB` bounds  
-{: .velo-category .velo-CAABB }
-
-> `CCollisionFilter` collisionFilter  
-{: .velo-category .velo-CCollisionFilter }
-
-> `CCollisionFilter` collisionFilter  
-{: .velo-category .velo-CCollisionFilter }
-
-> `EditableFloat` defaultRotation  
-{: .velo-category .velo-EditableFloat }
-
-> `Vector2` direction  
-{: .velo-category .velo-Vector2 }
-
-> `Vector2` endPoint  
-{: .velo-category .velo-Vector2 }
-
-> `float` growingLength  
-{: .velo-category .velo-float }
-
-> `bool` isEditor  
-{: .velo-category .velo-bool }
-
-> `EditableBool` isFlipped  
-{: .velo-category .velo-EditableBool }
-
-> `bool` isHovered  
-{: .velo-category .velo-bool }
-
-> `bool` isResizing  
-{: .velo-category .velo-bool }
-
-> `Vector2` lineDrawEndPoint  
-{: .velo-category .velo-Vector2 }
-
-> `EditableBool` rotate  
-{: .velo-category .velo-EditableBool }
-
-> `float` rotation  
-{: .velo-category .velo-float }
-
-> `int` rotationDirection  
-{: .velo-category .velo-int }
-
-> `CImageDrawComponent` selectionRectangle  
-{: .velo-category .velo-CImageDrawComponent }
-
-> `float` shrinkingLength  
-{: .velo-category .velo-float }
-
-> `CAnimatedSpriteDrawComponent` sprite  
-{: .velo-category .velo-CAnimatedSpriteDrawComponent }
-
-## `Class` DecoLight  ## {: .velo-category .velo-class }
+## `Class` SuperBoostVolume  ## {: .velo-category .velo-class }
 
 > `CActor` actor  
 {: .velo-category .velo-CActor }
@@ -2145,47 +2082,9 @@
 > `CCollisionFilter` collisionFilter  
 {: .velo-category .velo-CCollisionFilter }
 
-> `EditableEnum` color  
+> `EditableEnum` direction  
 {: .velo-category .velo-EditableEnum }
 
-> `int` direction  
-{: .velo-category .velo-int }
-
-> `CImageDrawComponent` image  
-{: .velo-category .velo-CImageDrawComponent }
-
-> `bool` isEditor  
-{: .velo-category .velo-bool }
-
-> `bool` isHovered  
-{: .velo-category .velo-bool }
-
-> `bool` isResizing  
-{: .velo-category .velo-bool }
-
-> `EditableFloat` lowerBound  
-{: .velo-category .velo-EditableFloat }
-
-> `CImageDrawComponent` selectionRectangle  
-{: .velo-category .velo-CImageDrawComponent }
-
-> `EditableEnum` type  
-{: .velo-category .velo-EditableEnum }
-
-> `EditableFloat` upperBound  
-{: .velo-category .velo-EditableFloat }
-
-## `Class` Tunnel  ## {: .velo-category .velo-class }
-
-> `CActor` actor  
-{: .velo-category .velo-CActor }
-
-> `CAABB` bounds  
-{: .velo-category .velo-CAABB }
-
-> `CCollisionFilter` collisionFilter  
-{: .velo-category .velo-CCollisionFilter }
-
 > `bool` isEditor  
 {: .velo-category .velo-bool }
 
@@ -2197,70 +2096,6 @@
 
 > `CImageDrawComponent` selectionRectangle  
 {: .velo-category .velo-CImageDrawComponent }
-
-> `CSpriteDrawComponent` tunnelEntranceSprite  
-{: .velo-category .velo-CSpriteDrawComponent }
-
-> `CSpriteDrawComponent` tunnelLeftWallSprite  
-{: .velo-category .velo-CSpriteDrawComponent }
-
-> `CSpriteDrawComponent` tunnelRightWallSprite  
-{: .velo-category .velo-CSpriteDrawComponent }
-
-## `Class` DecoGlow  ## {: .velo-category .velo-class }
-
-> `CActor` actor  
-{: .velo-category .velo-CActor }
-
-> `CAABB` bounds  
-{: .velo-category .velo-CAABB }
-
-> `CCollisionFilter` collisionFilter  
-{: .velo-category .velo-CCollisionFilter }
-
-> `int` colorIndex  
-{: .velo-category .velo-int }
-
-> `float` colorTransitionRatio  
-{: .velo-category .velo-float }
-
-> `int` direction  
-{: .velo-category .velo-int }
-
-> `CImageDrawComponent` image  
-{: .velo-category .velo-CImageDrawComponent }
-
-> `bool` isEditor  
-{: .velo-category .velo-bool }
-
-> `bool` isHovered  
-{: .velo-category .velo-bool }
-
-> `bool` isResizing  
-{: .velo-category .velo-bool }
-
-> `CImageDrawComponent` selectionRectangle  
-{: .velo-category .velo-CImageDrawComponent }
-
-## `Class` CAABB  ## {: .velo-category .velo-class }
-
-> `float` height  
-{: .velo-category .velo-float }
-
-> `float` maxX  
-{: .velo-category .velo-float }
-
-> `float` maxY  
-{: .velo-category .velo-float }
-
-> `float` minX  
-{: .velo-category .velo-float }
-
-> `float` minY  
-{: .velo-category .velo-float }
-
-> `float` width  
-{: .velo-category .velo-float }
 
 ## `Class` Timer  ## {: .velo-category .velo-class }
 
@@ -2309,103 +2144,25 @@
 > `EditableEnum` unknown  
 {: .velo-category .velo-EditableEnum }
 
-## `Class` Trigger  ## {: .velo-category .velo-class }
+## `Class` Pickup  ## {: .velo-category .velo-class }
 
 > `CActor` actor  
 {: .velo-category .velo-CActor }
 
-> `CAABB` bounds  
-{: .velo-category .velo-CAABB }
-
-> `CCollisionFilter` collisionFilter  
-{: .velo-category .velo-CCollisionFilter }
-
-> `bool` isEditor  
-{: .velo-category .velo-bool }
-
-> `bool` isHovered  
-{: .velo-category .velo-bool }
-
-> `bool` isOpen  
-{: .velo-category .velo-bool }
-
-> `bool` isRemoteSimulated  
-{: .velo-category .velo-bool }
-
-> `bool` isResizing  
-{: .velo-category .velo-bool }
-
-> `EditableBool` isRetriggerOnRespawn  
-{: .velo-category .velo-EditableBool }
-
-> `EditableEnum` mode  
-{: .velo-category .velo-EditableEnum }
-
-> `CImageDrawComponent` selectionRectangle  
+> `CImageDrawComponent` backStarImage  
 {: .velo-category .velo-CImageDrawComponent }
 
-> `float` timer  
-{: .velo-category .velo-float }
-
-> `EditableString` triggerId  
-{: .velo-category .velo-EditableString }
-
-## `Class` Vector2  ## {: .velo-category .velo-class }
-
-> `float` x  
-{: .velo-category .velo-float }
-
-> `float` y  
-{: .velo-category .velo-float }
-
-> `float` _length  
-{: .velo-category .velo-float }
-
-> `float` _a  
-{: .velo-category .velo-float }
-
-## `Class` CConvexPolygon  ## {: .velo-category .velo-class }
-
-> `Vector2` center  
-{: .velo-category .velo-Vector2 }
-
-> `Vector2[]` localVertices  
-{: .velo-category .velo-Vector2[] }
-
-> `Vector2` pivot  
-{: .velo-category .velo-Vector2 }
-
-> `Vector2` position  
-{: .velo-category .velo-Vector2 }
-
-> `float` rotation  
-{: .velo-category .velo-float }
-
-> `Vector2[]` vertices  
-{: .velo-category .velo-Vector2[] }
-
-## `Class` SwitchBlock  ## {: .velo-category .velo-class }
-
-> `CActor` actor  
-{: .velo-category .velo-CActor }
-
 > `CAABB` bounds  
 {: .velo-category .velo-CAABB }
 
-> `int` closeDirection  
-{: .velo-category .velo-int }
-
-> `EditableFloat` closedRotation  
-{: .velo-category .velo-EditableFloat }
-
-> `float` closedRotationRad  
-{: .velo-category .velo-float }
+> `CAnimatedSpriteDrawComponent` boxPopSprite  
+{: .velo-category .velo-CAnimatedSpriteDrawComponent }
 
 > `CCollisionFilter` collisionFilter  
 {: .velo-category .velo-CCollisionFilter }
 
-> `int` direction  
-{: .velo-category .velo-int }
+> `CImageDrawComponent` frontStarImage  
+{: .velo-category .velo-CImageDrawComponent }
 
 > `bool` isEditor  
 {: .velo-category .velo-bool }
@@ -2413,34 +2170,19 @@
 > `bool` isHovered  
 {: .velo-category .velo-bool }
 
+> `bool` isMultiplayer  
+{: .velo-category .velo-bool }
+
+> `bool` isPopped  
+{: .velo-category .velo-bool }
+
 > `bool` isResizing  
 {: .velo-category .velo-bool }
 
-> `bool` isRotating  
+> `bool` remoteSimulated  
 {: .velo-category .velo-bool }
 
-> `float` maxRotation  
-{: .velo-category .velo-float }
-
-> `float` minRotation  
-{: .velo-category .velo-float }
-
-> `int` openDirection  
-{: .velo-category .velo-int }
-
-> `EditableFloat` openRotation  
-{: .velo-category .velo-EditableFloat }
-
-> `int` resetDirection  
-{: .velo-category .velo-int }
-
-> `float` rotation  
-{: .velo-category .velo-float }
-
-> `EditableFloat` rotationSpeed  
-{: .velo-category .velo-EditableFloat }
-
-> `float` rotationSpeedRad  
+> `float` respawnTimer  
 {: .velo-category .velo-float }
 
 > `CImageDrawComponent` selectionRectangle  
@@ -2449,11 +2191,8 @@
 > `CAnimatedSpriteDrawComponent` sprite  
 {: .velo-category .velo-CAnimatedSpriteDrawComponent }
 
-> `EditableString` triggerId  
-{: .velo-category .velo-EditableString }
-
-> `CAnimatedSpriteDrawComponent` triggerSparkSprite  
-{: .velo-category .velo-CAnimatedSpriteDrawComponent }
+> `int` type  
+{: .velo-category .velo-int }
 
 ## `Class` GoldenHook  ## {: .velo-category .velo-class }
 
@@ -2487,7 +2226,109 @@
 > `Player` target  
 {: .velo-category .velo-Player }
 
-## `Class` SuperBoostVolume  ## {: .velo-category .velo-class }
+## `Class` Matrix  ## {: .velo-category .velo-class }
+
+> `float` M11  
+{: .velo-category .velo-float }
+
+> `float` M12  
+{: .velo-category .velo-float }
+
+> `float` M13  
+{: .velo-category .velo-float }
+
+> `float` M14  
+{: .velo-category .velo-float }
+
+> `float` M21  
+{: .velo-category .velo-float }
+
+> `float` M22  
+{: .velo-category .velo-float }
+
+> `float` M23  
+{: .velo-category .velo-float }
+
+> `float` M24  
+{: .velo-category .velo-float }
+
+> `float` M31  
+{: .velo-category .velo-float }
+
+> `float` M32  
+{: .velo-category .velo-float }
+
+> `float` M33  
+{: .velo-category .velo-float }
+
+> `float` M34  
+{: .velo-category .velo-float }
+
+> `float` M41  
+{: .velo-category .velo-float }
+
+> `float` M42  
+{: .velo-category .velo-float }
+
+> `float` M43  
+{: .velo-category .velo-float }
+
+> `float` M44  
+{: .velo-category .velo-float }
+
+## `Class` EditableInt  ## {: .velo-category .velo-class }
+
+> `bool` deletable  
+{: .velo-category .velo-bool }
+
+> `string` key  
+{: .velo-category .velo-string }
+
+> `int` maxValue  
+{: .velo-category .velo-int }
+
+> `int` minValue  
+{: .velo-category .velo-int }
+
+> `string` name  
+{: .velo-category .velo-string }
+
+> `bool` showToUser  
+{: .velo-category .velo-bool }
+
+> `string` toolTip  
+{: .velo-category .velo-string }
+
+> `int` value  
+{: .velo-category .velo-int }
+
+## `Class` DroppedBomb  ## {: .velo-category .velo-class }
+
+> `CActor` actor  
+{: .velo-category .velo-CActor }
+
+> `CAnimatedSpriteDrawComponent` blinkingSprite  
+{: .velo-category .velo-CAnimatedSpriteDrawComponent }
+
+> `CAABB` bounds  
+{: .velo-category .velo-CAABB }
+
+> `CCollisionFilter` collisionFilter  
+{: .velo-category .velo-CCollisionFilter }
+
+> `Color` color  
+{: .velo-category .velo-Color }
+
+> `bool` isStationary  
+{: .velo-category .velo-bool }
+
+> `Player` owner  
+{: .velo-category .velo-Player }
+
+> `CAnimatedSpriteDrawComponent` sprite  
+{: .velo-category .velo-CAnimatedSpriteDrawComponent }
+
+## `Class` Bookcase  ## {: .velo-category .velo-class }
 
 > `CActor` actor  
 {: .velo-category .velo-CActor }
@@ -2498,8 +2339,17 @@
 > `CCollisionFilter` collisionFilter  
 {: .velo-category .velo-CCollisionFilter }
 
-> `EditableEnum` direction  
-{: .velo-category .velo-EditableEnum }
+> `CImageDrawComponent` iamge2  
+{: .velo-category .velo-CImageDrawComponent }
+
+> `CImageDrawComponent` image1  
+{: .velo-category .velo-CImageDrawComponent }
+
+> `CImageDrawComponent` image3  
+{: .velo-category .velo-CImageDrawComponent }
+
+> `EditableInt` index  
+{: .velo-category .velo-EditableInt }
 
 > `bool` isEditor  
 {: .velo-category .velo-bool }
@@ -2510,8 +2360,52 @@
 > `bool` isResizing  
 {: .velo-category .velo-bool }
 
+> `EditableFloat` scale  
+{: .velo-category .velo-EditableFloat }
+
 > `CImageDrawComponent` selectionRectangle  
 {: .velo-category .velo-CImageDrawComponent }
+
+## `Class` DecoLight  ## {: .velo-category .velo-class }
+
+> `CActor` actor  
+{: .velo-category .velo-CActor }
+
+> `CAABB` bounds  
+{: .velo-category .velo-CAABB }
+
+> `CCollisionFilter` collisionFilter  
+{: .velo-category .velo-CCollisionFilter }
+
+> `EditableEnum` color  
+{: .velo-category .velo-EditableEnum }
+
+> `int` direction  
+{: .velo-category .velo-int }
+
+> `CImageDrawComponent` image  
+{: .velo-category .velo-CImageDrawComponent }
+
+> `bool` isEditor  
+{: .velo-category .velo-bool }
+
+> `bool` isHovered  
+{: .velo-category .velo-bool }
+
+> `bool` isResizing  
+{: .velo-category .velo-bool }
+
+> `EditableFloat` lowerBound  
+{: .velo-category .velo-EditableFloat }
+
+> `CImageDrawComponent` selectionRectangle  
+{: .velo-category .velo-CImageDrawComponent }
+
+> `EditableEnum` type  
+{: .velo-category .velo-EditableEnum }
+
+> `EditableFloat` upperBound  
+{: .velo-category .velo-EditableFloat }
 
 ## `Class` CSpriteDrawComponent  ## {: .velo-category .velo-class }
 
@@ -2565,697 +2459,6 @@
 
 > `int` spriteIndex  
 {: .velo-category .velo-int }
-
-## `Class` EditableInt  ## {: .velo-category .velo-class }
-
-> `bool` deletable  
-{: .velo-category .velo-bool }
-
-> `string` key  
-{: .velo-category .velo-string }
-
-> `int` maxValue  
-{: .velo-category .velo-int }
-
-> `int` minValue  
-{: .velo-category .velo-int }
-
-> `string` name  
-{: .velo-category .velo-string }
-
-> `bool` showToUser  
-{: .velo-category .velo-bool }
-
-> `string` toolTip  
-{: .velo-category .velo-string }
-
-> `int` value  
-{: .velo-category .velo-int }
-
-## `Class` Shockwave  ## {: .velo-category .velo-class }
-
-> `CActor` actor  
-{: .velo-category .velo-CActor }
-
-> `float` anticipationDuration  
-{: .velo-category .velo-float }
-
-> `CAnimatedSpriteDrawComponent` anticipationSprite  
-{: .velo-category .velo-CAnimatedSpriteDrawComponent }
-
-> `float` anticipationTimer  
-{: .velo-category .velo-float }
-
-> `Vector2` initialPosition  
-{: .velo-category .velo-Vector2 }
-
-> `bool` isAnticipating  
-{: .velo-category .velo-bool }
-
-> `float` lifeTimer  
-{: .velo-category .velo-float }
-
-> `Player` owner  
-{: .velo-category .velo-Player }
-
-> `CAnimatedSpriteDrawComponent` sprit90  
-{: .velo-category .velo-CAnimatedSpriteDrawComponent }
-
-> `CAnimatedSpriteDrawComponent` sprite0  
-{: .velo-category .velo-CAnimatedSpriteDrawComponent }
-
-> `CAnimatedSpriteDrawComponent` spriteNeg180  
-{: .velo-category .velo-CAnimatedSpriteDrawComponent }
-
-> `CAnimatedSpriteDrawComponent` spriteNeg90  
-{: .velo-category .velo-CAnimatedSpriteDrawComponent }
-
-## `Class` AIVolume  ## {: .velo-category .velo-class }
-
-> `CActor` actor  
-{: .velo-category .velo-CActor }
-
-> `CAABB` bounds  
-{: .velo-category .velo-CAABB }
-
-> `CCollisionFilter` collisionFilter  
-{: .velo-category .velo-CCollisionFilter }
-
-> `EditableBool` defaultActive  
-{: .velo-category .velo-EditableBool }
-
-> `EditableBool` easy  
-{: .velo-category .velo-EditableBool }
-
-> `EditableBool` hard  
-{: .velo-category .velo-EditableBool }
-
-> `bool` isEditor  
-{: .velo-category .velo-bool }
-
-> `bool` isHovered  
-{: .velo-category .velo-bool }
-
-> `bool` isResizing  
-{: .velo-category .velo-bool }
-
-> `EditableBool` medium  
-{: .velo-category .velo-EditableBool }
-
-> `CImageDrawComponent` selectionRectangle  
-{: .velo-category .velo-CImageDrawComponent }
-
-> `EditableString` triggerId  
-{: .velo-category .velo-EditableString }
-
-> `EditableEnum` type  
-{: .velo-category .velo-EditableEnum }
-
-> `EditableBool` unfair  
-{: .velo-category .velo-EditableBool }
-
-## `Class` DecoText  ## {: .velo-category .velo-class }
-
-> `CActor` actor  
-{: .velo-category .velo-CActor }
-
-> `CAABB` bounds  
-{: .velo-category .velo-CAABB }
-
-> `CCollisionFilter` collisionFilter  
-{: .velo-category .velo-CCollisionFilter }
-
-> `bool` isEditor  
-{: .velo-category .velo-bool }
-
-> `bool` isHovered  
-{: .velo-category .velo-bool }
-
-> `bool` isResizing  
-{: .velo-category .velo-bool }
-
-> `int` placeholderIndex  
-{: .velo-category .velo-int }
-
-> `CImageDrawComponent` selectionRectangle  
-{: .velo-category .velo-CImageDrawComponent }
-
-> `EditableString` text  
-{: .velo-category .velo-EditableString }
-
-> `CTextDrawComponent` textDraw  
-{: .velo-category .velo-CTextDrawComponent }
-
-> `EditableInt` textId  
-{: .velo-category .velo-EditableInt }
-
-## `Class` Rectangle  ## {: .velo-category .velo-class }
-
-> `int` Height  
-{: .velo-category .velo-int }
-
-> `int` Width  
-{: .velo-category .velo-int }
-
-> `int` x  
-{: .velo-category .velo-int }
-
-> `int` y  
-{: .velo-category .velo-int }
-
-## `Class` Pickup  ## {: .velo-category .velo-class }
-
-> `CActor` actor  
-{: .velo-category .velo-CActor }
-
-> `CImageDrawComponent` backStarImage  
-{: .velo-category .velo-CImageDrawComponent }
-
-> `CAABB` bounds  
-{: .velo-category .velo-CAABB }
-
-> `CAnimatedSpriteDrawComponent` boxPopSprite  
-{: .velo-category .velo-CAnimatedSpriteDrawComponent }
-
-> `CCollisionFilter` collisionFilter  
-{: .velo-category .velo-CCollisionFilter }
-
-> `CImageDrawComponent` frontStarImage  
-{: .velo-category .velo-CImageDrawComponent }
-
-> `bool` isEditor  
-{: .velo-category .velo-bool }
-
-> `bool` isHovered  
-{: .velo-category .velo-bool }
-
-> `bool` isMultiplayer  
-{: .velo-category .velo-bool }
-
-> `bool` isPopped  
-{: .velo-category .velo-bool }
-
-> `bool` isResizing  
-{: .velo-category .velo-bool }
-
-> `bool` remoteSimulated  
-{: .velo-category .velo-bool }
-
-> `float` respawnTimer  
-{: .velo-category .velo-float }
-
-> `CImageDrawComponent` selectionRectangle  
-{: .velo-category .velo-CImageDrawComponent }
-
-> `CAnimatedSpriteDrawComponent` sprite  
-{: .velo-category .velo-CAnimatedSpriteDrawComponent }
-
-> `int` type  
-{: .velo-category .velo-int }
-
-## `Class` FreezeRay  ## {: .velo-category .velo-class }
-
-> `CActor` actor  
-{: .velo-category .velo-CActor }
-
-> `CAABB` bounds  
-{: .velo-category .velo-CAABB }
-
-> `float` chargeTimer  
-{: .velo-category .velo-float }
-
-> `float` lifeTimer  
-{: .velo-category .velo-float }
-
-> `Player` owner  
-{: .velo-category .velo-Player }
-
-> `CAnimatedSpriteDrawComponent[]` sprites  
-{: .velo-category .velo-CAnimatedSpriteDrawComponent[] }
-
-## `Class` CImageDrawComponent  ## {: .velo-category .velo-class }
-
-> `CAABB` bounds  
-{: .velo-category .velo-CAABB }
-
-> `Color` color  
-{: .velo-category .velo-Color }
-
-> `Rectangle` destinationRectangle  
-{: .velo-category .velo-Rectangle }
-
-> `Rectangle` drawSource  
-{: .velo-category .velo-Rectangle }
-
-> `bool` flipped  
-{: .velo-category .velo-bool }
-
-> `bool` isVisible  
-{: .velo-category .velo-bool }
-
-> `string` layerId  
-{: .velo-category .velo-string }
-
-> `Vector2` offset  
-{: .velo-category .velo-Vector2 }
-
-> `float` opacity  
-{: .velo-category .velo-float }
-
-> `Vector2` origin  
-{: .velo-category .velo-Vector2 }
-
-> `Vector2` position  
-{: .velo-category .velo-Vector2 }
-
-> `float` rotation  
-{: .velo-category .velo-float }
-
-> `Vector2` scale  
-{: .velo-category .velo-Vector2 }
-
-> `Vector2` size  
-{: .velo-category .velo-Vector2 }
-
-## `Class` Fireball  ## {: .velo-category .velo-class }
-
-> `CActor` actor  
-{: .velo-category .velo-CActor }
-
-> `float` baseSpeed  
-{: .velo-category .velo-float }
-
-> `BouncePad` bouncePad  
-{: .velo-category .velo-BouncePad }
-
-> `float` bounceTimer  
-{: .velo-category .velo-float }
-
-> `CAABB` bounds  
-{: .velo-category .velo-CAABB }
-
-> `CCollisionFilter` collisionFilter  
-{: .velo-category .velo-CCollisionFilter }
-
-> `Vector2` direction  
-{: .velo-category .velo-Vector2 }
-
-> `Player[]` hitPlayers  
-{: .velo-category .velo-Player[] }
-
-> `float` immunityDuration  
-{: .velo-category .velo-float }
-
-> `float` lifeTimer  
-{: .velo-category .velo-float }
-
-> `float` limetime  
-{: .velo-category .velo-float }
-
-> `float` maxPingCorrectedSpeed  
-{: .velo-category .velo-float }
-
-> `float` maxScale  
-{: .velo-category .velo-float }
-
-> `bool` onGround  
-{: .velo-category .velo-bool }
-
-> `Player` owner  
-{: .velo-category .velo-Player }
-
-> `float` pingDisplacement  
-{: .velo-category .velo-float }
-
-> `float` scale  
-{: .velo-category .velo-float }
-
-> `Shockwave` shockwave  
-{: .velo-category .velo-Shockwave }
-
-> `float` speed  
-{: .velo-category .velo-float }
-
-> `CAnimatedSpriteDrawComponent` sprite  
-{: .velo-category .velo-CAnimatedSpriteDrawComponent }
-
-> `bool` wasOnGround  
-{: .velo-category .velo-bool }
-
-## `Class` EditableString  ## {: .velo-category .velo-class }
-
-> `string` key  
-{: .velo-category .velo-string }
-
-> `string` name  
-{: .velo-category .velo-string }
-
-> `bool` showToUser  
-{: .velo-category .velo-bool }
-
-> `string` toolTip  
-{: .velo-category .velo-string }
-
-> `string` value  
-{: .velo-category .velo-string }
-
-## `Class` EditableFloat  ## {: .velo-category .velo-class }
-
-> `string` key  
-{: .velo-category .velo-string }
-
-> `float` maxValue  
-{: .velo-category .velo-float }
-
-> `float` minValue  
-{: .velo-category .velo-float }
-
-> `string` name  
-{: .velo-category .velo-string }
-
-> `bool` showToUser  
-{: .velo-category .velo-bool }
-
-> `string` toolTip  
-{: .velo-category .velo-string }
-
-> `float` value  
-{: .velo-category .velo-float }
-
-## `Class` Matrix  ## {: .velo-category .velo-class }
-
-> `float` M11  
-{: .velo-category .velo-float }
-
-> `float` M12  
-{: .velo-category .velo-float }
-
-> `float` M13  
-{: .velo-category .velo-float }
-
-> `float` M14  
-{: .velo-category .velo-float }
-
-> `float` M21  
-{: .velo-category .velo-float }
-
-> `float` M22  
-{: .velo-category .velo-float }
-
-> `float` M23  
-{: .velo-category .velo-float }
-
-> `float` M24  
-{: .velo-category .velo-float }
-
-> `float` M31  
-{: .velo-category .velo-float }
-
-> `float` M32  
-{: .velo-category .velo-float }
-
-> `float` M33  
-{: .velo-category .velo-float }
-
-> `float` M34  
-{: .velo-category .velo-float }
-
-> `float` M41  
-{: .velo-category .velo-float }
-
-> `float` M42  
-{: .velo-category .velo-float }
-
-> `float` M43  
-{: .velo-category .velo-float }
-
-> `float` M44  
-{: .velo-category .velo-float }
-
-## `Class` Lever  ## {: .velo-category .velo-class }
-
-> `CActor` actor  
-{: .velo-category .velo-CActor }
-
-> `CAABB` bounds  
-{: .velo-category .velo-CAABB }
-
-> `CCollisionFilter` collisionFilter  
-{: .velo-category .velo-CCollisionFilter }
-
-> `bool` isActivated  
-{: .velo-category .velo-bool }
-
-> `bool` isEditor  
-{: .velo-category .velo-bool }
-
-> `bool` isHovered  
-{: .velo-category .velo-bool }
-
-> `bool` isResizing  
-{: .velo-category .velo-bool }
-
-> `EditableEnum` orientation  
-{: .velo-category .velo-EditableEnum }
-
-> `CImageDrawComponent` selectionRectangle  
-{: .velo-category .velo-CImageDrawComponent }
-
-> `CAnimatedSpriteDrawComponent` sprite  
-{: .velo-category .velo-CAnimatedSpriteDrawComponent }
-
-> `EditableString` triggerId  
-{: .velo-category .velo-EditableString }
-
-> `CAnimatedSpriteDrawComponent` triggerSparkSprite  
-{: .velo-category .velo-CAnimatedSpriteDrawComponent }
-
-## `Class` CCamera  ## {: .velo-category .velo-class }
-
-> `ClampCameraModifier` clampCameraModifier  
-{: .velo-category .velo-ClampCameraModifier }
-
-> `string` id  
-{: .velo-category .velo-string }
-
-> `bool` isActive  
-{: .velo-category .velo-bool }
-
-> `Vector2` position  
-{: .velo-category .velo-Vector2 }
-
-> `Matrix` projection  
-{: .velo-category .velo-Matrix }
-
-> `ShakeCameraModifier` shakeCameraModifier  
-{: .velo-category .velo-ShakeCameraModifier }
-
-> `Matrix` view  
-{: .velo-category .velo-Matrix }
-
-> `Viewport` viewport  
-{: .velo-category .velo-Viewport }
-
-> `float` zoom  
-{: .velo-category .velo-float }
-
-## `Class` ClampCameraModifier  ## {: .velo-category .velo-class }
-
-> `Rectangle` bounds  
-{: .velo-category .velo-Rectangle }
-
-> `CCamera` camera  
-{: .velo-category .velo-CCamera }
-
-> `Rectangle` viewportBounds  
-{: .velo-category .velo-Rectangle }
-
-> `Vector2` viewportPoint  
-{: .velo-category .velo-Vector2 }
-
-> `Vector2` worldFocusPoint  
-{: .velo-category .velo-Vector2 }
-
-## `Class` CAnimatedSpriteDrawComponent  ## {: .velo-category .velo-class }
-
-> `CAABB` bounds  
-{: .velo-category .velo-CAABB }
-
-> `Color` color  
-{: .velo-category .velo-Color }
-
-> `int` currentFrameInAnimation  
-{: .velo-category .velo-int }
-
-> `Rectangle` destinationRectangle  
-{: .velo-category .velo-Rectangle }
-
-> `bool` flipped  
-{: .velo-category .velo-bool }
-
-> `bool` isPlaying  
-{: .velo-category .velo-bool }
-
-> `bool` isVisible  
-{: .velo-category .velo-bool }
-
-> `string` layerId  
-{: .velo-category .velo-string }
-
-> `int` millisPerFrame  
-{: .velo-category .velo-int }
-
-> `string` nextAnimation  
-{: .velo-category .velo-string }
-
-> `Vector2` offset  
-{: .velo-category .velo-Vector2 }
-
-> `float` opacity  
-{: .velo-category .velo-float }
-
-> `Vector2` origin  
-{: .velo-category .velo-Vector2 }
-
-> `bool` pingPongState  
-{: .velo-category .velo-bool }
-
-> `Vector2` position  
-{: .velo-category .velo-Vector2 }
-
-> `float` rotation  
-{: .velo-category .velo-float }
-
-> `Vector2` scale  
-{: .velo-category .velo-Vector2 }
-
-> `Vector2` size  
-{: .velo-category .velo-Vector2 }
-
-> `Vector2` sourceOrigin  
-{: .velo-category .velo-Vector2 }
-
-> `Vector2` sourceOriginalSize  
-{: .velo-category .velo-Vector2 }
-
-> `Rectangle` sourceRectangle  
-{: .velo-category .velo-Rectangle }
-
-> `TimeSpan` time  
-{: .velo-category .velo-TimeSpan }
-
-> `int` totalMillis  
-{: .velo-category .velo-int }
-
-## `Class` EditableEnum  ## {: .velo-category .velo-class }
-
-> `string` key  
-{: .velo-category .velo-string }
-
-> `string` name  
-{: .velo-category .velo-string }
-
-> `bool` showToUser  
-{: .velo-category .velo-bool }
-
-> `string` toolTip  
-{: .velo-category .velo-string }
-
-> `int` value  
-{: .velo-category .velo-int }
-
-## `Class` EditableBool  ## {: .velo-category .velo-class }
-
-> `string` key  
-{: .velo-category .velo-string }
-
-> `string` name  
-{: .velo-category .velo-string }
-
-> `bool` showToUser  
-{: .velo-category .velo-bool }
-
-> `string` toolTip  
-{: .velo-category .velo-string }
-
-> `int` value  
-{: .velo-category .velo-int }
-
-## `Class` CActor  ## {: .velo-category .velo-class }
-
-> `bool` automaticCollisionDetection  
-{: .velo-category .velo-bool }
-
-> `CAABB` bounds  
-{: .velo-category .velo-CAABB }
-
-> `float` collisionSweepMinimalDensity  
-{: .velo-category .velo-float }
-
-> `int` id  
-{: .velo-category .velo-int }
-
-> `bool` isCollidable  
-{: .velo-category .velo-bool }
-
-> `bool` isCollisionActive  
-{: .velo-category .velo-bool }
-
-> `float` iterationTimeStep  
-{: .velo-category .velo-float }
-
-> `Vector2` position  
-{: .velo-category .velo-Vector2 }
-
-> `Vector2` positionPrevious  
-{: .velo-category .velo-Vector2 }
-
-> `float` rotation  
-{: .velo-category .velo-float }
-
-> `bool` shouldPredictCollision  
-{: .velo-category .velo-bool }
-
-> `Vector2` size  
-{: .velo-category .velo-Vector2 }
-
-> `int` totalIterations  
-{: .velo-category .velo-int }
-
-> `Vector2` velocity  
-{: .velo-category .velo-Vector2 }
-
-> `Vector2` velocityPrevious  
-{: .velo-category .velo-Vector2 }
-
-> `Vector2` _measuredVelocity  
-{: .velo-category .velo-Vector2 }
-
-> `Vector2` _acceleration  
-{: .velo-category .velo-Vector2 }
-
-## `Class` Grapple  ## {: .velo-category .velo-class }
-
-> `CActor` actor  
-{: .velo-category .velo-CActor }
-
-> `CAABB` bounds  
-{: .velo-category .velo-CAABB }
-
-> `CAnimatedSpriteDrawComponent` breakSprite  
-{: .velo-category .velo-CAnimatedSpriteDrawComponent }
-
-> `Vector2` direction  
-{: .velo-category .velo-Vector2 }
-
-> `bool` isConnected  
-{: .velo-category .velo-bool }
-
-> `Player` owner  
-{: .velo-category .velo-Player }
-
-> `CSpriteDrawComponent` sprite  
-{: .velo-category .velo-CSpriteDrawComponent }
 
 ## `Class` Velo  ## {: .velo-category .velo-class }
 
@@ -3358,7 +2561,7 @@
 > `float` jumpHoldingDisplay  
 {: .velo-category .velo-float }
 
-## `Class` StraightRocket  ## {: .velo-category .velo-class }
+## `Class` DecoGlow  ## {: .velo-category .velo-class }
 
 > `CActor` actor  
 {: .velo-category .velo-CActor }
@@ -3369,298 +2572,66 @@
 > `CCollisionFilter` collisionFilter  
 {: .velo-category .velo-CCollisionFilter }
 
-> `bool` isExploded  
-{: .velo-category .velo-bool }
-
-> `CSpriteDrawComponent` sprite  
-{: .velo-category .velo-CSpriteDrawComponent }
-
-## `Class` Deco  ## {: .velo-category .velo-class }
-
-> `CActor` actor  
-{: .velo-category .velo-CActor }
-
-> `float` animateDistanceSquared  
-{: .velo-category .velo-float }
-
-> `EditableFloat` animateFrom  
-{: .velo-category .velo-EditableFloat }
-
-> `float` animateMaxAngle  
-{: .velo-category .velo-float }
-
-> `float` animateMinAngle  
-{: .velo-category .velo-float }
-
-> `EditableFloat` animateTo  
-{: .velo-category .velo-EditableFloat }
-
-> `EditableEnum` animationType  
-{: .velo-category .velo-EditableEnum }
-
-> `CAABB` bounds  
-{: .velo-category .velo-CAABB }
-
-> `EditableString` bundleId  
-{: .velo-category .velo-EditableString }
-
-> `CCollisionFilter` collisionFilter  
-{: .velo-category .velo-CCollisionFilter }
-
-> `EditableInt` colorB  
-{: .velo-category .velo-EditableInt }
-
-> `EditableInt` colorG  
-{: .velo-category .velo-EditableInt }
-
-> `EditableInt` colorR  
-{: .velo-category .velo-EditableInt }
-
-> `float` distanceSquaredForNextToSpawn  
-{: .velo-category .velo-float }
-
-> `EditableInt` frame  
-{: .velo-category .velo-EditableInt }
-
-> `EditableString` frameKey  
-{: .velo-category .velo-EditableString }
-
-> `bool` hasNoTrigger  
-{: .velo-category .velo-bool }
-
-> `EditableInt` imageId  
-{: .velo-category .velo-EditableInt }
-
-> `EditableString` imageName  
-{: .velo-category .velo-EditableString }
-
-> `bool` isEditor  
-{: .velo-category .velo-bool }
-
-> `EditableBool` isFlipped  
-{: .velo-category .velo-EditableBool }
-
-> `bool` isHovered  
-{: .velo-category .velo-bool }
-
-> `bool` isResizing  
-{: .velo-category .velo-bool }
-
-> `EditableBool` isVisible  
-{: .velo-category .velo-EditableBool }
-
-> `int` lastSpawnedIndex  
+> `int` colorIndex  
 {: .velo-category .velo-int }
 
-> `EditableEnum` layer  
-{: .velo-category .velo-EditableEnum }
-
-> `EditableFloat` lifetime  
-{: .velo-category .velo-EditableFloat }
-
-> `EditableBool` reverseAnimation  
-{: .velo-category .velo-EditableBool }
-
-> `EditableFloat` rotation  
-{: .velo-category .velo-EditableFloat }
-
-> `Vector2` scale  
-{: .velo-category .velo-Vector2 }
-
-> `CImageDrawComponent` selectionRectangle  
-{: .velo-category .velo-CImageDrawComponent }
-
-> `EditableFloat` spawnInterval  
-{: .velo-category .velo-EditableFloat }
-
-> `EditableString` triggerId  
-{: .velo-category .velo-EditableString }
-
-## `Class` BouncePad  ## {: .velo-category .velo-class }
-
-> `CActor` actor  
-{: .velo-category .velo-CActor }
-
-> `CAABB` bounds  
-{: .velo-category .velo-CAABB }
-
-> `CCollisionFilter` collisionFilter  
-{: .velo-category .velo-CCollisionFilter }
-
-> `CConvexPolygon` hitbox  
-{: .velo-category .velo-CConvexPolygon }
-
-> `bool` isEditor  
-{: .velo-category .velo-bool }
-
-> `bool` isHovered  
-{: .velo-category .velo-bool }
-
-> `bool` isResizing  
-{: .velo-category .velo-bool }
-
-> `EditableEnum` rotation  
-{: .velo-category .velo-EditableEnum }
-
-> `CImageDrawComponent` selectionRectangle  
-{: .velo-category .velo-CImageDrawComponent }
-
-> `CAnimatedSpriteDrawComponent` sprite  
-{: .velo-category .velo-CAnimatedSpriteDrawComponent }
-
-## `Class` RocketLauncher  ## {: .velo-category .velo-class }
-
-> `CActor` actor  
-{: .velo-category .velo-CActor }
-
-> `CAABB` bounds  
-{: .velo-category .velo-CAABB }
-
-> `CCollisionFilter` collisionFilter  
-{: .velo-category .velo-CCollisionFilter }
-
-> `CAnimatedSpriteDrawComponent` gearSprite  
-{: .velo-category .velo-CAnimatedSpriteDrawComponent }
-
-> `bool` isEditor  
-{: .velo-category .velo-bool }
-
-> `bool` isHovered  
-{: .velo-category .velo-bool }
-
-> `bool` isResizing  
-{: .velo-category .velo-bool }
-
-> `List<Rocket>` rockets  
-{: .velo-category .velo-List<Rocket> }
-
-> `CImageDrawComponent` selectionRectangle  
-{: .velo-category .velo-CImageDrawComponent }
-
-> `float` shootCooldown  
+> `float` colorTransitionRatio  
 {: .velo-category .velo-float }
 
-> `CAnimatedSpriteDrawComponent` sprite  
-{: .velo-category .velo-CAnimatedSpriteDrawComponent }
+> `int` direction  
+{: .velo-category .velo-int }
 
-> `Player` target  
-{: .velo-category .velo-Player }
+> `CImageDrawComponent` image  
+{: .velo-category .velo-CImageDrawComponent }
 
-## `Class` DroppedBomb  ## {: .velo-category .velo-class }
+> `bool` isEditor  
+{: .velo-category .velo-bool }
+
+> `bool` isHovered  
+{: .velo-category .velo-bool }
+
+> `bool` isResizing  
+{: .velo-category .velo-bool }
+
+> `CImageDrawComponent` selectionRectangle  
+{: .velo-category .velo-CImageDrawComponent }
+
+## `Class` ClampCameraModifier  ## {: .velo-category .velo-class }
+
+> `Rectangle` bounds  
+{: .velo-category .velo-Rectangle }
+
+> `CCamera` camera  
+{: .velo-category .velo-CCamera }
+
+> `Rectangle` viewportBounds  
+{: .velo-category .velo-Rectangle }
+
+> `Vector2` viewportPoint  
+{: .velo-category .velo-Vector2 }
+
+> `Vector2` worldFocusPoint  
+{: .velo-category .velo-Vector2 }
+
+## `Class` FreezeRay  ## {: .velo-category .velo-class }
 
 > `CActor` actor  
 {: .velo-category .velo-CActor }
 
-> `CAnimatedSpriteDrawComponent` blinkingSprite  
-{: .velo-category .velo-CAnimatedSpriteDrawComponent }
-
 > `CAABB` bounds  
 {: .velo-category .velo-CAABB }
 
-> `CCollisionFilter` collisionFilter  
-{: .velo-category .velo-CCollisionFilter }
+> `float` chargeTimer  
+{: .velo-category .velo-float }
 
-> `Color` color  
-{: .velo-category .velo-Color }
-
-> `bool` isStationary  
-{: .velo-category .velo-bool }
+> `float` lifeTimer  
+{: .velo-category .velo-float }
 
 > `Player` owner  
 {: .velo-category .velo-Player }
 
-> `CAnimatedSpriteDrawComponent` sprite  
-{: .velo-category .velo-CAnimatedSpriteDrawComponent }
-
-## `Class` Leaves  ## {: .velo-category .velo-class }
-
-> `CActor` actor  
-{: .velo-category .velo-CActor }
-
-> `CAABB` bounds  
-{: .velo-category .velo-CAABB }
-
-> `CCollisionFilter` collisionFilter  
-{: .velo-category .velo-CCollisionFilter }
-
-> `bool` isEditor  
-{: .velo-category .velo-bool }
-
-> `bool` isHovered  
-{: .velo-category .velo-bool }
-
-> `bool` isResizing  
-{: .velo-category .velo-bool }
-
-> `CImageDrawComponent` selectionRectangle  
-{: .velo-category .velo-CImageDrawComponent }
-
-## `Class` Rope  ## {: .velo-category .velo-class }
-
-> `CActor` actor  
-{: .velo-category .velo-CActor }
-
-> `Vector2` breakEndPoint  
-{: .velo-category .velo-Vector2 }
-
-> `float` breakLength  
-{: .velo-category .velo-float }
-
-> `Vector2` breakStartPoint  
-{: .velo-category .velo-Vector2 }
-
-> `CCollisionFilter` collisionFilter  
-{: .velo-category .velo-CCollisionFilter }
-
-> `Color` color  
-{: .velo-category .velo-Color }
-
-> `bool` isActive  
-{: .velo-category .velo-bool }
-
-> `bool` isBreaking  
-{: .velo-category .velo-bool }
-
-> `Player` owner  
-{: .velo-category .velo-Player }
-
-## `Class` Bookcase  ## {: .velo-category .velo-class }
-
-> `CActor` actor  
-{: .velo-category .velo-CActor }
-
-> `CAABB` bounds  
-{: .velo-category .velo-CAABB }
-
-> `CCollisionFilter` collisionFilter  
-{: .velo-category .velo-CCollisionFilter }
-
-> `CImageDrawComponent` iamge2  
-{: .velo-category .velo-CImageDrawComponent }
-
-> `CImageDrawComponent` image1  
-{: .velo-category .velo-CImageDrawComponent }
-
-> `CImageDrawComponent` image3  
-{: .velo-category .velo-CImageDrawComponent }
-
-> `EditableInt` index  
-{: .velo-category .velo-EditableInt }
-
-> `bool` isEditor  
-{: .velo-category .velo-bool }
-
-> `bool` isHovered  
-{: .velo-category .velo-bool }
-
-> `bool` isResizing  
-{: .velo-category .velo-bool }
-
-> `EditableFloat` scale  
-{: .velo-category .velo-EditableFloat }
-
-> `CImageDrawComponent` selectionRectangle  
-{: .velo-category .velo-CImageDrawComponent }
+> `CAnimatedSpriteDrawComponent[]` sprites  
+{: .velo-category .velo-CAnimatedSpriteDrawComponent[] }
 
 ## `Class` Player  ## {: .velo-category .velo-class }
 
@@ -4192,6 +3163,783 @@
 > `float` _surfCooldown  
 {: .velo-category .velo-float }
 
+## `Class` EditableEnum  ## {: .velo-category .velo-class }
+
+> `string` key  
+{: .velo-category .velo-string }
+
+> `string` name  
+{: .velo-category .velo-string }
+
+> `bool` showToUser  
+{: .velo-category .velo-bool }
+
+> `string` toolTip  
+{: .velo-category .velo-string }
+
+> `int` value  
+{: .velo-category .velo-int }
+
+## `Class` Vector2  ## {: .velo-category .velo-class }
+
+> `float` x  
+{: .velo-category .velo-float }
+
+> `float` y  
+{: .velo-category .velo-float }
+
+> `float` _length  
+{: .velo-category .velo-float }
+
+> `float` _a  
+{: .velo-category .velo-float }
+
+## `Class` CAnimatedSpriteDrawComponent  ## {: .velo-category .velo-class }
+
+> `CAABB` bounds  
+{: .velo-category .velo-CAABB }
+
+> `Color` color  
+{: .velo-category .velo-Color }
+
+> `int` currentFrameInAnimation  
+{: .velo-category .velo-int }
+
+> `Rectangle` destinationRectangle  
+{: .velo-category .velo-Rectangle }
+
+> `bool` flipped  
+{: .velo-category .velo-bool }
+
+> `bool` isPlaying  
+{: .velo-category .velo-bool }
+
+> `bool` isVisible  
+{: .velo-category .velo-bool }
+
+> `string` layerId  
+{: .velo-category .velo-string }
+
+> `int` millisPerFrame  
+{: .velo-category .velo-int }
+
+> `string` nextAnimation  
+{: .velo-category .velo-string }
+
+> `Vector2` offset  
+{: .velo-category .velo-Vector2 }
+
+> `float` opacity  
+{: .velo-category .velo-float }
+
+> `Vector2` origin  
+{: .velo-category .velo-Vector2 }
+
+> `bool` pingPongState  
+{: .velo-category .velo-bool }
+
+> `Vector2` position  
+{: .velo-category .velo-Vector2 }
+
+> `float` rotation  
+{: .velo-category .velo-float }
+
+> `Vector2` scale  
+{: .velo-category .velo-Vector2 }
+
+> `Vector2` size  
+{: .velo-category .velo-Vector2 }
+
+> `Vector2` sourceOrigin  
+{: .velo-category .velo-Vector2 }
+
+> `Vector2` sourceOriginalSize  
+{: .velo-category .velo-Vector2 }
+
+> `Rectangle` sourceRectangle  
+{: .velo-category .velo-Rectangle }
+
+> `TimeSpan` time  
+{: .velo-category .velo-TimeSpan }
+
+> `int` totalMillis  
+{: .velo-category .velo-int }
+
+## `Class` Trigger  ## {: .velo-category .velo-class }
+
+> `CActor` actor  
+{: .velo-category .velo-CActor }
+
+> `CAABB` bounds  
+{: .velo-category .velo-CAABB }
+
+> `CCollisionFilter` collisionFilter  
+{: .velo-category .velo-CCollisionFilter }
+
+> `bool` isEditor  
+{: .velo-category .velo-bool }
+
+> `bool` isHovered  
+{: .velo-category .velo-bool }
+
+> `bool` isOpen  
+{: .velo-category .velo-bool }
+
+> `bool` isRemoteSimulated  
+{: .velo-category .velo-bool }
+
+> `bool` isResizing  
+{: .velo-category .velo-bool }
+
+> `EditableBool` isRetriggerOnRespawn  
+{: .velo-category .velo-EditableBool }
+
+> `EditableEnum` mode  
+{: .velo-category .velo-EditableEnum }
+
+> `CImageDrawComponent` selectionRectangle  
+{: .velo-category .velo-CImageDrawComponent }
+
+> `float` timer  
+{: .velo-category .velo-float }
+
+> `EditableString` triggerId  
+{: .velo-category .velo-EditableString }
+
+## `Class` StraightRocket  ## {: .velo-category .velo-class }
+
+> `CActor` actor  
+{: .velo-category .velo-CActor }
+
+> `CAABB` bounds  
+{: .velo-category .velo-CAABB }
+
+> `CCollisionFilter` collisionFilter  
+{: .velo-category .velo-CCollisionFilter }
+
+> `bool` isExploded  
+{: .velo-category .velo-bool }
+
+> `CSpriteDrawComponent` sprite  
+{: .velo-category .velo-CSpriteDrawComponent }
+
+## `Class` BouncePad  ## {: .velo-category .velo-class }
+
+> `CActor` actor  
+{: .velo-category .velo-CActor }
+
+> `CAABB` bounds  
+{: .velo-category .velo-CAABB }
+
+> `CCollisionFilter` collisionFilter  
+{: .velo-category .velo-CCollisionFilter }
+
+> `CConvexPolygon` hitbox  
+{: .velo-category .velo-CConvexPolygon }
+
+> `bool` isEditor  
+{: .velo-category .velo-bool }
+
+> `bool` isHovered  
+{: .velo-category .velo-bool }
+
+> `bool` isResizing  
+{: .velo-category .velo-bool }
+
+> `EditableEnum` rotation  
+{: .velo-category .velo-EditableEnum }
+
+> `CImageDrawComponent` selectionRectangle  
+{: .velo-category .velo-CImageDrawComponent }
+
+> `CAnimatedSpriteDrawComponent` sprite  
+{: .velo-category .velo-CAnimatedSpriteDrawComponent }
+
+## `Class` Lever  ## {: .velo-category .velo-class }
+
+> `CActor` actor  
+{: .velo-category .velo-CActor }
+
+> `CAABB` bounds  
+{: .velo-category .velo-CAABB }
+
+> `CCollisionFilter` collisionFilter  
+{: .velo-category .velo-CCollisionFilter }
+
+> `bool` isActivated  
+{: .velo-category .velo-bool }
+
+> `bool` isEditor  
+{: .velo-category .velo-bool }
+
+> `bool` isHovered  
+{: .velo-category .velo-bool }
+
+> `bool` isResizing  
+{: .velo-category .velo-bool }
+
+> `EditableEnum` orientation  
+{: .velo-category .velo-EditableEnum }
+
+> `CImageDrawComponent` selectionRectangle  
+{: .velo-category .velo-CImageDrawComponent }
+
+> `CAnimatedSpriteDrawComponent` sprite  
+{: .velo-category .velo-CAnimatedSpriteDrawComponent }
+
+> `EditableString` triggerId  
+{: .velo-category .velo-EditableString }
+
+> `CAnimatedSpriteDrawComponent` triggerSparkSprite  
+{: .velo-category .velo-CAnimatedSpriteDrawComponent }
+
+## `Class` TriggerSaw  ## {: .velo-category .velo-class }
+
+> `CActor` actor  
+{: .velo-category .velo-CActor }
+
+> `CAABB` bounds  
+{: .velo-category .velo-CAABB }
+
+> `CCollisionFilter` collisionFilter  
+{: .velo-category .velo-CCollisionFilter }
+
+> `Vector2` defaultPosition  
+{: .velo-category .velo-Vector2 }
+
+> `bool` hasReachedOffsetX  
+{: .velo-category .velo-bool }
+
+> `bool` hasReachedOffsetY  
+{: .velo-category .velo-bool }
+
+> `CConvexPolygon` hitbox  
+{: .velo-category .velo-CConvexPolygon }
+
+> `CImageDrawComponent` image  
+{: .velo-category .velo-CImageDrawComponent }
+
+> `bool` isEditor  
+{: .velo-category .velo-bool }
+
+> `bool` isHovered  
+{: .velo-category .velo-bool }
+
+> `bool` isMoving  
+{: .velo-category .velo-bool }
+
+> `bool` isMovingToOffset  
+{: .velo-category .velo-bool }
+
+> `bool` isResizing  
+{: .velo-category .velo-bool }
+
+> `Vector2` moveDirection  
+{: .velo-category .velo-Vector2 }
+
+> `Vector2` offsetPosition  
+{: .velo-category .velo-Vector2 }
+
+> `float` retreatTimer  
+{: .velo-category .velo-float }
+
+> `CImageDrawComponent` selectionRectangle  
+{: .velo-category .velo-CImageDrawComponent }
+
+> `Vector2` targetPosition  
+{: .velo-category .velo-Vector2 }
+
+> `EditableString` triggerId  
+{: .velo-category .velo-EditableString }
+
+> `EditableFloat` triggerOffsetX  
+{: .velo-category .velo-EditableFloat }
+
+> `EditableFloat` triggerOffsetY  
+{: .velo-category .velo-EditableFloat }
+
+## `Class` CConvexPolygon  ## {: .velo-category .velo-class }
+
+> `Vector2` center  
+{: .velo-category .velo-Vector2 }
+
+> `Vector2[]` localVertices  
+{: .velo-category .velo-Vector2[] }
+
+> `Vector2` pivot  
+{: .velo-category .velo-Vector2 }
+
+> `Vector2` position  
+{: .velo-category .velo-Vector2 }
+
+> `float` rotation  
+{: .velo-category .velo-float }
+
+> `Vector2[]` vertices  
+{: .velo-category .velo-Vector2[] }
+
+## `Class` Shockwave  ## {: .velo-category .velo-class }
+
+> `CActor` actor  
+{: .velo-category .velo-CActor }
+
+> `float` anticipationDuration  
+{: .velo-category .velo-float }
+
+> `CAnimatedSpriteDrawComponent` anticipationSprite  
+{: .velo-category .velo-CAnimatedSpriteDrawComponent }
+
+> `float` anticipationTimer  
+{: .velo-category .velo-float }
+
+> `Vector2` initialPosition  
+{: .velo-category .velo-Vector2 }
+
+> `bool` isAnticipating  
+{: .velo-category .velo-bool }
+
+> `float` lifeTimer  
+{: .velo-category .velo-float }
+
+> `Player` owner  
+{: .velo-category .velo-Player }
+
+> `CAnimatedSpriteDrawComponent` sprit90  
+{: .velo-category .velo-CAnimatedSpriteDrawComponent }
+
+> `CAnimatedSpriteDrawComponent` sprite0  
+{: .velo-category .velo-CAnimatedSpriteDrawComponent }
+
+> `CAnimatedSpriteDrawComponent` spriteNeg180  
+{: .velo-category .velo-CAnimatedSpriteDrawComponent }
+
+> `CAnimatedSpriteDrawComponent` spriteNeg90  
+{: .velo-category .velo-CAnimatedSpriteDrawComponent }
+
+## `Class` EditableFloat  ## {: .velo-category .velo-class }
+
+> `string` key  
+{: .velo-category .velo-string }
+
+> `float` maxValue  
+{: .velo-category .velo-float }
+
+> `float` minValue  
+{: .velo-category .velo-float }
+
+> `string` name  
+{: .velo-category .velo-string }
+
+> `bool` showToUser  
+{: .velo-category .velo-bool }
+
+> `string` toolTip  
+{: .velo-category .velo-string }
+
+> `float` value  
+{: .velo-category .velo-float }
+
+## `Class` ShakeCameraModifier  ## {: .velo-category .velo-class }
+
+> `CCamera` camera  
+{: .velo-category .velo-CCamera }
+
+> `TimeSpan` duration  
+{: .velo-category .velo-TimeSpan }
+
+> `bool` fadeOut  
+{: .velo-category .velo-bool }
+
+> `float` initialIntensity  
+{: .velo-category .velo-float }
+
+> `float` intensity  
+{: .velo-category .velo-float }
+
+> `bool` isActive  
+{: .velo-category .velo-bool }
+
+> `Vector2` offset  
+{: .velo-category .velo-Vector2 }
+
+> `Random` random  
+{: .velo-category .velo-Random }
+
+> `TimeSpan` startTime  
+{: .velo-category .velo-TimeSpan }
+
+> `Rectangle` viewportBounds  
+{: .velo-category .velo-Rectangle }
+
+## `Class` SoloCameraModifier  ## {: .velo-category .velo-class }
+
+> `CCamera` camera  
+{: .velo-category .velo-CCamera }
+
+> `float` heightRatioTo720  
+{: .velo-category .velo-float }
+
+> `Vector2` offset  
+{: .velo-category .velo-Vector2 }
+
+> `Player` player  
+{: .velo-category .velo-Player }
+
+> `Vector2` viewportPoint  
+{: .velo-category .velo-Vector2 }
+
+> `Vector2` worldFocusPoint  
+{: .velo-category .velo-Vector2 }
+
+> `float` zoom  
+{: .velo-category .velo-float }
+
+## `Class` EditableBool  ## {: .velo-category .velo-class }
+
+> `string` key  
+{: .velo-category .velo-string }
+
+> `string` name  
+{: .velo-category .velo-string }
+
+> `bool` showToUser  
+{: .velo-category .velo-bool }
+
+> `string` toolTip  
+{: .velo-category .velo-string }
+
+> `int` value  
+{: .velo-category .velo-int }
+
+## `Class` Grapple  ## {: .velo-category .velo-class }
+
+> `CActor` actor  
+{: .velo-category .velo-CActor }
+
+> `CAABB` bounds  
+{: .velo-category .velo-CAABB }
+
+> `CAnimatedSpriteDrawComponent` breakSprite  
+{: .velo-category .velo-CAnimatedSpriteDrawComponent }
+
+> `Vector2` direction  
+{: .velo-category .velo-Vector2 }
+
+> `bool` isConnected  
+{: .velo-category .velo-bool }
+
+> `Player` owner  
+{: .velo-category .velo-Player }
+
+> `CSpriteDrawComponent` sprite  
+{: .velo-category .velo-CSpriteDrawComponent }
+
+## `Class` CAABB  ## {: .velo-category .velo-class }
+
+> `float` height  
+{: .velo-category .velo-float }
+
+> `float` maxX  
+{: .velo-category .velo-float }
+
+> `float` maxY  
+{: .velo-category .velo-float }
+
+> `float` minX  
+{: .velo-category .velo-float }
+
+> `float` minY  
+{: .velo-category .velo-float }
+
+> `float` width  
+{: .velo-category .velo-float }
+
+## `Class` Deco  ## {: .velo-category .velo-class }
+
+> `CActor` actor  
+{: .velo-category .velo-CActor }
+
+> `float` animateDistanceSquared  
+{: .velo-category .velo-float }
+
+> `EditableFloat` animateFrom  
+{: .velo-category .velo-EditableFloat }
+
+> `float` animateMaxAngle  
+{: .velo-category .velo-float }
+
+> `float` animateMinAngle  
+{: .velo-category .velo-float }
+
+> `EditableFloat` animateTo  
+{: .velo-category .velo-EditableFloat }
+
+> `EditableEnum` animationType  
+{: .velo-category .velo-EditableEnum }
+
+> `CAABB` bounds  
+{: .velo-category .velo-CAABB }
+
+> `EditableString` bundleId  
+{: .velo-category .velo-EditableString }
+
+> `CCollisionFilter` collisionFilter  
+{: .velo-category .velo-CCollisionFilter }
+
+> `EditableInt` colorB  
+{: .velo-category .velo-EditableInt }
+
+> `EditableInt` colorG  
+{: .velo-category .velo-EditableInt }
+
+> `EditableInt` colorR  
+{: .velo-category .velo-EditableInt }
+
+> `float` distanceSquaredForNextToSpawn  
+{: .velo-category .velo-float }
+
+> `EditableInt` frame  
+{: .velo-category .velo-EditableInt }
+
+> `EditableString` frameKey  
+{: .velo-category .velo-EditableString }
+
+> `bool` hasNoTrigger  
+{: .velo-category .velo-bool }
+
+> `EditableInt` imageId  
+{: .velo-category .velo-EditableInt }
+
+> `EditableString` imageName  
+{: .velo-category .velo-EditableString }
+
+> `bool` isEditor  
+{: .velo-category .velo-bool }
+
+> `EditableBool` isFlipped  
+{: .velo-category .velo-EditableBool }
+
+> `bool` isHovered  
+{: .velo-category .velo-bool }
+
+> `bool` isResizing  
+{: .velo-category .velo-bool }
+
+> `EditableBool` isVisible  
+{: .velo-category .velo-EditableBool }
+
+> `int` lastSpawnedIndex  
+{: .velo-category .velo-int }
+
+> `EditableEnum` layer  
+{: .velo-category .velo-EditableEnum }
+
+> `EditableFloat` lifetime  
+{: .velo-category .velo-EditableFloat }
+
+> `EditableBool` reverseAnimation  
+{: .velo-category .velo-EditableBool }
+
+> `EditableFloat` rotation  
+{: .velo-category .velo-EditableFloat }
+
+> `Vector2` scale  
+{: .velo-category .velo-Vector2 }
+
+> `CImageDrawComponent` selectionRectangle  
+{: .velo-category .velo-CImageDrawComponent }
+
+> `EditableFloat` spawnInterval  
+{: .velo-category .velo-EditableFloat }
+
+> `EditableString` triggerId  
+{: .velo-category .velo-EditableString }
+
+## `Class` AIVolume  ## {: .velo-category .velo-class }
+
+> `CActor` actor  
+{: .velo-category .velo-CActor }
+
+> `CAABB` bounds  
+{: .velo-category .velo-CAABB }
+
+> `CCollisionFilter` collisionFilter  
+{: .velo-category .velo-CCollisionFilter }
+
+> `EditableBool` defaultActive  
+{: .velo-category .velo-EditableBool }
+
+> `EditableBool` easy  
+{: .velo-category .velo-EditableBool }
+
+> `EditableBool` hard  
+{: .velo-category .velo-EditableBool }
+
+> `bool` isEditor  
+{: .velo-category .velo-bool }
+
+> `bool` isHovered  
+{: .velo-category .velo-bool }
+
+> `bool` isResizing  
+{: .velo-category .velo-bool }
+
+> `EditableBool` medium  
+{: .velo-category .velo-EditableBool }
+
+> `CImageDrawComponent` selectionRectangle  
+{: .velo-category .velo-CImageDrawComponent }
+
+> `EditableString` triggerId  
+{: .velo-category .velo-EditableString }
+
+> `EditableEnum` type  
+{: .velo-category .velo-EditableEnum }
+
+> `EditableBool` unfair  
+{: .velo-category .velo-EditableBool }
+
+## `Class` CActor  ## {: .velo-category .velo-class }
+
+> `bool` automaticCollisionDetection  
+{: .velo-category .velo-bool }
+
+> `CAABB` bounds  
+{: .velo-category .velo-CAABB }
+
+> `float` collisionSweepMinimalDensity  
+{: .velo-category .velo-float }
+
+> `int` id  
+{: .velo-category .velo-int }
+
+> `bool` isCollidable  
+{: .velo-category .velo-bool }
+
+> `bool` isCollisionActive  
+{: .velo-category .velo-bool }
+
+> `float` iterationTimeStep  
+{: .velo-category .velo-float }
+
+> `Vector2` position  
+{: .velo-category .velo-Vector2 }
+
+> `Vector2` positionPrevious  
+{: .velo-category .velo-Vector2 }
+
+> `float` rotation  
+{: .velo-category .velo-float }
+
+> `bool` shouldPredictCollision  
+{: .velo-category .velo-bool }
+
+> `Vector2` size  
+{: .velo-category .velo-Vector2 }
+
+> `int` totalIterations  
+{: .velo-category .velo-int }
+
+> `Vector2` velocity  
+{: .velo-category .velo-Vector2 }
+
+> `Vector2` velocityPrevious  
+{: .velo-category .velo-Vector2 }
+
+> `Vector2` _measuredVelocity  
+{: .velo-category .velo-Vector2 }
+
+> `Vector2` _acceleration  
+{: .velo-category .velo-Vector2 }
+
+## `Class` Rocket  ## {: .velo-category .velo-class }
+
+> `CActor` actor  
+{: .velo-category .velo-CActor }
+
+> `float` agility  
+{: .velo-category .velo-float }
+
+> `CAABB` bounds  
+{: .velo-category .velo-CAABB }
+
+> `CCollisionFilter` collisionFilter  
+{: .velo-category .velo-CCollisionFilter }
+
+> `float` direction  
+{: .velo-category .velo-float }
+
+> `float` immunityDuration  
+{: .velo-category .velo-float }
+
+> `Vector2` initialVelocity  
+{: .velo-category .velo-Vector2 }
+
+> `bool` isExploded  
+{: .velo-category .velo-bool }
+
+> `Player` owner  
+{: .velo-category .velo-Player }
+
+> `float` pickTargetCooldown  
+{: .velo-category .velo-float }
+
+> `TimeSpan` shootTime  
+{: .velo-category .velo-TimeSpan }
+
+> `CSpriteDrawComponent` sprite  
+{: .velo-category .velo-CSpriteDrawComponent }
+
+> `Player` target  
+{: .velo-category .velo-Player }
+
+> `Player` unknown  
+{: .velo-category .velo-Player }
+
+## `Class` CImageDrawComponent  ## {: .velo-category .velo-class }
+
+> `CAABB` bounds  
+{: .velo-category .velo-CAABB }
+
+> `Color` color  
+{: .velo-category .velo-Color }
+
+> `Rectangle` destinationRectangle  
+{: .velo-category .velo-Rectangle }
+
+> `Rectangle` drawSource  
+{: .velo-category .velo-Rectangle }
+
+> `bool` flipped  
+{: .velo-category .velo-bool }
+
+> `bool` isVisible  
+{: .velo-category .velo-bool }
+
+> `string` layerId  
+{: .velo-category .velo-string }
+
+> `Vector2` offset  
+{: .velo-category .velo-Vector2 }
+
+> `float` opacity  
+{: .velo-category .velo-float }
+
+> `Vector2` origin  
+{: .velo-category .velo-Vector2 }
+
+> `Vector2` position  
+{: .velo-category .velo-Vector2 }
+
+> `float` rotation  
+{: .velo-category .velo-float }
+
+> `Vector2` scale  
+{: .velo-category .velo-Vector2 }
+
+> `Vector2` size  
+{: .velo-category .velo-Vector2 }
+
 ## `Class` CTextDrawComponent  ## {: .velo-category .velo-class }
 
 > `Vector2` align  
@@ -4242,6 +3990,204 @@
 > `Vector2` stringSize  
 {: .velo-category .velo-Vector2 }
 
+## `Class` Fireball  ## {: .velo-category .velo-class }
+
+> `CActor` actor  
+{: .velo-category .velo-CActor }
+
+> `float` baseSpeed  
+{: .velo-category .velo-float }
+
+> `BouncePad` bouncePad  
+{: .velo-category .velo-BouncePad }
+
+> `float` bounceTimer  
+{: .velo-category .velo-float }
+
+> `CAABB` bounds  
+{: .velo-category .velo-CAABB }
+
+> `CCollisionFilter` collisionFilter  
+{: .velo-category .velo-CCollisionFilter }
+
+> `Vector2` direction  
+{: .velo-category .velo-Vector2 }
+
+> `Player[]` hitPlayers  
+{: .velo-category .velo-Player[] }
+
+> `float` immunityDuration  
+{: .velo-category .velo-float }
+
+> `float` lifeTimer  
+{: .velo-category .velo-float }
+
+> `float` limetime  
+{: .velo-category .velo-float }
+
+> `float` maxPingCorrectedSpeed  
+{: .velo-category .velo-float }
+
+> `float` maxScale  
+{: .velo-category .velo-float }
+
+> `bool` onGround  
+{: .velo-category .velo-bool }
+
+> `Player` owner  
+{: .velo-category .velo-Player }
+
+> `float` pingDisplacement  
+{: .velo-category .velo-float }
+
+> `float` scale  
+{: .velo-category .velo-float }
+
+> `Shockwave` shockwave  
+{: .velo-category .velo-Shockwave }
+
+> `float` speed  
+{: .velo-category .velo-float }
+
+> `CAnimatedSpriteDrawComponent` sprite  
+{: .velo-category .velo-CAnimatedSpriteDrawComponent }
+
+> `bool` wasOnGround  
+{: .velo-category .velo-bool }
+
+## `Class` SwitchBlock  ## {: .velo-category .velo-class }
+
+> `CActor` actor  
+{: .velo-category .velo-CActor }
+
+> `CAABB` bounds  
+{: .velo-category .velo-CAABB }
+
+> `int` closeDirection  
+{: .velo-category .velo-int }
+
+> `EditableFloat` closedRotation  
+{: .velo-category .velo-EditableFloat }
+
+> `float` closedRotationRad  
+{: .velo-category .velo-float }
+
+> `CCollisionFilter` collisionFilter  
+{: .velo-category .velo-CCollisionFilter }
+
+> `int` direction  
+{: .velo-category .velo-int }
+
+> `bool` isEditor  
+{: .velo-category .velo-bool }
+
+> `bool` isHovered  
+{: .velo-category .velo-bool }
+
+> `bool` isResizing  
+{: .velo-category .velo-bool }
+
+> `bool` isRotating  
+{: .velo-category .velo-bool }
+
+> `float` maxRotation  
+{: .velo-category .velo-float }
+
+> `float` minRotation  
+{: .velo-category .velo-float }
+
+> `int` openDirection  
+{: .velo-category .velo-int }
+
+> `EditableFloat` openRotation  
+{: .velo-category .velo-EditableFloat }
+
+> `int` resetDirection  
+{: .velo-category .velo-int }
+
+> `float` rotation  
+{: .velo-category .velo-float }
+
+> `EditableFloat` rotationSpeed  
+{: .velo-category .velo-EditableFloat }
+
+> `float` rotationSpeedRad  
+{: .velo-category .velo-float }
+
+> `CImageDrawComponent` selectionRectangle  
+{: .velo-category .velo-CImageDrawComponent }
+
+> `CAnimatedSpriteDrawComponent` sprite  
+{: .velo-category .velo-CAnimatedSpriteDrawComponent }
+
+> `EditableString` triggerId  
+{: .velo-category .velo-EditableString }
+
+> `CAnimatedSpriteDrawComponent` triggerSparkSprite  
+{: .velo-category .velo-CAnimatedSpriteDrawComponent }
+
+## `Class` Laser  ## {: .velo-category .velo-class }
+
+> `CActor` actor  
+{: .velo-category .velo-CActor }
+
+> `AIVolume` aiVolume  
+{: .velo-category .velo-AIVolume }
+
+> `CAABB` bounds  
+{: .velo-category .velo-CAABB }
+
+> `CCollisionFilter` collisionFilter  
+{: .velo-category .velo-CCollisionFilter }
+
+> `CCollisionFilter` collisionFilter  
+{: .velo-category .velo-CCollisionFilter }
+
+> `EditableFloat` defaultRotation  
+{: .velo-category .velo-EditableFloat }
+
+> `Vector2` direction  
+{: .velo-category .velo-Vector2 }
+
+> `Vector2` endPoint  
+{: .velo-category .velo-Vector2 }
+
+> `float` growingLength  
+{: .velo-category .velo-float }
+
+> `bool` isEditor  
+{: .velo-category .velo-bool }
+
+> `EditableBool` isFlipped  
+{: .velo-category .velo-EditableBool }
+
+> `bool` isHovered  
+{: .velo-category .velo-bool }
+
+> `bool` isResizing  
+{: .velo-category .velo-bool }
+
+> `Vector2` lineDrawEndPoint  
+{: .velo-category .velo-Vector2 }
+
+> `EditableBool` rotate  
+{: .velo-category .velo-EditableBool }
+
+> `float` rotation  
+{: .velo-category .velo-float }
+
+> `int` rotationDirection  
+{: .velo-category .velo-int }
+
+> `CImageDrawComponent` selectionRectangle  
+{: .velo-category .velo-CImageDrawComponent }
+
+> `float` shrinkingLength  
+{: .velo-category .velo-float }
+
+> `CAnimatedSpriteDrawComponent` sprite  
+{: .velo-category .velo-CAnimatedSpriteDrawComponent }
+
 ## `Class` DroppedObstacle  ## {: .velo-category .velo-class }
 
 > `CActor` actor  
@@ -4289,40 +4235,16 @@
 > `CSpriteDrawComponent` sprite  
 {: .velo-category .velo-CSpriteDrawComponent }
 
-## `Class` Obstacle  ## {: .velo-category .velo-class }
+## `Class` DecoText  ## {: .velo-category .velo-class }
 
 > `CActor` actor  
 {: .velo-category .velo-CActor }
 
-> `AIVolume` aiVolume1  
-{: .velo-category .velo-AIVolume }
-
-> `AIVolume` aiVolume2  
-{: .velo-category .velo-AIVolume }
-
 > `CAABB` bounds  
 {: .velo-category .velo-CAABB }
 
-> `float` breakRotationDirection  
-{: .velo-category .velo-float }
-
-> `float` breakShade  
-{: .velo-category .velo-float }
-
-> `TimeSpan` breakTime  
-{: .velo-category .velo-TimeSpan }
-
-> `float` breakTimer  
-{: .velo-category .velo-float }
-
-> `Vector2` breakVelocity  
-{: .velo-category .velo-Vector2 }
-
 > `CCollisionFilter` collisionFilter  
 {: .velo-category .velo-CCollisionFilter }
-
-> `bool` isBroken  
-{: .velo-category .velo-bool }
 
 > `bool` isEditor  
 {: .velo-category .velo-bool }
@@ -4330,19 +4252,83 @@
 > `bool` isHovered  
 {: .velo-category .velo-bool }
 
-> `bool` isRemoteSimulated  
+> `bool` isResizing  
+{: .velo-category .velo-bool }
+
+> `int` placeholderIndex  
+{: .velo-category .velo-int }
+
+> `CImageDrawComponent` selectionRectangle  
+{: .velo-category .velo-CImageDrawComponent }
+
+> `EditableString` text  
+{: .velo-category .velo-EditableString }
+
+> `CTextDrawComponent` textDraw  
+{: .velo-category .velo-CTextDrawComponent }
+
+> `EditableInt` textId  
+{: .velo-category .velo-EditableInt }
+
+## `Class` CCamera  ## {: .velo-category .velo-class }
+
+> `ClampCameraModifier` clampCameraModifier  
+{: .velo-category .velo-ClampCameraModifier }
+
+> `string` id  
+{: .velo-category .velo-string }
+
+> `bool` isActive  
+{: .velo-category .velo-bool }
+
+> `Vector2` position  
+{: .velo-category .velo-Vector2 }
+
+> `Matrix` projection  
+{: .velo-category .velo-Matrix }
+
+> `ShakeCameraModifier` shakeCameraModifier  
+{: .velo-category .velo-ShakeCameraModifier }
+
+> `Matrix` view  
+{: .velo-category .velo-Matrix }
+
+> `Viewport` viewport  
+{: .velo-category .velo-Viewport }
+
+> `float` zoom  
+{: .velo-category .velo-float }
+
+## `Class` Tunnel  ## {: .velo-category .velo-class }
+
+> `CActor` actor  
+{: .velo-category .velo-CActor }
+
+> `CAABB` bounds  
+{: .velo-category .velo-CAABB }
+
+> `CCollisionFilter` collisionFilter  
+{: .velo-category .velo-CCollisionFilter }
+
+> `bool` isEditor  
+{: .velo-category .velo-bool }
+
+> `bool` isHovered  
 {: .velo-category .velo-bool }
 
 > `bool` isResizing  
 {: .velo-category .velo-bool }
 
-> `EditableInt` obstacleId  
-{: .velo-category .velo-EditableInt }
-
 > `CImageDrawComponent` selectionRectangle  
 {: .velo-category .velo-CImageDrawComponent }
 
-> `CSpriteDrawComponent` sprite  
+> `CSpriteDrawComponent` tunnelEntranceSprite  
+{: .velo-category .velo-CSpriteDrawComponent }
+
+> `CSpriteDrawComponent` tunnelLeftWallSprite  
+{: .velo-category .velo-CSpriteDrawComponent }
+
+> `CSpriteDrawComponent` tunnelRightWallSprite  
 {: .velo-category .velo-CSpriteDrawComponent }
 
 ## `Class` FNA3D_Viewport  ## {: .velo-category .velo-class }
@@ -4357,6 +4343,20 @@
 {: .velo-category .velo-float }
 
 > `int` w  
+{: .velo-category .velo-int }
+
+> `int` x  
+{: .velo-category .velo-int }
+
+> `int` y  
+{: .velo-category .velo-int }
+
+## `Class` Rectangle  ## {: .velo-category .velo-class }
+
+> `int` Height  
+{: .velo-category .velo-int }
+
+> `int` Width  
 {: .velo-category .velo-int }
 
 > `int` x  
